@@ -6,6 +6,14 @@ from .models import *
 # f a l s e  =  False
 # change all img field with image location (location must be in media folder)
 
+RfQue=[
+    { "que": "What is your's favorite sport?" },
+    { "que": "If you could be a superhero for a day, who would it be?" },
+    { "que": "What is the best gift you has received?" },
+    { "que": "Which messages do you prefer?" },
+    { "que": "Which pet would you choose?" },
+]
+
 QuizQue=[
     {
         "id": 1,
@@ -204,16 +212,15 @@ QuizQue=[
     },
 ]
 
-def add_data():
-    print("add_data")
+def add_quizque():
     try:
-        print("try quiz")
+        print("try quiz que")
         if len(QuizQuestionBank.objects.all()):
-            print("quiz already have que")
+            print("quiz que already have que")
             return 0
 
         for data in QuizQue:
-            print("added")
+            print("quiz que added")
             QuizQuestionBank.objects.create(
                 part1 = data["part1"],
                 part2 = data["part2"],
@@ -226,8 +233,30 @@ def add_data():
                 optionD = data["optionD"],
                 imgD = data["imgD"]
             )
-        print("try quiz complete")
+        print("try quiz que complete")
     except:
-        print("except quiz")
+        print("except in quiz que")
         pass
+
+
+def add_rfque():
+    try:
+        print("try rf que")
+        if len(RfQuestionBank.objects.all()):
+            print("rf que already have que")
+            return 0
+
+        for data in RfQue:
+            print("rf que added")
+            RfQuestionBank.objects.create(que = data["que"])
+        print("try rf que complete")
+    except:
+        print("except in rf que")
+        pass
+
+
+def add_data():
+    print("add_data")
+    add_quizque()
+    add_rfque()
 

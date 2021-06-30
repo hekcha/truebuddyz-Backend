@@ -2,6 +2,9 @@ from django.db import models
 from django.contrib.auth.models import User
 from django.utils import timezone
 
+class RfQuestionBank(models.Model):
+    que=models.CharField(max_length=200,blank=True,null=True)
+
 
 class QuizQuestionBank(models.Model):
     part1=models.CharField(max_length=200,blank=True,null=True)

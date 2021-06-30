@@ -20,10 +20,16 @@ class QuizSerializer(serializers.ModelSerializer):
         model = Quiz
         fields = '__all__'
         
-
+        
 class QuizQuestionBankSerializer(serializers.ModelSerializer):
     class Meta:
         model = QuizQuestionBank
+        fields = '__all__'
+
+
+class RfQuestionBankSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = RfQuestionBank
         fields = '__all__'
 
 

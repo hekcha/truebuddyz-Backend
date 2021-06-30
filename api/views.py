@@ -36,6 +36,13 @@ class UserViewSet(viewsets.ModelViewSet):
             return Response(response, status=status.HTTP_406_NOT_ACCEPTABLE)
 
 
+class RfQuestionBankViewSet(viewsets.ModelViewSet):
+    queryset = RfQuestionBank.objects.all()
+    serializer_class = RfQuestionBankSerializer
+    permission_classes = (IsAuthenticated,)
+    authentication_classes = (TokenAuthentication, )
+
+
 class QuizViewSet(viewsets.ModelViewSet):
     queryset = Quiz.objects.all()
     serializer_class = QuizSerializer
@@ -91,7 +98,5 @@ class QuizResponseViewSet(viewsets.ModelViewSet):
 
         serializer = self.get_serializer(queryset, many=True)
         return Response(serializer.data)
-
-
 
 
