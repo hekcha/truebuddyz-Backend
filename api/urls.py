@@ -9,6 +9,9 @@ router.register('quiz', QuizViewSet)
 router.register('quizquebank', QuizQuestionBankViewSet)
 router.register('quizresp', QuizResponseViewSet)
 
+router.register('rf', RfQuestionBankViewSet)
+
+
 urlpatterns = [
     path('', include(router.urls)),
 ]
