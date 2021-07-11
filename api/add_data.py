@@ -6,7 +6,7 @@ from .models import *
 # f a l s e  =  False
 # change all img field with image location (location must be in media folder)
 
-QuizQue=[
+QuizQue = [
     {
         "id": 1,
         "part1": "What is",
@@ -204,6 +204,7 @@ QuizQue=[
     },
 ]
 
+
 def add_data():
     print("add_data")
     try:
@@ -215,19 +216,18 @@ def add_data():
         for data in QuizQue:
             print("added")
             QuizQuestionBank.objects.create(
-                part1 = data["part1"],
-                part2 = data["part2"],
-                optionA = data["optionA"],
-                imgA = data["imgA"],
-                optionB = data["optionB"],
-                imgB = data["imgB"],
-                optionC = data["optionC"],
-                imgC = data["imgC"],
-                optionD = data["optionD"],
-                imgD = data["imgD"]
+                part1=data["part1"],
+                part2=data["part2"],
+                optionA=data["optionA"],
+                # imgA = data["imgA"],
+                optionB=data["optionB"],
+                # imgB = data["imgB"],
+                optionC=data["optionC"],
+                # imgC = data["imgC"],
+                optionD=data["optionD"],
+                # imgD = data["imgD"]
             )
         print("try quiz complete")
     except:
         print("except quiz")
         pass
-
