@@ -11,32 +11,133 @@ RfQue=[
         "que": "What is your's favorite sport?", 
         "category": "friends"
     },
-
     {
         "que": "If you could be a superhero for a day, who would it be?", 
         "category": "friends"
     },
-
     {
         "que": "What is the best gift you has received?", 
         "category": "friends"
     },
-
     {
         "que": "Which messages do you prefer?", 
         "category": "friends"
     },
-
     {
         "que": "Which pet would you choose?", 
         "category": "friends"
     },
+    {
+        "que": "sample question 1", 
+        "category": "friends"
+    },
+    {
+        "que": "sample question 2", 
+        "category": "friends"
+    },
+    {
+        "que": "sample question 3", 
+        "category": "friends"
+    },
+    {
+        "que": "sample question 4", 
+        "category": "friends"
+    },
+    {
+        "que": "sample question 5", 
+        "category": "friends"
+    },
 
+
+
+    {
+        "que": "couples What is your's favorite sport?", 
+        "category": "couples"
+    },
+    {
+        "que": "couples If you could be a superhero for a day, who would it be?", 
+        "category": "couples"
+    },
+    {
+        "que": "couples What is the best gift you has received?", 
+        "category": "couples"
+    },
+    {
+        "que": "couples Which messages do you prefer?", 
+        "category": "couples"
+    },
+    {
+        "que": "couples Which pet would you choose?", 
+        "category": "couples"
+    },
+    {
+        "que": "couples sample question 1", 
+        "category": "couples"
+    },
+    {
+        "que": "couples sample question 2", 
+        "category": "couples"
+    },
+    {
+        "que": "couples sample question 3", 
+        "category": "couples"
+    },
+    {
+        "que": "couples sample question 4", 
+        "category": "couples"
+    },
+    {
+        "que": "couples sample question 5", 
+        "category": "couples"
+    },
+
+
+
+
+    {
+        "que": "bff What is your's favorite sport?", 
+        "category": "bff"
+    },
+    {
+        "que": "bff If you could be a superhero for a day, who would it be?", 
+        "category": "bff"
+    },
+    {
+        "que": "bff What is the best gift you has received?", 
+        "category": "bff"
+    },
+    {
+        "que": "bff Which messages do you prefer?", 
+        "category": "bff"
+    },
+    {
+        "que": "bff Which pet would you choose?", 
+        "category": "bff"
+    },
+    {
+        "que": "bff sample question 1", 
+        "category": "bff"
+    },
+    {
+        "que": "bff sample question 2", 
+        "category": "bff"
+    },
+    {
+        "que": "bff sample question 3", 
+        "category": "bff"
+    },
+    {
+        "que": "bff sample question 4", 
+        "category": "bff"
+    },
+    {
+        "que": "bff sample question 5", 
+        "category": "bff"
+    },
 ]
 
 QuizQue=[
     {
-        "id": 1,
         "category": "friends",
         "part1": "What is",
         "part2": "'s favorite sport?",
@@ -46,7 +147,6 @@ QuizQue=[
         "optionD": "Subway Surfers",
     },
     {
-        "id": 2,
         "category": "friends",
         "part1": "If",
         "part2": "could be a superhero for a day, who would it be?",
@@ -56,7 +156,6 @@ QuizQue=[
         "optionD": "Captain America",
     },
     {
-        "id": 3,
         "category": "friends",
         "part1": "What is the best gift",
         "part2": "has received?",
@@ -66,7 +165,6 @@ QuizQue=[
         "optionD": "",
     },
     {
-        "id": 4,
         "category": "friends",
         "part1": "How many kids will",
         "part2": "have?",
@@ -76,7 +174,6 @@ QuizQue=[
         "optionD": "11",
     },
     {
-        "id": 5,
         "category": "friends",
         "part1": "Which messages do",
         "part2": "prefer?",
@@ -86,7 +183,6 @@ QuizQue=[
         "optionD": "Video Chat",
     },
     {
-        "id": 6,
         "category": "friends",
         "part1": "Which pet would",
         "part2": "choose?",
@@ -96,7 +192,6 @@ QuizQue=[
         "optionD": "Nothing",
     },
     {
-        "id": 7,
         "category": "friends",
         "part1": "Which device",
         "part2": "mostly use?",
@@ -106,7 +201,6 @@ QuizQue=[
         "optionD": "Nothing",
     },
     {
-        "id": 7,
         "category": "friends",
         "part1": "Copied 2 Which device",
         "part2": "mostly use?",
@@ -116,7 +210,6 @@ QuizQue=[
         "optionD": "Nothing",
     },
     {
-        "id": 7,
         "category": "friends",
         "part1": "Copied 2 Which device",
         "part2": "mostly use?",
@@ -126,7 +219,6 @@ QuizQue=[
         "optionD": "Nothing",
     },
     {
-        "id": 7,
         "category": "friends",
         "part1": "Copied 3 Which device",
         "part2": "mostly use?",
@@ -136,7 +228,6 @@ QuizQue=[
         "optionD": "Nothing",
     },
     {
-        "id": 7,
         "category": "friends",
         "part1": "Copied 4 Which device",
         "part2": "mostly use?",
@@ -146,7 +237,6 @@ QuizQue=[
         "optionD": "Nothing",
     },
     {
-        "id": 7,
         "category": "friends",
         "part1": "Copied 5 Which device",
         "part2": "mostly use?",
@@ -156,7 +246,6 @@ QuizQue=[
         "optionD": "Nothing",
     },
     {
-        "id": 7,
         "category": "friends",
         "part1": "Copied 6 Which device",
         "part2": "mostly use?",
@@ -166,7 +255,6 @@ QuizQue=[
         "optionD": "Nothing",
     },
     {
-        "id": 7,
         "category": "friends",
         "part1": "Copied 7 Which device",
         "part2": "mostly use?",
@@ -176,9 +264,284 @@ QuizQue=[
         "optionD": "Nothing",
     },
     {
-        "id": 7,
         "category": "friends",
         "part1": "Copied 8 Which device",
+        "part2": "mostly use?",
+        "optionA": "Mobile",
+        "optionB": "Laptop",
+        "optionC": "Tablets",
+        "optionD": "Nothing",
+    },
+
+
+
+    {
+        "category": "couples",
+        "part1": "couples What is",
+        "part2": "'s favorite sport?",
+        "optionA": "Cricket",
+        "optionB": "Ludo",
+        "optionC": "PUBG",
+        "optionD": "Subway Surfers",
+    },
+    {
+        "category": "couples",
+        "part1": "couples If",
+        "part2": "could be a superhero for a day, who would it be?",
+        "optionA": "Ironman",
+        "optionB": "Superman",
+        "optionC": "Thor",
+        "optionD": "Captain America",
+    },
+    {
+        "category": "couples",
+        "part1": "couples What is the best gift",
+        "part2": "has received?",
+        "optionA": "Mobile",
+        "optionB": "Crush Mobile No.",
+        "optionC": "Bike",
+        "optionD": "",
+    },
+    {
+        "category": "couples",
+        "part1": "couples How many kids will",
+        "part2": "have?",
+        "optionA": "2",
+        "optionB": "3",
+        "optionC": "4",
+        "optionD": "11",
+    },
+    {
+        "category": "couples",
+        "part1": "couples Which messages do",
+        "part2": "prefer?",
+        "optionA": "Text Message",
+        "optionB": "Call",
+        "optionC": "Voice mail",
+        "optionD": "Video Chat",
+    },
+    {
+        "category": "couples",
+        "part1": "couples Which pet would",
+        "part2": "choose?",
+        "optionA": "Dog",
+        "optionB": "Cat",
+        "optionC": "Squirrel",
+        "optionD": "Nothing",
+    },
+    {
+        "category": "couples",
+        "part1": "couples Which device",
+        "part2": "mostly use?",
+        "optionA": "Mobile",
+        "optionB": "Laptop",
+        "optionC": "Tablets",
+        "optionD": "Nothing",
+    },
+    {
+        "category": "couples",
+        "part1": "couples Copied 2 Which device",
+        "part2": "mostly use?",
+        "optionA": "Mobile",
+        "optionB": "Laptop",
+        "optionC": "Tablets",
+        "optionD": "Nothing",
+    },
+    {
+        "category": "couples",
+        "part1": "couples Copied 2 Which device",
+        "part2": "mostly use?",
+        "optionA": "Mobile",
+        "optionB": "Laptop",
+        "optionC": "Tablets",
+        "optionD": "Nothing",
+    },
+    {
+        "category": "couples",
+        "part1": "couples Copied 3 Which device",
+        "part2": "mostly use?",
+        "optionA": "Mobile",
+        "optionB": "Laptop",
+        "optionC": "Tablets",
+        "optionD": "Nothing",
+    },
+    {
+        "category": "couples",
+        "part1": "couples Copied 4 Which device",
+        "part2": "mostly use?",
+        "optionA": "Mobile",
+        "optionB": "Laptop",
+        "optionC": "Tablets",
+        "optionD": "Nothing",
+    },
+    {
+        "category": "couples",
+        "part1": "couples Copied 5 Which device",
+        "part2": "mostly use?",
+        "optionA": "Mobile",
+        "optionB": "Laptop",
+        "optionC": "Tablets",
+        "optionD": "Nothing",
+    },
+    {
+        "category": "couples",
+        "part1": "couples Copied 6 Which device",
+        "part2": "mostly use?",
+        "optionA": "Mobile",
+        "optionB": "Laptop",
+        "optionC": "Tablets",
+        "optionD": "Nothing",
+    },
+    {
+        "category": "couples",
+        "part1": "couples Copied 7 Which device",
+        "part2": "mostly use?",
+        "optionA": "Mobile",
+        "optionB": "Laptop",
+        "optionC": "Tablets",
+        "optionD": "Nothing",
+    },
+    {
+        "category": "couples",
+        "part1": "couples Copied 8 Which device",
+        "part2": "mostly use?",
+        "optionA": "Mobile",
+        "optionB": "Laptop",
+        "optionC": "Tablets",
+        "optionD": "Nothing",
+    },
+
+
+
+    {
+        "category": "bff",
+        "part1": "bff What is",
+        "part2": "'s favorite sport?",
+        "optionA": "Cricket",
+        "optionB": "Ludo",
+        "optionC": "PUBG",
+        "optionD": "Subway Surfers",
+    },
+    {
+        "category": "bff",
+        "part1": "bff If",
+        "part2": "could be a superhero for a day, who would it be?",
+        "optionA": "Ironman",
+        "optionB": "Superman",
+        "optionC": "Thor",
+        "optionD": "Captain America",
+    },
+    {
+        "category": "bff",
+        "part1": "bff What is the best gift",
+        "part2": "has received?",
+        "optionA": "Mobile",
+        "optionB": "Crush Mobile No.",
+        "optionC": "Bike",
+        "optionD": "",
+    },
+    {
+        "category": "bff",
+        "part1": "bff How many kids will",
+        "part2": "have?",
+        "optionA": "2",
+        "optionB": "3",
+        "optionC": "4",
+        "optionD": "11",
+    },
+    {
+        "category": "bff",
+        "part1": "bff Which messages do",
+        "part2": "prefer?",
+        "optionA": "Text Message",
+        "optionB": "Call",
+        "optionC": "Voice mail",
+        "optionD": "Video Chat",
+    },
+    {
+        "category": "bff",
+        "part1": "bff Which pet would",
+        "part2": "choose?",
+        "optionA": "Dog",
+        "optionB": "Cat",
+        "optionC": "Squirrel",
+        "optionD": "Nothing",
+    },
+    {
+        "category": "bff",
+        "part1": "bff Which device",
+        "part2": "mostly use?",
+        "optionA": "Mobile",
+        "optionB": "Laptop",
+        "optionC": "Tablets",
+        "optionD": "Nothing",
+    },
+    {
+        "category": "bff",
+        "part1": "bff Copied 2 Which device",
+        "part2": "mostly use?",
+        "optionA": "Mobile",
+        "optionB": "Laptop",
+        "optionC": "Tablets",
+        "optionD": "Nothing",
+    },
+    {
+        "category": "bff",
+        "part1": "bff Copied 2 Which device",
+        "part2": "mostly use?",
+        "optionA": "Mobile",
+        "optionB": "Laptop",
+        "optionC": "Tablets",
+        "optionD": "Nothing",
+    },
+    {
+        "category": "bff",
+        "part1": "bff Copied 3 Which device",
+        "part2": "mostly use?",
+        "optionA": "Mobile",
+        "optionB": "Laptop",
+        "optionC": "Tablets",
+        "optionD": "Nothing",
+    },
+    {
+        "category": "bff",
+        "part1": "bff Copied 4 Which device",
+        "part2": "mostly use?",
+        "optionA": "Mobile",
+        "optionB": "Laptop",
+        "optionC": "Tablets",
+        "optionD": "Nothing",
+    },
+    {
+        "category": "bff",
+        "part1": "bff Copied 5 Which device",
+        "part2": "mostly use?",
+        "optionA": "Mobile",
+        "optionB": "Laptop",
+        "optionC": "Tablets",
+        "optionD": "Nothing",
+    },
+    {
+        "category": "bff",
+        "part1": "bff Copied 6 Which device",
+        "part2": "mostly use?",
+        "optionA": "Mobile",
+        "optionB": "Laptop",
+        "optionC": "Tablets",
+        "optionD": "Nothing",
+    },
+    {
+        "category": "bff",
+        "part1": "bff Copied 7 Which device",
+        "part2": "mostly use?",
+        "optionA": "Mobile",
+        "optionB": "Laptop",
+        "optionC": "Tablets",
+        "optionD": "Nothing",
+    },
+    {
+        "category": "bff",
+        "part1": "bff Copied 8 Which device",
         "part2": "mostly use?",
         "optionA": "Mobile",
         "optionB": "Laptop",

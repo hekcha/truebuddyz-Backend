@@ -4,12 +4,12 @@ from django.contrib.auth.models import User
 # friends, couple, BFF , happy new year
 
 class RfQuestionBank(models.Model):
+    category=models.CharField(max_length=20)
     que=models.CharField(max_length=200,blank=True,null=True)
-    category=models.CharField(max_length=20, default='all')
 
 
 class QuizQuestionBank(models.Model):
-    category=models.CharField(max_length=20, default='all')
+    category=models.CharField(max_length=20)
     part1=models.CharField(max_length=200,blank=True,null=True)
     part2=models.CharField(max_length=200,blank=True,null=True)
     optionA=models.CharField(max_length=50)
@@ -19,10 +19,10 @@ class QuizQuestionBank(models.Model):
 
 
 class Quiz(models.Model):
-    user=models.ForeignKey(User,on_delete=models.CASCADE)
-    code=models.CharField(max_length=14,unique=True)
-    name=models.CharField(max_length=30)
-    # start_date = models.DateTimeField(default=timezone.now)
+    category=models.CharField(max_length=20)
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    code = models.CharField(max_length=14, unique=True)
+    name = models.CharField(max_length=30)
 
     que1=models.CharField(max_length=200)
     option1A=models.CharField(max_length=50)
@@ -105,22 +105,22 @@ class Quiz(models.Model):
 
 
 class QuizResponse(models.Model):
-    user=models.ForeignKey(User,on_delete=models.CASCADE)
-    quizcode=models.CharField(max_length=14)
-    respcode=models.CharField(max_length=14)
-    name=models.CharField(max_length=25)
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    quizcode = models.CharField(max_length=14)
+    respcode = models.CharField(max_length=14)
+    name = models.CharField(max_length=25)
 
-    marks=models.IntegerField()
-    ans1=models.IntegerField()
-    ans2=models.IntegerField()
-    ans3=models.IntegerField()
-    ans4=models.IntegerField()
-    ans5=models.IntegerField()
-    ans6=models.IntegerField()
-    ans7=models.IntegerField()
-    ans8=models.IntegerField()
-    ans9=models.IntegerField()
-    ans10=models.IntegerField()
+    marks = models.IntegerField()
+    ans1 = models.IntegerField()
+    ans2 = models.IntegerField()
+    ans3 = models.IntegerField()
+    ans4 = models.IntegerField()
+    ans5 = models.IntegerField()
+    ans6 = models.IntegerField()
+    ans7 = models.IntegerField()
+    ans8 = models.IntegerField()
+    ans9 = models.IntegerField()
+    ans10 = models.IntegerField()
 
     # one user can ans one quiz only onese
     class Meta:
