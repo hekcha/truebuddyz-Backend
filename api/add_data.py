@@ -7,16 +7,37 @@ from .models import *
 # change all img field with image location (location must be in media folder)
 
 RfQue=[
-    { "que": "What is your's favorite sport?" },
-    { "que": "If you could be a superhero for a day, who would it be?" },
-    { "que": "What is the best gift you has received?" },
-    { "que": "Which messages do you prefer?" },
-    { "que": "Which pet would you choose?" },
+    {
+        "que": "What is your's favorite sport?", 
+        "category": "friends"
+    },
+
+    {
+        "que": "If you could be a superhero for a day, who would it be?", 
+        "category": "friends"
+    },
+
+    {
+        "que": "What is the best gift you has received?", 
+        "category": "friends"
+    },
+
+    {
+        "que": "Which messages do you prefer?", 
+        "category": "friends"
+    },
+
+    {
+        "que": "Which pet would you choose?", 
+        "category": "friends"
+    },
+
 ]
 
 QuizQue=[
     {
         "id": 1,
+        "category": "friends",
         "part1": "What is",
         "part2": "'s favorite sport?",
         "optionA": "Cricket",
@@ -26,6 +47,7 @@ QuizQue=[
     },
     {
         "id": 2,
+        "category": "friends",
         "part1": "If",
         "part2": "could be a superhero for a day, who would it be?",
         "optionA": "Ironman",
@@ -35,6 +57,7 @@ QuizQue=[
     },
     {
         "id": 3,
+        "category": "friends",
         "part1": "What is the best gift",
         "part2": "has received?",
         "optionA": "Mobile",
@@ -44,6 +67,7 @@ QuizQue=[
     },
     {
         "id": 4,
+        "category": "friends",
         "part1": "How many kids will",
         "part2": "have?",
         "optionA": "2",
@@ -53,6 +77,7 @@ QuizQue=[
     },
     {
         "id": 5,
+        "category": "friends",
         "part1": "Which messages do",
         "part2": "prefer?",
         "optionA": "Text Message",
@@ -62,6 +87,7 @@ QuizQue=[
     },
     {
         "id": 6,
+        "category": "friends",
         "part1": "Which pet would",
         "part2": "choose?",
         "optionA": "Dog",
@@ -71,6 +97,7 @@ QuizQue=[
     },
     {
         "id": 7,
+        "category": "friends",
         "part1": "Which device",
         "part2": "mostly use?",
         "optionA": "Mobile",
@@ -80,6 +107,7 @@ QuizQue=[
     },
     {
         "id": 7,
+        "category": "friends",
         "part1": "Copied 2 Which device",
         "part2": "mostly use?",
         "optionA": "Mobile",
@@ -89,6 +117,7 @@ QuizQue=[
     },
     {
         "id": 7,
+        "category": "friends",
         "part1": "Copied 2 Which device",
         "part2": "mostly use?",
         "optionA": "Mobile",
@@ -98,6 +127,7 @@ QuizQue=[
     },
     {
         "id": 7,
+        "category": "friends",
         "part1": "Copied 3 Which device",
         "part2": "mostly use?",
         "optionA": "Mobile",
@@ -107,6 +137,7 @@ QuizQue=[
     },
     {
         "id": 7,
+        "category": "friends",
         "part1": "Copied 4 Which device",
         "part2": "mostly use?",
         "optionA": "Mobile",
@@ -116,6 +147,7 @@ QuizQue=[
     },
     {
         "id": 7,
+        "category": "friends",
         "part1": "Copied 5 Which device",
         "part2": "mostly use?",
         "optionA": "Mobile",
@@ -125,6 +157,7 @@ QuizQue=[
     },
     {
         "id": 7,
+        "category": "friends",
         "part1": "Copied 6 Which device",
         "part2": "mostly use?",
         "optionA": "Mobile",
@@ -134,6 +167,7 @@ QuizQue=[
     },
     {
         "id": 7,
+        "category": "friends",
         "part1": "Copied 7 Which device",
         "part2": "mostly use?",
         "optionA": "Mobile",
@@ -143,6 +177,7 @@ QuizQue=[
     },
     {
         "id": 7,
+        "category": "friends",
         "part1": "Copied 8 Which device",
         "part2": "mostly use?",
         "optionA": "Mobile",
@@ -162,6 +197,7 @@ def add_quizque():
         for data in QuizQue:
             print("quiz que added")
             QuizQuestionBank.objects.create(
+                category = data["category"],
                 part1 = data["part1"],
                 part2 = data["part2"],
                 optionA = data["optionA"],
@@ -184,7 +220,7 @@ def add_rfque():
 
         for data in RfQue:
             print("rf que added")
-            RfQuestionBank.objects.create(que = data["que"])
+            RfQuestionBank.objects.create(que = data["que"],category = data["category"])
         print("try rf que complete")
     except:
         print("except in rf que")

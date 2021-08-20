@@ -1,12 +1,15 @@
 from django.db import models
 from django.contrib.auth.models import User
-from django.utils import timezone
+
+# friends, couple, BFF , happy new year
 
 class RfQuestionBank(models.Model):
     que=models.CharField(max_length=200,blank=True,null=True)
+    category=models.CharField(max_length=20, default='all')
 
 
 class QuizQuestionBank(models.Model):
+    category=models.CharField(max_length=20, default='all')
     part1=models.CharField(max_length=200,blank=True,null=True)
     part2=models.CharField(max_length=200,blank=True,null=True)
     optionA=models.CharField(max_length=50)
@@ -124,3 +127,9 @@ class QuizResponse(models.Model):
         unique_together = (('quizcode', 'respcode'),)
         index_together = (('quizcode', 'respcode'),)
 
+
+class Rating(models.Model):
+    user=models.ForeignKey(User,on_delete=models.CASCADE,unique=True)
+    value=models.IntegerField()
+    def __str__(self):
+        return self.user.username + " "+str(self.value)

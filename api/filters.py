@@ -26,3 +26,17 @@ class QuizResponseFilter(django_filters.FilterSet):
     class Meta:
         model = QuizResponse
         fields = '__all__'
+
+class QuizQuestionBankFilter(django_filters.FilterSet):
+    category = ListFilter(lookup_expr="in")
+
+    class Meta:
+        model = QuizQuestionBank
+        fields = '__all__'
+
+class RfQuestionBankFilter(django_filters.FilterSet):
+    category = ListFilter(lookup_expr="in")
+
+    class Meta:
+        model = RfQuestionBank
+        fields = '__all__'

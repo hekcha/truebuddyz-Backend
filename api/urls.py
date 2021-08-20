@@ -5,6 +5,8 @@ from .views import *
 
 router = routers.DefaultRouter()
 router.register('user', UserViewSet)
+router.register('rating', RatingViewSet)
+
 router.register('quiz', QuizViewSet)
 router.register('quizquebank', QuizQuestionBankViewSet)
 router.register('quizresp', QuizResponseViewSet)
