@@ -4,6 +4,7 @@ from rest_framework.authentication import TokenAuthentication
 from rest_framework.permissions import IsAuthenticated
 from django.contrib.auth.models import User
 from rest_framework.authtoken.models import Token
+from rest_framework.decorators import action
 from .models import *
 from .serializers import *
 from .filters import *
@@ -37,7 +38,7 @@ class UserViewSet(viewsets.ModelViewSet):
 
 
 class RfQuestionBankViewSet(viewsets.ModelViewSet):
-    queryset = RfQuestionBank.objects.all()
+    queryset = RfQuestionBank.objects.all().order_by('?')
     serializer_class = RfQuestionBankSerializer
     permission_classes = (IsAuthenticated,)
     authentication_classes = (TokenAuthentication, )
@@ -56,9 +57,8 @@ class RfQuestionBankViewSet(viewsets.ModelViewSet):
         return Response(serializer.data)
 
 
-
 class QuizQuestionBankViewSet(viewsets.ModelViewSet):
-    queryset = QuizQuestionBank.objects.all()
+    queryset = QuizQuestionBank.objects.all().order_by('?')
     serializer_class = QuizQuestionBankSerializer
     permission_classes = (IsAuthenticated,)
     authentication_classes = (TokenAuthentication, )
@@ -67,6 +67,20 @@ class QuizQuestionBankViewSet(viewsets.ModelViewSet):
         queryset = self.filter_queryset(self.get_queryset())
         myFilter = QuizQuestionBankFilter(request.GET,queryset=queryset)
         queryset=myFilter.qs
+
+        page = self.paginate_queryset(queryset)
+        if page is not None:
+            serializer = self.get_serializer(page, many=True)
+            return self.get_paginated_response(serializer.data)
+
+        serializer = self.get_serializer(queryset, many=True)
+        return Response(serializer.data)
+
+    @action(detail=False, methods=['GET'])
+    def entertainment(self, request, *args, **kwargs):
+        queryset = self.filter_queryset(self.get_queryset())
+        myFilter = QuizQuestionBankFilter(request.GET,queryset=queryset)
+        queryset=myFilter.qs[:6]
 
         page = self.paginate_queryset(queryset)
         if page is not None:
@@ -166,4 +180,51 @@ class RatingViewSet(viewsets.ModelViewSet):
     def retrieve(self, request, *args, **kwargs):
         response = {'message': 'You can\'t use GET method like this'}
         return Response(response, status=status.HTTP_400_BAD_REQUEST)
+
+
+class EntertainmentViewSet(viewsets.ModelViewSet):
+    queryset = Entertainment.objects.all()
+    serializer_class = EntertainmentSerializer
+    permission_classes = (IsAuthenticated,)
+    authentication_classes = (TokenAuthentication, )
+
+    def list(self, request, *args, **kwargs):
+        queryset = self.filter_queryset(self.get_queryset())
+        myFilter = EntertainmentFilter(request.GET,queryset=queryset)
+        queryset=myFilter.qs
+
+        page = self.paginate_queryset(queryset)
+        if page is not None:
+            serializer = self.get_serializer(page, many=True)
+            return self.get_paginated_response(serializer.data)
+
+        serializer = self.get_serializer(queryset, many=True)
+        return Response(serializer.data)
+
+
+
+class EntertainmentResultViewSet(viewsets.ModelViewSet):
+    queryset = EntertainmentResult.objects.all()
+    serializer_class = EntertainmentResultSerializer
+    permission_classes = (IsAuthenticated,)
+    authentication_classes = (TokenAuthentication, )
+
+    def list(self, request, *args, **kwargs):
+        queryset = self.filter_queryset(self.get_queryset())
+        print(request.GET['category'])
+        myFilter = EntertainmentResultFilter(request.GET,queryset=queryset)
+        queryset=myFilter.qs
+        if len(queryset)==0:
+            cat = request.GET['category']
+            code = int(request.GET['code'])//1000
+            queryset=EntertainmentResult.objects.filter(category=cat).order_by('?')[:1]
+
+        page = self.paginate_queryset(queryset)
+        if page is not None:
+            serializer = self.get_serializer(page, many=True)
+            return self.get_paginated_response(serializer.data)
+
+        serializer = self.get_serializer(queryset, many=True)
+        return Response(serializer.data)
+
 

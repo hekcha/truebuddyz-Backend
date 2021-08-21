@@ -136,6 +136,61 @@ RfQue=[
     },
 ]
 
+Entertainment_data=[
+    {
+        "category": "anime",
+        "que1": "anime sample question1",
+        "option1A": "sample option A",
+        "option1B": "sample option B",
+        "option1C": "sample option C",
+        "option1D": "sample option D",
+        
+        "que2": "anime sample question2",
+        "option2A": "sample option A",
+        "option2B": "sample option B",
+        "option2C": "sample option C",
+        "option2D": "sample option D",
+
+        "que3": "anime sample question3",
+        "option3A": "sample option A",
+        "option3B": "sample option B",
+        "option3C": "sample option C",
+        "option3D": "sample option D",
+
+        "que4": "anime sample question4",
+        "option4A": "sample option A",
+        "option4B": "sample option B",
+        "option4C": "sample option C",
+        "option4D": "sample option D",
+    },
+    {
+        "category": "dog",
+        "que1": "dog sample question1",
+        "option1A": "sample option A",
+        "option1B": "sample option B",
+        "option1C": "sample option C",
+        "option1D": "sample option D",
+        
+        "que2": "dog sample question2",
+        "option2A": "sample option A",
+        "option2B": "sample option B",
+        "option2C": "sample option C",
+        "option2D": "sample option D",
+
+        "que3": "dog sample question3",
+        "option3A": "sample option A",
+        "option3B": "sample option B",
+        "option3C": "sample option C",
+        "option3D": "sample option D",
+
+        "que4": "dog sample question4",
+        "option4A": "sample option A",
+        "option4B": "sample option B",
+        "option4C": "sample option C",
+        "option4D": "sample option D",
+    },
+]
+
 QuizQue=[
     {
         "category": "friends",
@@ -548,6 +603,338 @@ QuizQue=[
         "optionC": "Tablets",
         "optionD": "Nothing",
     },
+
+
+    {
+        "category": "anime",
+        "part1": "anime random que 2",
+        "part2": "", 
+        "optionA": "anime random option 2",
+        "optionB": "anime random option 2",
+        "optionC": "anime random option 2",
+        "optionD": "anime random option 2",
+    },
+    {
+        "category": "anime",
+        "part1": "anime random que 3",
+        "part2": "", 
+        "optionA": "anime random option 3",
+        "optionB": "anime random option 3",
+        "optionC": "anime random option 3",
+        "optionD": "anime random option 3",
+    },
+    {
+        "category": "anime",
+        "part1": "anime random que 4",
+        "part2": "", 
+        "optionA": "anime random option 4",
+        "optionB": "anime random option 4",
+        "optionC": "anime random option 4",
+        "optionD": "anime random option 4",
+    },
+    {
+        "category": "anime",
+        "part1": "anime random que 5",
+        "part2": "", 
+        "optionA": "anime random option 5",
+        "optionB": "anime random option 5",
+        "optionC": "anime random option 5",
+        "optionD": "anime random option 5",
+    },
+    {
+        "category": "anime",
+        "part1": "anime random que 6",
+        "part2": "", 
+        "optionA": "anime random option 6",
+        "optionB": "anime random option 6",
+        "optionC": "anime random option 6",
+        "optionD": "anime random option 6",
+    },
+    {
+        "category": "anime",
+        "part1": "anime random que 7",
+        "part2": "", 
+        "optionA": "anime random option 7",
+        "optionB": "anime random option 7",
+        "optionC": "anime random option 7",
+        "optionD": "anime random option 7",
+    },
+    {
+        "category": "anime",
+        "part1": "anime random que 8",
+        "part2": "", 
+        "optionA": "anime random option 8",
+        "optionB": "anime random option 8",
+        "optionC": "anime random option 8",
+        "optionD": "anime random option 8",
+    },
+    {
+        "category": "anime",
+        "part1": "anime random que 9",
+        "part2": "", 
+        "optionA": "anime random option 9",
+        "optionB": "anime random option 9",
+        "optionC": "anime random option 9",
+        "optionD": "anime random option 9",
+    },
+    {
+        "category": "anime",
+        "part1": "anime random que 10",
+        "part2": "", 
+        "optionA": "anime random option 10",
+        "optionB": "anime random option 10",
+        "optionC": "anime random option 10",
+        "optionD": "anime random option 10",
+    },
+    {
+        "category": "anime",
+        "part1": "anime random que 1",
+        "part2": "", 
+        "optionA": "anime random option 1",
+        "optionB": "anime random option 1",
+        "optionC": "anime random option 1",
+        "optionD": "anime random option 1",
+    },
+
+    {
+        "category": "dog",
+        "part1": "dog random que 2",
+        "part2": "", 
+        "optionA": "dog random option 2",
+        "optionB": "dog random option 2",
+        "optionC": "dog random option 2",
+        "optionD": "dog random option 2",
+    },
+    {
+        "category": "dog",
+        "part1": "dog random que 3",
+        "part2": "", 
+        "optionA": "dog random option 3",
+        "optionB": "dog random option 3",
+        "optionC": "dog random option 3",
+        "optionD": "dog random option 3",
+    },
+    {
+        "category": "dog",
+        "part1": "dog random que 4",
+        "part2": "", 
+        "optionA": "dog random option 4",
+        "optionB": "dog random option 4",
+        "optionC": "dog random option 4",
+        "optionD": "dog random option 4",
+    },
+    {
+        "category": "dog",
+        "part1": "dog random que 5",
+        "part2": "", 
+        "optionA": "dog random option 5",
+        "optionB": "dog random option 5",
+        "optionC": "dog random option 5",
+        "optionD": "dog random option 5",
+    },
+    {
+        "category": "dog",
+        "part1": "dog random que 6",
+        "part2": "", 
+        "optionA": "dog random option 6",
+        "optionB": "dog random option 6",
+        "optionC": "dog random option 6",
+        "optionD": "dog random option 6",
+    },
+    {
+        "category": "dog",
+        "part1": "dog random que 7",
+        "part2": "", 
+        "optionA": "dog random option 7",
+        "optionB": "dog random option 7",
+        "optionC": "dog random option 7",
+        "optionD": "dog random option 7",
+    },
+    {
+        "category": "dog",
+        "part1": "dog random que 8",
+        "part2": "", 
+        "optionA": "dog random option 8",
+        "optionB": "dog random option 8",
+        "optionC": "dog random option 8",
+        "optionD": "dog random option 8",
+    },
+    {
+        "category": "dog",
+        "part1": "dog random que 9",
+        "part2": "", 
+        "optionA": "dog random option 9",
+        "optionB": "dog random option 9",
+        "optionC": "dog random option 9",
+        "optionD": "dog random option 9",
+    },
+    {
+        "category": "dog",
+        "part1": "dog random que 10",
+        "part2": "", 
+        "optionA": "dog random option 10",
+        "optionB": "dog random option 10",
+        "optionC": "dog random option 10",
+        "optionD": "dog random option 10",
+    },
+    {
+        "category": "dog",
+        "part1": "dog random que 1",
+        "part2": "", 
+        "optionA": "dog random option 1",
+        "optionB": "dog random option 1",
+        "optionC": "dog random option 1",
+        "optionD": "dog random option 1",
+    },
+]
+
+Entertainment_result=[
+    {
+        "category": "anime",
+        "image": "https://i.ibb.co/WsBTZ79/download.jpg",
+        "text": "1111 anime mtlb aisa bilkul immediate nahi soche hain but....sochenge",
+        "code": "1111",
+    },
+    {
+        "category": "anime",
+        "image": "https://i.ibb.co/WsBTZ79/download.jpg",
+        "text": "1112 anime mtlb aisa bilkul immediate nahi soche hain but....sochenge",
+        "code": "1112",
+    },
+    {
+        "category": "anime",
+        "image": "https://i.ibb.co/WsBTZ79/download.jpg",
+        "text": "1113 anime mtlb aisa bilkul immediate nahi soche hain but....sochenge",
+        "code": "1113",
+    },
+    {
+        "category": "anime",
+        "image": "https://i.ibb.co/WsBTZ79/download.jpg",
+        "text": "1114 anime mtlb aisa bilkul immediate nahi soche hain but....sochenge",
+        "code": "1114",
+    },
+    {
+        "category": "anime",
+        "image": "https://i.ibb.co/WsBTZ79/download.jpg",
+        "text": "1121 anime mtlb aisa bilkul immediate nahi soche hain but....sochenge",
+        "code": "1121",
+    },
+    {
+        "category": "anime",
+        "image": "https://i.ibb.co/WsBTZ79/download.jpg",
+        "text": "1122 anime mtlb aisa bilkul immediate nahi soche hain but....sochenge",
+        "code": "1122",
+    },
+    {
+        "category": "anime",
+        "image": "https://i.ibb.co/WsBTZ79/download.jpg",
+        "text": "1123 anime mtlb aisa bilkul immediate nahi soche hain but....sochenge",
+        "code": "1123",
+    },
+    {
+        "category": "anime",
+        "image": "https://i.ibb.co/WsBTZ79/download.jpg",
+        "text": "1124 anime mtlb aisa bilkul immediate nahi soche hain but....sochenge",
+        "code": "1124",
+    },
+    {
+        "category": "anime",
+        "image": "https://i.ibb.co/WsBTZ79/download.jpg",
+        "text": "1131 anime mtlb aisa bilkul immediate nahi soche hain but....sochenge",
+        "code": "1131",
+    },
+    {
+        "category": "anime",
+        "image": "https://i.ibb.co/WsBTZ79/download.jpg",
+        "text": "1132 anime mtlb aisa bilkul immediate nahi soche hain but....sochenge",
+        "code": "1132",
+    },
+    {
+        "category": "anime",
+        "image": "https://i.ibb.co/WsBTZ79/download.jpg",
+        "text": "1133 anime mtlb aisa bilkul immediate nahi soche hain but....sochenge",
+        "code": "1133",
+    },
+    {
+        "category": "anime",
+        "image": "https://i.ibb.co/WsBTZ79/download.jpg",
+        "text": "1134 anime mtlb aisa bilkul immediate nahi soche hain but....sochenge",
+        "code": "1134",
+    },
+
+
+    {
+        "category": "dog",
+        "image": "https://i.ibb.co/WsBTZ79/download.jpg",
+        "text": "1111 dog mtlb aisa bilkul immediate nahi soche hain but....sochenge",
+        "code": "1111",
+    },
+    {
+        "category": "dog",
+        "image": "https://i.ibb.co/WsBTZ79/download.jpg",
+        "text": "1112 dog mtlb aisa bilkul immediate nahi soche hain but....sochenge",
+        "code": "1112",
+    },
+    {
+        "category": "dog",
+        "image": "https://i.ibb.co/WsBTZ79/download.jpg",
+        "text": "1113 dog mtlb aisa bilkul immediate nahi soche hain but....sochenge",
+        "code": "1113",
+    },
+    {
+        "category": "dog",
+        "image": "https://i.ibb.co/WsBTZ79/download.jpg",
+        "text": "1114 dog mtlb aisa bilkul immediate nahi soche hain but....sochenge",
+        "code": "1114",
+    },
+    {
+        "category": "dog",
+        "image": "https://i.ibb.co/WsBTZ79/download.jpg",
+        "text": "1121 dog mtlb aisa bilkul immediate nahi soche hain but....sochenge",
+        "code": "1121",
+    },
+    {
+        "category": "dog",
+        "image": "https://i.ibb.co/WsBTZ79/download.jpg",
+        "text": "1122 dog mtlb aisa bilkul immediate nahi soche hain but....sochenge",
+        "code": "1122",
+    },
+    {
+        "category": "dog",
+        "image": "https://i.ibb.co/WsBTZ79/download.jpg",
+        "text": "1123 dog mtlb aisa bilkul immediate nahi soche hain but....sochenge",
+        "code": "1123",
+    },
+    {
+        "category": "dog",
+        "image": "https://i.ibb.co/WsBTZ79/download.jpg",
+        "text": "1124 dog mtlb aisa bilkul immediate nahi soche hain but....sochenge",
+        "code": "1124",
+    },
+    {
+        "category": "dog",
+        "image": "https://i.ibb.co/WsBTZ79/download.jpg",
+        "text": "1131 dog mtlb aisa bilkul immediate nahi soche hain but....sochenge",
+        "code": "1131",
+    },
+    {
+        "category": "dog",
+        "image": "https://i.ibb.co/WsBTZ79/download.jpg",
+        "text": "1132 dog mtlb aisa bilkul immediate nahi soche hain but....sochenge",
+        "code": "1132",
+    },
+    {
+        "category": "dog",
+        "image": "https://i.ibb.co/WsBTZ79/download.jpg",
+        "text": "1133 dog mtlb aisa bilkul immediate nahi soche hain but....sochenge",
+        "code": "1133",
+    },
+    {
+        "category": "dog",
+        "image": "https://i.ibb.co/WsBTZ79/download.jpg",
+        "text": "1134 dog mtlb aisa bilkul immediate nahi soche hain but....sochenge",
+        "code": "1134",
+    },
 ]
 
 def add_quizque():
@@ -573,6 +960,46 @@ def add_quizque():
         print("except in quiz que")
         pass
 
+def add_entertainment():
+    try:
+        print("try entertainment que")
+        if len(Entertainment.objects.all()):
+            print("entertainment already have que")
+            return 0
+
+        for data in Entertainment_data:
+            print("entertainment que added")
+            Entertainment.objects.create(
+                category = data["category"],
+                que1 = data["que1"],
+                option1A = data["option1A"],
+                option1B = data["option1B"],
+                option1C = data["option1C"],
+                option1D = data["option1D"],
+
+                que2 = data["que2"],
+                option2A = data["option2A"],
+                option2B = data["option2B"],
+                option2C = data["option2C"],
+                option2D = data["option2D"],
+
+                que3 = data["que3"],
+                option3A = data["option3A"],
+                option3B = data["option3B"],
+                option3C = data["option3C"],
+                option3D = data["option3D"],
+
+                que4 = data["que4"],
+                option4A = data["option4A"],
+                option4B = data["option4B"],
+                option4C = data["option4C"],
+                option4D = data["option4D"],
+            )
+        print("try entertainment que complete")
+    except:
+        print("except in entertainment que")
+        pass
+
 
 def add_rfque():
     try:
@@ -589,9 +1016,31 @@ def add_rfque():
         print("except in rf que")
         pass
 
+def add_entertainment_result():
+    try:
+        print("try entertainment_result que")
+        if len(EntertainmentResult.objects.all()):
+            print("entertainment_result already have que")
+            return 0
+
+        for data in Entertainment_result:
+            print("entertainment_result que added")
+            EntertainmentResult.objects.create(
+                image = data["image"],
+                category = data["category"],
+                code = data["code"],
+                text = data["text"],
+                )
+        print("try entertainment_result que complete")
+    except:
+        print("except in entertainment_result que")
+        pass
+
 
 def add_data():
     print("add_data")
     add_quizque()
     add_rfque()
+    add_entertainment()
+    add_entertainment_result()
 

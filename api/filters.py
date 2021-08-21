@@ -40,3 +40,18 @@ class RfQuestionBankFilter(django_filters.FilterSet):
     class Meta:
         model = RfQuestionBank
         fields = '__all__'
+
+class EntertainmentFilter(django_filters.FilterSet):
+    category = ListFilter(lookup_expr="in")
+
+    class Meta:
+        model = Entertainment
+        fields = '__all__'
+
+class EntertainmentResultFilter(django_filters.FilterSet):
+    category = ListFilter(lookup_expr="in")
+    code = ListFilter(lookup_expr="in")
+
+    class Meta:
+        model = EntertainmentResult
+        fields = '__all__'
