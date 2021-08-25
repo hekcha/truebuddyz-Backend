@@ -41,12 +41,6 @@ class RfQuestionBankSerializer(serializers.ModelSerializer):
         fields = '__all__'
 
 
-class QuizResponseSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = QuizResponse
-        fields = '__all__'
-        
-
 class EntertainmentSerializer(serializers.ModelSerializer):
     class Meta:
         model = Entertainment
@@ -57,3 +51,8 @@ class EntertainmentResultSerializer(serializers.ModelSerializer):
         model = EntertainmentResult
         fields = '__all__'
         
+
+class QuizResponseSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = QuizResponse
+        fields = '__all__'

@@ -55,3 +55,10 @@ class EntertainmentResultFilter(django_filters.FilterSet):
     class Meta:
         model = EntertainmentResult
         fields = '__all__'
+
+class RatingFilter(django_filters.FilterSet):
+    value = ListFilter(lookup_expr="in")
+
+    class Meta:
+        model = Rating
+        fields = '__all__'
