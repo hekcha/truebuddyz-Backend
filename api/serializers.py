@@ -56,3 +56,16 @@ class QuizResponseSerializer(serializers.ModelSerializer):
     class Meta:
         model = QuizResponse
         fields = '__all__'
+
+
+class FeedbackSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Feedback
+        fields = '__all__'
+
+
+class ContributionSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Contribution
+        fields = '__all__'
+        

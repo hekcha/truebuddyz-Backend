@@ -54,3 +54,18 @@ class RatingAdmin(admin.ModelAdmin):
 admin.site.register(Rating,RatingAdmin)
 
 
+class FeedbackAdmin(admin.ModelAdmin):
+    list_display = ('rating','user','text')
+    list_filter = ['rating']
+    search_fields = ['rating','user','text']
+    actions_on_bottom=True
+admin.site.register(Feedback,FeedbackAdmin)
+
+
+class ContributionAdmin(admin.ModelAdmin):
+    list_display = ('user','name','game','message')
+    list_filter = ['user']
+    search_fields = ['user','name','email','game','message']
+    actions_on_bottom=True
+admin.site.register(Contribution,ContributionAdmin)
+

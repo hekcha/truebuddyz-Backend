@@ -169,5 +169,17 @@ class EntertainmentResult(models.Model):
     code=models.CharField(max_length=4)
     image=models.CharField(max_length=500)
     text=models.CharField(max_length=200)
-    
 
+
+class Feedback(models.Model):
+    user=models.CharField(max_length=20)
+    rating=models.IntegerField()
+    text=models.CharField(max_length=1000)
+
+
+class Contribution(models.Model):
+    user=models.CharField(max_length=20)
+    name=models.CharField(max_length=61)
+    email=models.EmailField()
+    game=models.CharField(max_length=45)
+    message=models.CharField(max_length=1000)
