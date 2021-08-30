@@ -139,6 +139,8 @@ RfQue=[
 Entertainment_data=[
     {
         "category": "anime",
+        "image": "https://i.ibb.co/WsBTZ79/download.jpg",
+
         "que1": "anime sample question1",
         "option1A": "sample option A",
         "option1B": "sample option B",
@@ -165,6 +167,8 @@ Entertainment_data=[
     },
     {
         "category": "dog",
+        "image": "https://i.ibb.co/WsBTZ79/download.jpg",
+
         "que1": "dog sample question1",
         "option1A": "sample option A",
         "option1B": "sample option B",
@@ -971,6 +975,7 @@ def add_entertainment():
             print("entertainment que added")
             Entertainment.objects.create(
                 category = data["category"],
+                image = data["image"],
                 que1 = data["que1"],
                 option1A = data["option1A"],
                 option1B = data["option1B"],
