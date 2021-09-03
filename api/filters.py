@@ -1,6 +1,9 @@
 import django_filters
 from django_filters.constants import EMPTY_VALUES
-from .models import *
+from .models.quiz import *
+from .models.entertainment import *
+from .models.howwelluknow import *
+from .models.other import *
 
 
 class ListFilter(django_filters.Filter):
@@ -10,6 +13,15 @@ class ListFilter(django_filters.Filter):
         value_list = value.split(",")
         qs = super().filter(qs, value_list)
         return qs
+
+
+
+class RatingFilter(django_filters.FilterSet):
+    value = ListFilter(lookup_expr="in")
+
+    class Meta:
+        model = Rating
+        fields = '__all__'
 
 
 class QuizFilter(django_filters.FilterSet):
@@ -27,12 +39,14 @@ class QuizResponseFilter(django_filters.FilterSet):
         model = QuizResponse
         fields = '__all__'
 
+
 class QuizQuestionBankFilter(django_filters.FilterSet):
     category = ListFilter(lookup_expr="in")
 
     class Meta:
         model = QuizQuestionBank
         fields = '__all__'
+
 
 class RfQuestionBankFilter(django_filters.FilterSet):
     category = ListFilter(lookup_expr="in")
@@ -41,12 +55,14 @@ class RfQuestionBankFilter(django_filters.FilterSet):
         model = RfQuestionBank
         fields = '__all__'
 
+
 class EntertainmentFilter(django_filters.FilterSet):
     category = ListFilter(lookup_expr="in")
 
     class Meta:
         model = Entertainment
         fields = '__all__'
+
 
 class EntertainmentResultFilter(django_filters.FilterSet):
     category = ListFilter(lookup_expr="in")
@@ -56,9 +72,19 @@ class EntertainmentResultFilter(django_filters.FilterSet):
         model = EntertainmentResult
         fields = '__all__'
 
-class RatingFilter(django_filters.FilterSet):
-    value = ListFilter(lookup_expr="in")
+
+class HowWellUKnowFilter(django_filters.FilterSet):
+    category = ListFilter(lookup_expr="in")
 
     class Meta:
-        model = Rating
+        model = HowWellUKnow
+        fields = '__all__'
+
+
+class HowWellUKnowScoreFilter(django_filters.FilterSet):
+    category = ListFilter(lookup_expr="in")
+    score = ListFilter(lookup_expr="in")
+
+    class Meta:
+        model = HowWellUKnowScore
         fields = '__all__'

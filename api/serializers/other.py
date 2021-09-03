@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import *
+from ..models.other import *
 from django.contrib.auth.models import User
 from rest_framework.authtoken.models import Token
 
@@ -16,45 +16,15 @@ class UserSerializer(serializers.ModelSerializer):
         return user
 
 
-class RatingSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Rating
-        fields = '__all__'
-        
-
-class QuizSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Quiz
-        fields = '__all__'
-
-
-class QuizQuestionBankSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = QuizQuestionBank
-        fields = '__all__'
-
-
-
 class RfQuestionBankSerializer(serializers.ModelSerializer):
     class Meta:
         model = RfQuestionBank
         fields = '__all__'
 
 
-class EntertainmentSerializer(serializers.ModelSerializer):
+class RatingSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Entertainment
-        fields = '__all__'
-        
-class EntertainmentResultSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = EntertainmentResult
-        fields = '__all__'
-        
-
-class QuizResponseSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = QuizResponse
+        model = Rating
         fields = '__all__'
 
 
@@ -68,4 +38,11 @@ class ContributionSerializer(serializers.ModelSerializer):
     class Meta:
         model = Contribution
         fields = '__all__'
-        
+
+
+class TrendingSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Trending
+        fields = '__all__'
+
+
