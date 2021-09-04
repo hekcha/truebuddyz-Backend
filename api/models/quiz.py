@@ -1,13 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
 
-# friends, couple, BFF , happy new year
-
-class RfQuestionBank(models.Model):
-    category=models.CharField(max_length=20)
-    que=models.CharField(max_length=200,blank=True,null=True)
-
-
 class QuizQuestionBank(models.Model):
     category=models.CharField(max_length=20)
     part1=models.CharField(max_length=200,blank=True,null=True)
@@ -126,48 +119,3 @@ class QuizResponse(models.Model):
     class Meta:
         unique_together = (('quizcode', 'respcode'),)
         index_together = (('quizcode', 'respcode'),)
-
-
-class Rating(models.Model):
-    user=models.ForeignKey(User,on_delete=models.CASCADE,unique=True)
-    value=models.IntegerField()
-    def __str__(self):
-        return self.user.username + " "+str(self.value)
-
-
-class Entertainment(models.Model):
-    category=models.CharField(max_length=20)
-    
-    que1=models.CharField(max_length=200,blank=True,null=True)
-    option1A=models.CharField(max_length=50)
-    option1B=models.CharField(max_length=50)
-    option1C=models.CharField(max_length=50,blank=True,null=True)
-    option1D=models.CharField(max_length=50,blank=True,null=True)
-
-    que2=models.CharField(max_length=200,blank=True,null=True)
-    option2A=models.CharField(max_length=50)
-    option2B=models.CharField(max_length=50)
-    option2C=models.CharField(max_length=50,blank=True,null=True)
-    option2D=models.CharField(max_length=50,blank=True,null=True)
-
-    que3=models.CharField(max_length=200,blank=True,null=True)
-    option3A=models.CharField(max_length=50)
-    option3B=models.CharField(max_length=50)
-    option3C=models.CharField(max_length=50,blank=True,null=True)
-    option3D=models.CharField(max_length=50,blank=True,null=True)
-
-    que4=models.CharField(max_length=200,blank=True,null=True)
-    option4A=models.CharField(max_length=50)
-    option4B=models.CharField(max_length=50)
-    option4C=models.CharField(max_length=50,blank=True,null=True)
-    option4D=models.CharField(max_length=50,blank=True,null=True)
-
-
-
-class EntertainmentResult(models.Model):
-    category=models.CharField(max_length=20)
-    code=models.CharField(max_length=4)
-    image=models.CharField(max_length=500)
-    text=models.CharField(max_length=200)
-    
-
