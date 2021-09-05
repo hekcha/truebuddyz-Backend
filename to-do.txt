@@ -1,0 +1,3 @@
+len(request.query_params)
+velidation
+dont send whole list of question(quiz)
