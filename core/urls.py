@@ -1,13 +1,18 @@
-from django.contrib import admin
-from django.urls import path,include
-from django.conf import settings
-from django.conf.urls.static import static
-from rest_framework.authtoken.views import obtain_auth_token
+from django.urls import path
+from rest_framework import routers
+from django.conf.urls import include
+from .views import *
 
+
+router = routers.DefaultRouter()
+
+router.register('user', UserViewSet)
+router.register('trnd', TrendingViewSet)
+router.register('new', NewGamesViewSet)
+router.register('feedback', FeedbackViewSet)
+router.register('contribution', ContributionViewSet)
+router.register('rating', RatingViewSet)
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('ICYJWm7rN3nveG2RRYnORLaEw0Y9ae6O/', admin.site.urls),
-    path('api/',include('api.urls')),
-    path('auth/',obtain_auth_token),
-] + static(settings.MEDIA_URL, document_root= settings.MEDIA_ROOT)
+    path('', include(router.urls)),
+]
