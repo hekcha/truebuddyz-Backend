@@ -1,3 +1,4 @@
+from decouple import config 
 from rest_framework import viewsets, status
 from rest_framework.response import Response
 from rest_framework.authentication import TokenAuthentication
@@ -9,8 +10,6 @@ from .serializers import *
 
 from .add_data import add_data
 add_data()
-
-key=open('project','r').read()
 
 class UserViewSet(viewsets.ModelViewSet):
     queryset = User.objects.all()
@@ -36,17 +35,40 @@ class UserViewSet(viewsets.ModelViewSet):
             response = {'message': 'You can\'t use GET method like this'}
             return Response(response, status=status.HTTP_406_NOT_ACCEPTABLE)
 
-    def destroy(self, request, *args, **kwargs):
-        response = {'message': 'You can\'t use DELETE method like this'}
-        return Response(response, status=status.HTTP_403_FORBIDDEN)
-
-    def update(self, request, *args, **kwargs):
-        response = {'message': 'You can\'t use PUT method like this'}
-        return Response(response, status=status.HTTP_403_FORBIDDEN)
-
+    # add key
     def retrieve(self, request, *args, **kwargs):
-        response = {'message': 'You can\'t use GET method like this'}
-        return Response(response, status=status.HTTP_403_FORBIDDEN)
+        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
+            response = {'message': 'You can\'t use GET method like this'}
+            return Response(response, status=status.HTTP_403_FORBIDDEN)
+        instance = self.get_object()
+        serializer = self.get_serializer(instance)
+        return Response(serializer.data)
+
+    # add key
+    def update(self, request, *args, **kwargs):
+        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
+            response = {'message': 'You can\'t use PUT method like this'}
+            return Response(response, status=status.HTTP_403_FORBIDDEN)
+        partial = kwargs.pop('partial', False)
+        instance = self.get_object()
+        serializer = self.get_serializer(instance, data=request.data, partial=partial)
+        serializer.is_valid(raise_exception=True)
+        self.perform_update(serializer)
+
+        if getattr(instance, '_prefetched_objects_cache', None):
+            instance._prefetched_objects_cache = {}
+
+        return Response(serializer.data)
+
+    # add key
+    def destroy(self, request, *args, **kwargs):
+        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
+            response = {'message': 'You can\'t use DELETE method like this'}
+            return Response(response, status=status.HTTP_403_FORBIDDEN)
+        instance = self.get_object()
+        self.perform_destroy(instance)
+        return Response(status=status.HTTP_204_NO_CONTENT)
+
 
 
 class RatingViewSet(viewsets.ModelViewSet):
@@ -74,7 +96,7 @@ class RatingViewSet(viewsets.ModelViewSet):
 
     # add key
     def retrieve(self, request, *args, **kwargs):
-        if key !=request.headers['encryption']: 
+        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
             response = {'message': 'You can\'t use GET method like this'}
             return Response(response, status=status.HTTP_403_FORBIDDEN)
         instance = self.get_object()
@@ -83,7 +105,7 @@ class RatingViewSet(viewsets.ModelViewSet):
 
     # add key
     def update(self, request, *args, **kwargs):
-        if key !=request.headers['encryption']: 
+        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
             response = {'message': 'You can\'t use PUT method like this'}
             return Response(response, status=status.HTTP_403_FORBIDDEN)
         partial = kwargs.pop('partial', False)
@@ -99,7 +121,7 @@ class RatingViewSet(viewsets.ModelViewSet):
 
     # add key
     def destroy(self, request, *args, **kwargs):
-        if key !=request.headers['encryption']: 
+        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
             response = {'message': 'You can\'t use DELETE method like this'}
             return Response(response, status=status.HTTP_403_FORBIDDEN)
         instance = self.get_object()
@@ -108,7 +130,7 @@ class RatingViewSet(viewsets.ModelViewSet):
 
     # add key
     def list(self, request, *args, **kwargs):
-        if key !=request.headers['encryption']: 
+        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
             response = {'message': 'You can\'t use GET method like this'}
             return Response(response, status=status.HTTP_403_FORBIDDEN)
         queryset = self.filter_queryset(self.get_queryset())
@@ -130,7 +152,7 @@ class FeedbackViewSet(viewsets.ModelViewSet):
 
     # add key
     def retrieve(self, request, *args, **kwargs):
-        if key !=request.headers['encryption']: 
+        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
             response = {'message': 'You can\'t use GET method like this'}
             return Response(response, status=status.HTTP_403_FORBIDDEN)
         instance = self.get_object()
@@ -139,7 +161,7 @@ class FeedbackViewSet(viewsets.ModelViewSet):
 
     # add key
     def update(self, request, *args, **kwargs):
-        if key !=request.headers['encryption']: 
+        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
             response = {'message': 'You can\'t use PUT method like this'}
             return Response(response, status=status.HTTP_403_FORBIDDEN)
         partial = kwargs.pop('partial', False)
@@ -155,7 +177,7 @@ class FeedbackViewSet(viewsets.ModelViewSet):
 
     # add key
     def destroy(self, request, *args, **kwargs):
-        if key !=request.headers['encryption']: 
+        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
             response = {'message': 'You can\'t use DELETE method like this'}
             return Response(response, status=status.HTTP_403_FORBIDDEN)
         instance = self.get_object()
@@ -164,7 +186,7 @@ class FeedbackViewSet(viewsets.ModelViewSet):
 
     # add key and apply filter
     def list(self, request, *args, **kwargs):
-        if key !=request.headers['encryption']: 
+        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
             response = {'message': 'You can\'t use GET method like this'}
             return Response(response, status=status.HTTP_403_FORBIDDEN)
         queryset = self.filter_queryset(self.get_queryset())
@@ -186,7 +208,7 @@ class ContributionViewSet(viewsets.ModelViewSet):
 
     # add key
     def retrieve(self, request, *args, **kwargs):
-        if key !=request.headers['encryption']: 
+        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
             response = {'message': 'You can\'t use GET method like this'}
             return Response(response, status=status.HTTP_403_FORBIDDEN)
         instance = self.get_object()
@@ -195,7 +217,7 @@ class ContributionViewSet(viewsets.ModelViewSet):
 
     # add key
     def update(self, request, *args, **kwargs):
-        if key !=request.headers['encryption']: 
+        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
             response = {'message': 'You can\'t use PUT method like this'}
             return Response(response, status=status.HTTP_403_FORBIDDEN)
         partial = kwargs.pop('partial', False)
@@ -211,7 +233,7 @@ class ContributionViewSet(viewsets.ModelViewSet):
 
     # add key
     def destroy(self, request, *args, **kwargs):
-        if key !=request.headers['encryption']: 
+        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
             response = {'message': 'You can\'t use DELETE method like this'}
             return Response(response, status=status.HTTP_403_FORBIDDEN)
         instance = self.get_object()
@@ -220,7 +242,7 @@ class ContributionViewSet(viewsets.ModelViewSet):
 
     # add key and apply filter
     def list(self, request, *args, **kwargs):
-        if key !=request.headers['encryption']: 
+        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
             response = {'message': 'You can\'t use GET method like this'}
             return Response(response, status=status.HTTP_403_FORBIDDEN)
         queryset = self.filter_queryset(self.get_queryset())
@@ -242,7 +264,7 @@ class TrendingViewSet(viewsets.ModelViewSet):
 
     # add key
     def create(self, request, *args, **kwargs):
-        if key !=request.headers['encryption']: 
+        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
             response = {'message': 'You can\'t use POST method like this'}
             return Response(response, status=status.HTTP_403_FORBIDDEN)
 
@@ -254,7 +276,7 @@ class TrendingViewSet(viewsets.ModelViewSet):
 
     # add key
     def retrieve(self, request, *args, **kwargs):
-        if key !=request.headers['encryption']: 
+        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
             response = {'message': 'You can\'t use GET method like this'}
             return Response(response, status=status.HTTP_403_FORBIDDEN)
         instance = self.get_object()
@@ -263,7 +285,7 @@ class TrendingViewSet(viewsets.ModelViewSet):
 
     # add key
     def update(self, request, *args, **kwargs):
-        if key !=request.headers['encryption']: 
+        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
             response = {'message': 'You can\'t use PUT method like this'}
             return Response(response, status=status.HTTP_403_FORBIDDEN)
         partial = kwargs.pop('partial', False)
@@ -279,7 +301,7 @@ class TrendingViewSet(viewsets.ModelViewSet):
 
     # add key
     def destroy(self, request, *args, **kwargs):
-        if key !=request.headers['encryption']: 
+        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
             response = {'message': 'You can\'t use DELETE method like this'}
             return Response(response, status=status.HTTP_403_FORBIDDEN)
         instance = self.get_object()
@@ -295,7 +317,7 @@ class NewGamesViewSet(viewsets.ModelViewSet):
 
     # add key
     def create(self, request, *args, **kwargs):
-        if key !=request.headers['encryption']: 
+        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
             response = {'message': 'You can\'t use POST method like this'}
             return Response(response, status=status.HTTP_403_FORBIDDEN)
 
@@ -307,7 +329,7 @@ class NewGamesViewSet(viewsets.ModelViewSet):
 
     # add key
     def retrieve(self, request, *args, **kwargs):
-        if key !=request.headers['encryption']: 
+        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
             response = {'message': 'You can\'t use GET method like this'}
             return Response(response, status=status.HTTP_403_FORBIDDEN)
         instance = self.get_object()
@@ -316,7 +338,7 @@ class NewGamesViewSet(viewsets.ModelViewSet):
 
     # add key
     def update(self, request, *args, **kwargs):
-        if key !=request.headers['encryption']: 
+        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
             response = {'message': 'You can\'t use PUT method like this'}
             return Response(response, status=status.HTTP_403_FORBIDDEN)
         partial = kwargs.pop('partial', False)
@@ -332,7 +354,7 @@ class NewGamesViewSet(viewsets.ModelViewSet):
 
     # add key
     def destroy(self, request, *args, **kwargs):
-        if key !=request.headers['encryption']: 
+        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
             response = {'message': 'You can\'t use DELETE method like this'}
             return Response(response, status=status.HTTP_403_FORBIDDEN)
         instance = self.get_object()

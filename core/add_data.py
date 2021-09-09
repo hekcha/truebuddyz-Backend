@@ -52,7 +52,7 @@ def add_Trending():
         pass
 
 
-def add_Trending():
+def add_NewGame():
     try:
         print("try NewGames que")
         if len(NewGames.objects.all()):
@@ -77,4 +77,5 @@ def add_Trending():
 def add_data():
     print("Trnding")
     add_Trending()
+    add_NewGame()
 

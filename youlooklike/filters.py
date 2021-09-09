@@ -1,20 +1,10 @@
 import django_filters
-from django_filters.constants import EMPTY_VALUES
 from .models import *
-
-
-class ListFilter(django_filters.Filter):
-    def filter(self, qs, value):
-        if value in EMPTY_VALUES:
-            return qs
-        value_list = value.split(",")
-        qs = super().filter(qs, value_list)
-        return qs
 
 
 
 class YouLookLikeFilter(django_filters.FilterSet):
-    category = ListFilter(lookup_expr="in")
+    category = django_filters.CharFilter(lookup_expr='iexact')
 
     class Meta:
         model = YouLookLike
@@ -22,7 +12,7 @@ class YouLookLikeFilter(django_filters.FilterSet):
 
 
 class YouLookLikeRandomFilter(django_filters.FilterSet):
-    category = ListFilter(lookup_expr="in")
+    category = django_filters.CharFilter(lookup_expr='iexact')
 
     class Meta:
         model = YouLookLikeRandom
@@ -30,8 +20,8 @@ class YouLookLikeRandomFilter(django_filters.FilterSet):
 
 
 class YouLookLikeScoreFilter(django_filters.FilterSet):
-    category = ListFilter(lookup_expr="in")
-    code = ListFilter(lookup_expr="in")
+    category = django_filters.CharFilter(lookup_expr='iexact')
+    code = django_filters.CharFilter(lookup_expr='iexact')
 
     class Meta:
         model = YouLookLikeScore

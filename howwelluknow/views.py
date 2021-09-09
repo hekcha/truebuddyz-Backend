@@ -1,16 +1,14 @@
+from decouple import config 
 from rest_framework import viewsets, status
 from rest_framework.response import Response
 from rest_framework.authentication import TokenAuthentication
 from rest_framework.permissions import IsAuthenticated
-from rest_framework.decorators import action
 from .models import *
 from .serializers import *
 from .filters import *
 
 from .add_data import add_data
 add_data()
-
-key=open('project','r').read()
 
 
 class HowWellUKnowViewSet(viewsets.ModelViewSet):
@@ -35,7 +33,7 @@ class HowWellUKnowViewSet(viewsets.ModelViewSet):
 
     # add key
     def create(self, request, *args, **kwargs):
-        if key !=request.headers['encryption']: 
+        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
             response = {'message': 'You can\'t use POST method like this'}
             return Response(response, status=status.HTTP_403_FORBIDDEN)
 
@@ -47,7 +45,7 @@ class HowWellUKnowViewSet(viewsets.ModelViewSet):
 
     # add key
     def retrieve(self, request, *args, **kwargs):
-        if key !=request.headers['encryption']: 
+        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
             response = {'message': 'You can\'t use GET method like this'}
             return Response(response, status=status.HTTP_403_FORBIDDEN)
         instance = self.get_object()
@@ -56,7 +54,7 @@ class HowWellUKnowViewSet(viewsets.ModelViewSet):
 
     # add key
     def update(self, request, *args, **kwargs):
-        if key !=request.headers['encryption']: 
+        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
             response = {'message': 'You can\'t use PUT method like this'}
             return Response(response, status=status.HTTP_403_FORBIDDEN)
         partial = kwargs.pop('partial', False)
@@ -72,7 +70,7 @@ class HowWellUKnowViewSet(viewsets.ModelViewSet):
 
     # add key
     def destroy(self, request, *args, **kwargs):
-        if key !=request.headers['encryption']: 
+        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
             response = {'message': 'You can\'t use DELETE method like this'}
             return Response(response, status=status.HTTP_403_FORBIDDEN)
         instance = self.get_object()
@@ -100,7 +98,7 @@ class HowWellUKnowScoreViewSet(viewsets.ModelViewSet):
 
     # add key
     def create(self, request, *args, **kwargs):
-        if key !=request.headers['encryption']: 
+        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
             response = {'message': 'You can\'t use POST method like this'}
             return Response(response, status=status.HTTP_403_FORBIDDEN)
 
@@ -112,7 +110,7 @@ class HowWellUKnowScoreViewSet(viewsets.ModelViewSet):
 
     # add key
     def retrieve(self, request, *args, **kwargs):
-        if key !=request.headers['encryption']: 
+        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
             response = {'message': 'You can\'t use GET method like this'}
             return Response(response, status=status.HTTP_403_FORBIDDEN)
         instance = self.get_object()
@@ -121,7 +119,7 @@ class HowWellUKnowScoreViewSet(viewsets.ModelViewSet):
 
     # add key
     def update(self, request, *args, **kwargs):
-        if key !=request.headers['encryption']: 
+        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
             response = {'message': 'You can\'t use PUT method like this'}
             return Response(response, status=status.HTTP_403_FORBIDDEN)
         partial = kwargs.pop('partial', False)
@@ -137,7 +135,7 @@ class HowWellUKnowScoreViewSet(viewsets.ModelViewSet):
 
     # add key
     def destroy(self, request, *args, **kwargs):
-        if key !=request.headers['encryption']: 
+        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
             response = {'message': 'You can\'t use DELETE method like this'}
             return Response(response, status=status.HTTP_403_FORBIDDEN)
         instance = self.get_object()
