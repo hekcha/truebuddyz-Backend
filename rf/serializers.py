@@ -7,3 +7,8 @@ class RfQuestionBankSerializer(serializers.ModelSerializer):
         model = RfQuestionBank
         fields = '__all__'
 
+class RfRoomDetailSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = RfRoomDetail
+        fields = '__all__'
+

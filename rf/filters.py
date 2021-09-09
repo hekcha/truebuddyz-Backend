@@ -19,3 +19,11 @@ class RfQuestionBankFilter(django_filters.FilterSet):
         model = RfQuestionBank
         fields = '__all__'
 
+
+class RfRoomDetailFilter(django_filters.FilterSet):
+    category = ListFilter(lookup_expr="in")
+
+    class Meta:
+        model = RfRoomDetail
+        fields = '__all__'
+

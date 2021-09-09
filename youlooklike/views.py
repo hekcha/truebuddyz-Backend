@@ -20,17 +20,24 @@ class YouLookLikeViewSet(viewsets.ModelViewSet):
 
     # apply filter
     def list(self, request, *args, **kwargs):
+        if len(request.query_params)!=1: 
+            response = {'message': 'You can\'t use POST method like this'}
+            return Response(response, status=status.HTTP_403_FORBIDDEN)
+
         queryset = self.filter_queryset(self.get_queryset())
         myFilter = YouLookLikeFilter(request.GET,queryset=queryset)
         queryset=myFilter.qs
-
         page = self.paginate_queryset(queryset)
         if page is not None:
             serializer = self.get_serializer(page, many=True)
             return self.get_paginated_response(serializer.data)
 
         serializer = self.get_serializer(queryset, many=True)
-        return Response(serializer.data)
+        datas=YouLookLikeRandom.objects.all().filter(category=request.query_params['category']).order_by('?')[:6]
+        rnadserializer = YouLookLikeRandomSerializer(datas, many=True)
+        response = {'message': 'ok','que':serializer.data,'randque':rnadserializer.data}
+        return Response(response, status=status.HTTP_200_OK)
+        # return Response(serializer.data)
 
     # add key
     def create(self, request, *args, **kwargs):
@@ -85,8 +92,11 @@ class YouLookLikeRandomViewSet(viewsets.ModelViewSet):
     permission_classes = (IsAuthenticated,)
     authentication_classes = (TokenAuthentication, )
 
-    # apply filter
+    # add key and apply filter
     def list(self, request, *args, **kwargs):
+        if key !=request.headers['encryption']: 
+            response = {'message': 'You can\'t use GET method like this'}
+            return Response(response, status=status.HTTP_403_FORBIDDEN)
         queryset = self.filter_queryset(self.get_queryset())
         myFilter = YouLookLikeRandomFilter(request.GET,queryset=queryset)
         queryset=myFilter.qs

@@ -6,6 +6,7 @@ from .views import *
 router = routers.DefaultRouter()
 
 router.register('que', RfQuestionBankViewSet)
+router.register('room', RfRoomDetailViewSet)
 
 
 urlpatterns = [
