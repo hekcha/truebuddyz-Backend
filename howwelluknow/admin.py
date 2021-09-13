@@ -11,9 +11,9 @@ admin.site.register(HowWellUKnow,HowWellUKnowAdmin)
 
 
 class HowWellUKnowScoreAdmin(admin.ModelAdmin):
-    list_display = ('category', 'score', 'message')
-    list_filter = ['category', 'score']
-    search_fields = ['category','message','score']
+    list_display = ('category', 'score', 'complement')
+    list_filter = ['category', 'score','complement']
+    search_fields = ['category','complement','message','score']
     actions_on_bottom=True
 admin.site.register(HowWellUKnowScore,HowWellUKnowScoreAdmin)
 

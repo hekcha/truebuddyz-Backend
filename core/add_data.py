@@ -42,6 +42,7 @@ def add_Trending():
             Trending.objects.create(
                 rank = data["rank"],
                 is_active = data["is_active"],
+                is_GradientCard = False,
                 link = data["link"],
                 image = data["image"],
                 text = data["text"],
@@ -64,6 +65,7 @@ def add_NewGame():
             NewGames.objects.create(
                 rank = data["rank"],
                 is_active = data["is_active"],
+                is_GradientCard = False,
                 link = data["link"],
                 image = data["image"],
                 text = data["text"],

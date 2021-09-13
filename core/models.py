@@ -24,14 +24,16 @@ class Contribution(models.Model):
 class Trending(models.Model):
     rank=models.IntegerField()
     is_active=models.BooleanField(default=False)
+    is_GradientCard=models.BooleanField(default=True)
     link=models.CharField(max_length=100)
     text=models.CharField(max_length=50)
-    image=models.CharField(max_length=300)
+    image=models.CharField(max_length=600)
 
 
 class NewGames(models.Model):
     rank=models.IntegerField()
     is_active=models.BooleanField(default=False)
+    is_GradientCard=models.BooleanField(default=True)
     link=models.CharField(max_length=100)
     text=models.CharField(max_length=50)
-    image=models.CharField(max_length=300)
+    image=models.CharField(max_length=600)

@@ -2,7 +2,7 @@ from django.db import models
 from django.contrib.auth.models import User
 
 class QuizQuestionBank(models.Model):
-    category=models.CharField(max_length=20)
+    category=models.CharField(max_length=30)
     part1=models.CharField(max_length=200,blank=True,null=True)
     part2=models.CharField(max_length=200,blank=True,null=True)
     optionA=models.CharField(max_length=50)
@@ -12,7 +12,7 @@ class QuizQuestionBank(models.Model):
 
 
 class Quiz(models.Model):
-    category=models.CharField(max_length=20)
+    category=models.CharField(max_length=30)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     code = models.CharField(max_length=14, unique=True)
     name = models.CharField(max_length=30)
