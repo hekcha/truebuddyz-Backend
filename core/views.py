@@ -8,8 +8,8 @@ from rest_framework.authtoken.models import Token
 from .models import *
 from .serializers import *
 
-from .add_data import add_data
-add_data()
+# from .add_data import add_data
+# add_data()
 
 class UserViewSet(viewsets.ModelViewSet):
     queryset = User.objects.all()
