@@ -15,7 +15,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG =  config('DEBUG')
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['truebuddyz.com']
 
 
 # Application definition
@@ -73,10 +73,19 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'OPTIONS': {
+            'read_default_file': '/etc/mysql/my.cnf',
+        },
     }
 }
 
@@ -128,12 +137,12 @@ STATIC_URL = '/static/'
 MEDIA_ROOT= os.path.join(BASE_DIR, 'media/')
 MEDIA_URL= "/media/"
 
-CORS_ALLOW_ALL_ORIGINS=True
+# CORS_ALLOW_ALL_ORIGINS=True
 
-# CORS_ALLOWED_ORIGINS = [
-#     "https://www.google.com",
-#     "http://localhost:3000",
-# ]
+CORS_ALLOWED_ORIGINS = [
+    "https://www.truebuddyz.com",
+    "https://truebuddyz.com",
+]
 
 CORS_ALLOW_HEADERS = [
     'accept',
