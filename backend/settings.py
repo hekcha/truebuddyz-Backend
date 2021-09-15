@@ -15,7 +15,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG =  config('DEBUG')
 
-ALLOWED_HOSTS = ['truebuddyz.com']
+ALLOWED_HOSTS = ['truebuddyz.com','20.204.99.220']
 
 
 # Application definition
@@ -144,6 +144,7 @@ MEDIA_URL= "/media/"
 CORS_ALLOWED_ORIGINS = [
     "https://www.truebuddyz.com",
     "https://truebuddyz.com",
+    "http://20.204.99.220"
 ]
 
 CORS_ALLOW_HEADERS = [
