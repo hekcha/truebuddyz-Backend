@@ -6,7 +6,6 @@ from .views import *
 router = routers.DefaultRouter()
 
 router.register('que', YouLookLikeViewSet)
-router.register('randque', YouLookLikeRandomViewSet)
 router.register('score', YouLookLikeScoreViewSet)
 
 urlpatterns = [

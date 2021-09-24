@@ -12,6 +12,7 @@ router.register('new', NewGamesViewSet)
 router.register('feedback', FeedbackViewSet)
 router.register('contribution', ContributionViewSet)
 router.register('rating', RatingViewSet)
+router.register('data', GamesDataViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),

@@ -8,7 +8,7 @@ from rest_framework.authtoken.views import obtain_auth_token
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path(config('ADMIN_URL'), admin.site.urls),
+    # path(config('ADMIN_URL'), admin.site.urls),
     path('core/',include('core.urls')),
     path('quiz/',include('quiz.urls')),
     path('rf/',include('rf.urls')),
