@@ -9,7 +9,7 @@ from .models import *
 
 YouLookLike_data=[
   {
-    "category": "Naruto",
+    "category": "naruto",
     "que1": "An assassination attempt was just made on the chief of your village. What do you do?",
     "image1": "https://firebasestorage.googleapis.com/v0/b/truebuddyz-b0d8a.appspot.com/o/You%20look%20like%2FWhich%20naruto%20character%20you%20look%20like%3F%2FYLL_NARUTO_q1.gif?alt=media&token=08b32b34-a674-4698-beb8-af76790c6cce",
     "option1A": "Fight Bravely and take control of the situation",
@@ -351,7 +351,7 @@ YouLookLikeRandom_data=[
   {
     "que": "Choose one visual prowess",
     "image": "https://firebasestorage.googleapis.com/v0/b/truebuddyz-b0d8a.appspot.com/o/You%20look%20like%2FWhich%20naruto%20character%20you%20look%20like%3F%2FYLL_NARUTO_q3.gif?alt=media&token=a1ef632f-9304-49be-9f7f-7718a924d120",
-    "category": "Naruto",
+    "category": "naruto",
     "optionA": "Mangekyo Sharingan",
     "optionB": "Rinnengan",
     "optionC": "Byakugan",
@@ -360,7 +360,7 @@ YouLookLikeRandom_data=[
   {
     "que": "Choose any one which you will never let happen?",
     "image": "https://firebasestorage.googleapis.com/v0/b/truebuddyz-b0d8a.appspot.com/o/You%20look%20like%2FWhich%20naruto%20character%20you%20look%20like%3F%2FYLL_NARUTO_q4.gif?alt=media&token=a77a5f0b-960e-4026-b0f5-9737b2dd593b",
-    "category": "Naruto",
+    "category": "naruto",
     "optionA": "Loose your parents",
     "optionB": "Loose your friends",
     "optionC": "Loose your dreams",
@@ -369,7 +369,7 @@ YouLookLikeRandom_data=[
   {
     "que": "If there was one word people use to describe you , what would it be?",
     "image": "https://firebasestorage.googleapis.com/v0/b/truebuddyz-b0d8a.appspot.com/o/You%20look%20like%2FWhich%20naruto%20character%20you%20look%20like%3F%2FYLL_NARUTO_q5.gif?alt=media&token=f2969019-3a17-4218-b18c-d41bfbfffc2d",
-    "category": "Naruto",
+    "category": "naruto",
     "optionA": "Smart",
     "optionB": "Enthusiastic",
     "optionC": "Hardworking",
@@ -378,7 +378,7 @@ YouLookLikeRandom_data=[
   {
     "que": "What would be your fighting style?",
     "image": "https://firebasestorage.googleapis.com/v0/b/truebuddyz-b0d8a.appspot.com/o/You%20look%20like%2FWhich%20naruto%20character%20you%20look%20like%3F%2FYLL_NARUTO_q6.gif?alt=media&token=d569c695-7ffc-4d06-b011-725ac1cc2d48",
-    "category": "Naruto",
+    "category": "naruto",
     "optionA": "Unpredictable and Bold",
     "optionB": "Calm and Smooth",
     "optionC": "Planned and skillful",
@@ -387,7 +387,7 @@ YouLookLikeRandom_data=[
   {
     "que": "What does your pet hate?",
     "image": "https://firebasestorage.googleapis.com/v0/b/truebuddyz-b0d8a.appspot.com/o/You%20look%20like%2FWhich%20naruto%20character%20you%20look%20like%3F%2FYLL_NARUTO_q7.gif?alt=media&token=299e840e-2233-4ac5-a6f7-d16a9bc3eea3",
-    "category": "Naruto",
+    "category": "naruto",
     "optionA": "Losing",
     "optionB": "Being teased",
     "optionC": "Imprisoned",
@@ -396,7 +396,7 @@ YouLookLikeRandom_data=[
   {
     "que": "What is your worst characteristic?",
     "image": "https://firebasestorage.googleapis.com/v0/b/truebuddyz-b0d8a.appspot.com/o/You%20look%20like%2FWhich%20naruto%20character%20you%20look%20like%3F%2FYLL_NARUTO_q8.gif?alt=media&token=76717716-dcc2-43cb-85f1-369a391332c3",
-    "category": "Naruto",
+    "category": "naruto",
     "optionA": "I can be forgetful",
     "optionB": "I can be secretly angry",
     "optionC": "I am shy in telling my feelings",
@@ -405,7 +405,7 @@ YouLookLikeRandom_data=[
   {
     "que": "What hairstyle most appeals to you?",
     "image": "https://firebasestorage.googleapis.com/v0/b/truebuddyz-b0d8a.appspot.com/o/You%20look%20like%2FWhich%20naruto%20character%20you%20look%20like%3F%2FYLL_NARUTO_q9.gif?alt=media&token=a5603f3a-b0c9-4362-a002-61ca146dea06",
-    "category": "Naruto",
+    "category": "naruto",
     "optionA": "Short and Scruffy",
     "optionB": "Blue and Pigtail",
     "optionC": "Blone and Moppy",
@@ -414,7 +414,7 @@ YouLookLikeRandom_data=[
   {
     "que": "What kind of student were/are you?",
     "image": "https://firebasestorage.googleapis.com/v0/b/truebuddyz-b0d8a.appspot.com/o/You%20look%20like%2FWhich%20naruto%20character%20you%20look%20like%3F%2FYLL_NARUTO_q11.gif?alt=media&token=d31b4f8c-b107-49d8-9f71-5bbfeaf03f38",
-    "category": "Naruto",
+    "category": "naruto",
     "optionA": "The shy one",
     "optionB": "The intelligent one",
     "optionC": "The bold one",
@@ -423,7 +423,7 @@ YouLookLikeRandom_data=[
   {
     "que": "Favorite Jutsu",
     "image": "https://firebasestorage.googleapis.com/v0/b/truebuddyz-b0d8a.appspot.com/o/You%20look%20like%2FWhich%20naruto%20character%20you%20look%20like%3F%2FYLL_NARUTO_q12.gif?alt=media&token=a3bff145-84ae-472e-a786-3237bc6eec3d",
-    "category": "Naruto",
+    "category": "naruto",
     "optionA": "Shadow Clone",
     "optionB": "Mind Transfer",
     "optionC": "Rasengan",
@@ -432,7 +432,7 @@ YouLookLikeRandom_data=[
   {
     "que": "Whom you think Boruto will marry to?",
     "image": "https://firebasestorage.googleapis.com/v0/b/truebuddyz-b0d8a.appspot.com/o/You%20look%20like%2FWhich%20naruto%20character%20you%20look%20like%3F%2FYLL_NARUTO_q14-min.jpg?alt=media&token=d49a8c97-f511-4238-b9e5-2c0a89bf370f",
-    "category": "Naruto",
+    "category": "naruto",
     "optionA": "Class Rep",
     "optionB": "Sarada",
     "optionC": "Mitsuki",
@@ -441,7 +441,7 @@ YouLookLikeRandom_data=[
   {
     "que": "Who's your crush?",
     "image": "https://firebasestorage.googleapis.com/v0/b/truebuddyz-b0d8a.appspot.com/o/You%20look%20like%2FWhich%20naruto%20character%20you%20look%20like%3F%2FYLL_NARUTO_q15-min.jpg?alt=media&token=705b03d0-6f47-4c4b-b9c9-ceff6f42a8b9",
-    "category": "Naruto",
+    "category": "naruto",
     "optionA": "Hanabi",
     "optionB": "Tsunade",
     "optionC": "Sakura",
@@ -450,7 +450,7 @@ YouLookLikeRandom_data=[
   {
     "que": "Whom power do you want",
     "image": "https://firebasestorage.googleapis.com/v0/b/truebuddyz-b0d8a.appspot.com/o/You%20look%20like%2FWhich%20naruto%20character%20you%20look%20like%3F%2FYLL_NARUTO_q16.gif?alt=media&token=cef8358e-acfa-4797-80ce-babb65be7d4b",
-    "category": "Naruto",
+    "category": "naruto",
     "optionA": "Hashirama",
     "optionB": "Madara",
     "optionC": "Minato",

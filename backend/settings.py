@@ -12,8 +12,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = config('SECRET_KEY')
 
+
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG =  True
+DEBUG = True
 
 ALLOWED_HOSTS = []
 
@@ -125,10 +126,10 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 
-MEDIA_ROOT= os.path.join(BASE_DIR, 'media/')
-MEDIA_URL= "/media/"
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
+MEDIA_URL = "/media/"
 
-CORS_ALLOW_ALL_ORIGINS=True
+CORS_ALLOW_ALL_ORIGINS = True
 
 # CORS_ALLOWED_ORIGINS = [
 #     "https://www.google.com",
@@ -147,5 +148,3 @@ CORS_ALLOW_HEADERS = [
     'x-csrftoken',
     'x-requested-with',
 ]
-
-
