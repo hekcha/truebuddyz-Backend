@@ -1,4 +1,4 @@
-from decouple import config 
+from decouple import config
 from rest_framework import viewsets, status
 from rest_framework.response import Response
 from rest_framework.authentication import TokenAuthentication
@@ -7,8 +7,8 @@ from .models import *
 from .serializers import *
 from .filters import *
 
-# from .add_data import add_data
-# add_data()
+from .add_data import add_data
+add_data()
 
 
 class YouLookLikeViewSet(viewsets.ModelViewSet):
@@ -19,28 +19,30 @@ class YouLookLikeViewSet(viewsets.ModelViewSet):
 
     # apply filter
     def list(self, request, *args, **kwargs):
-        if len(request.query_params)!=1: 
+        if len(request.query_params) != 1:
             response = {'message': 'You can\'t use POST method like this'}
             return Response(response, status=status.HTTP_403_FORBIDDEN)
 
         queryset = self.filter_queryset(self.get_queryset())
-        myFilter = YouLookLikeFilter(request.GET,queryset=queryset)
-        queryset=myFilter.qs
+        myFilter = YouLookLikeFilter(request.GET, queryset=queryset)
+        queryset = myFilter.qs
         page = self.paginate_queryset(queryset)
         if page is not None:
             serializer = self.get_serializer(page, many=True)
             return self.get_paginated_response(serializer.data)
 
         serializer = self.get_serializer(queryset, many=True)
-        datas=YouLookLikeRandom.objects.all().filter(category=request.query_params['category']).order_by('?')[:6]
+        datas = YouLookLikeRandom.objects.all().filter(
+            category=request.query_params['category']).order_by('?')[:6]
         rnadserializer = YouLookLikeRandomSerializer(datas, many=True)
-        response = {'message': 'ok','que':serializer.data,'randque':rnadserializer.data}
+        response = {'message': 'ok', 'que': serializer.data,
+                    'randque': rnadserializer.data}
         return Response(response, status=status.HTTP_200_OK)
         # return Response(serializer.data)
 
     # add key
     def create(self, request, *args, **kwargs):
-        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
+        if config('ENCRYPTION_KEY') != request.headers['encryption']:
             response = {'message': 'You can\'t use POST method like this'}
             return Response(response, status=status.HTTP_403_FORBIDDEN)
 
@@ -52,7 +54,7 @@ class YouLookLikeViewSet(viewsets.ModelViewSet):
 
     # add key
     def retrieve(self, request, *args, **kwargs):
-        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
+        if config('ENCRYPTION_KEY') != request.headers['encryption']:
             response = {'message': 'You can\'t use GET method like this'}
             return Response(response, status=status.HTTP_403_FORBIDDEN)
         instance = self.get_object()
@@ -61,12 +63,13 @@ class YouLookLikeViewSet(viewsets.ModelViewSet):
 
     # add key
     def update(self, request, *args, **kwargs):
-        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
+        if config('ENCRYPTION_KEY') != request.headers['encryption']:
             response = {'message': 'You can\'t use PUT method like this'}
             return Response(response, status=status.HTTP_403_FORBIDDEN)
         partial = kwargs.pop('partial', False)
         instance = self.get_object()
-        serializer = self.get_serializer(instance, data=request.data, partial=partial)
+        serializer = self.get_serializer(
+            instance, data=request.data, partial=partial)
         serializer.is_valid(raise_exception=True)
         self.perform_update(serializer)
 
@@ -77,7 +80,7 @@ class YouLookLikeViewSet(viewsets.ModelViewSet):
 
     # add key
     def destroy(self, request, *args, **kwargs):
-        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
+        if config('ENCRYPTION_KEY') != request.headers['encryption']:
             response = {'message': 'You can\'t use DELETE method like this'}
             return Response(response, status=status.HTTP_403_FORBIDDEN)
         instance = self.get_object()
@@ -93,12 +96,12 @@ class YouLookLikeRandomViewSet(viewsets.ModelViewSet):
 
     # add key and apply filter
     def list(self, request, *args, **kwargs):
-        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
+        if config('ENCRYPTION_KEY') != request.headers['encryption']:
             response = {'message': 'You can\'t use GET method like this'}
             return Response(response, status=status.HTTP_403_FORBIDDEN)
         queryset = self.filter_queryset(self.get_queryset())
-        myFilter = YouLookLikeRandomFilter(request.GET,queryset=queryset)
-        queryset=myFilter.qs
+        myFilter = YouLookLikeRandomFilter(request.GET, queryset=queryset)
+        queryset = myFilter.qs
 
         page = self.paginate_queryset(queryset)
         if page is not None:
@@ -110,7 +113,7 @@ class YouLookLikeRandomViewSet(viewsets.ModelViewSet):
 
     # add key
     def create(self, request, *args, **kwargs):
-        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
+        if config('ENCRYPTION_KEY') != request.headers['encryption']:
             response = {'message': 'You can\'t use POST method like this'}
             return Response(response, status=status.HTTP_403_FORBIDDEN)
 
@@ -122,7 +125,7 @@ class YouLookLikeRandomViewSet(viewsets.ModelViewSet):
 
     # add key
     def retrieve(self, request, *args, **kwargs):
-        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
+        if config('ENCRYPTION_KEY') != request.headers['encryption']:
             response = {'message': 'You can\'t use GET method like this'}
             return Response(response, status=status.HTTP_403_FORBIDDEN)
         instance = self.get_object()
@@ -131,12 +134,13 @@ class YouLookLikeRandomViewSet(viewsets.ModelViewSet):
 
     # add key
     def update(self, request, *args, **kwargs):
-        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
+        if config('ENCRYPTION_KEY') != request.headers['encryption']:
             response = {'message': 'You can\'t use PUT method like this'}
             return Response(response, status=status.HTTP_403_FORBIDDEN)
         partial = kwargs.pop('partial', False)
         instance = self.get_object()
-        serializer = self.get_serializer(instance, data=request.data, partial=partial)
+        serializer = self.get_serializer(
+            instance, data=request.data, partial=partial)
         serializer.is_valid(raise_exception=True)
         self.perform_update(serializer)
 
@@ -147,7 +151,7 @@ class YouLookLikeRandomViewSet(viewsets.ModelViewSet):
 
     # add key
     def destroy(self, request, *args, **kwargs):
-        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
+        if config('ENCRYPTION_KEY') != request.headers['encryption']:
             response = {'message': 'You can\'t use DELETE method like this'}
             return Response(response, status=status.HTTP_403_FORBIDDEN)
         instance = self.get_object()
@@ -163,11 +167,12 @@ class YouLookLikeScoreViewSet(viewsets.ModelViewSet):
 
     def list(self, request, *args, **kwargs):
         queryset = self.filter_queryset(self.get_queryset())
-        myFilter = YouLookLikeScoreFilter(request.GET,queryset=queryset)
-        queryset=myFilter.qs
-        if len(queryset)==0:
+        myFilter = YouLookLikeScoreFilter(request.GET, queryset=queryset)
+        queryset = myFilter.qs
+        if len(queryset) == 0:
             cat = request.GET['category']
-            queryset=YouLookLikeScore.objects.filter(category=cat).order_by('?')[:1]
+            queryset = YouLookLikeScore.objects.filter(
+                category=cat).order_by('?')[:1]
 
         page = self.paginate_queryset(queryset)
         if page is not None:
@@ -179,7 +184,7 @@ class YouLookLikeScoreViewSet(viewsets.ModelViewSet):
 
     # add key
     def create(self, request, *args, **kwargs):
-        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
+        if config('ENCRYPTION_KEY') != request.headers['encryption']:
             response = {'message': 'You can\'t use POST method like this'}
             return Response(response, status=status.HTTP_403_FORBIDDEN)
 
@@ -191,7 +196,7 @@ class YouLookLikeScoreViewSet(viewsets.ModelViewSet):
 
     # add key
     def retrieve(self, request, *args, **kwargs):
-        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
+        if config('ENCRYPTION_KEY') != request.headers['encryption']:
             response = {'message': 'You can\'t use GET method like this'}
             return Response(response, status=status.HTTP_403_FORBIDDEN)
         instance = self.get_object()
@@ -200,12 +205,13 @@ class YouLookLikeScoreViewSet(viewsets.ModelViewSet):
 
     # add key
     def update(self, request, *args, **kwargs):
-        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
+        if config('ENCRYPTION_KEY') != request.headers['encryption']:
             response = {'message': 'You can\'t use PUT method like this'}
             return Response(response, status=status.HTTP_403_FORBIDDEN)
         partial = kwargs.pop('partial', False)
         instance = self.get_object()
-        serializer = self.get_serializer(instance, data=request.data, partial=partial)
+        serializer = self.get_serializer(
+            instance, data=request.data, partial=partial)
         serializer.is_valid(raise_exception=True)
         self.perform_update(serializer)
 
@@ -216,7 +222,7 @@ class YouLookLikeScoreViewSet(viewsets.ModelViewSet):
 
     # add key
     def destroy(self, request, *args, **kwargs):
-        if config('ENCRYPTION_KEY') !=request.headers['encryption']: 
+        if config('ENCRYPTION_KEY') != request.headers['encryption']:
             response = {'message': 'You can\'t use DELETE method like this'}
             return Response(response, status=status.HTTP_403_FORBIDDEN)
         instance = self.get_object()
