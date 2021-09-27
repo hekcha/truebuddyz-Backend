@@ -15,7 +15,7 @@ class Quiz(models.Model):
     category=models.CharField(max_length=30)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     code = models.CharField(max_length=14, unique=True)
-    name = models.CharField(max_length=30)
+    name = models.CharField(max_length=18)
 
     que1=models.CharField(max_length=200)
     option1A=models.CharField(max_length=80)
@@ -101,7 +101,7 @@ class QuizResponse(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     quizcode = models.CharField(max_length=14)
     respcode = models.CharField(max_length=14)
-    name = models.CharField(max_length=30)
+    name = models.CharField(max_length=18)
 
     marks = models.IntegerField()
     ans1 = models.IntegerField()
