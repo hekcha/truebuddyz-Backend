@@ -20,7 +20,7 @@ class Contribution(models.Model):
     name = models.CharField(max_length=61)
     email = models.EmailField()
     game = models.CharField(max_length=45)
-    message = models.CharField(max_length=1000)
+    message = models.CharField(max_length=1300)
 
 
 class Trending(models.Model):
@@ -28,7 +28,7 @@ class Trending(models.Model):
     is_active = models.BooleanField(default=False)
     is_GradientCard = models.BooleanField(default=True)
     link = models.CharField(max_length=100)
-    text = models.CharField(max_length=50)
+    text = models.CharField(max_length=100)
     image = models.CharField(max_length=600)
 
 
@@ -37,7 +37,7 @@ class NewGames(models.Model):
     is_active = models.BooleanField(default=False)
     is_GradientCard = models.BooleanField(default=True)
     link = models.CharField(max_length=100)
-    text = models.CharField(max_length=50)
+    text = models.CharField(max_length=100)
     image = models.CharField(max_length=600)
 
 

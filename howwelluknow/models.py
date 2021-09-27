@@ -3,10 +3,10 @@ from django.db import models
 class HowWellUKnow(models.Model):
     category=models.CharField(max_length=30)
     que=models.CharField(max_length=300)
-    optionA=models.CharField(max_length=50)
-    optionB=models.CharField(max_length=50)
-    optionC=models.CharField(max_length=50)
-    optionD=models.CharField(max_length=50)
+    optionA=models.CharField(max_length=80)
+    optionB=models.CharField(max_length=80)
+    optionC=models.CharField(max_length=80)
+    optionD=models.CharField(max_length=80)
     ans=models.IntegerField()
     image=models.CharField(max_length=600)
 

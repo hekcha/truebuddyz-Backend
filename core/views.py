@@ -1,4 +1,4 @@
-from decouple import config
+from django.utils import timezone
 from rest_framework import viewsets, status
 from rest_framework.response import Response
 from rest_framework.authentication import TokenAuthentication
@@ -110,7 +110,6 @@ class FeedbackViewSet(viewsets.ModelViewSet):
         response = {'message': 'You can\'t use GET method like this'}
         return Response(response, status=status.HTTP_403_FORBIDDEN)
 
-
 class ContributionViewSet(viewsets.ModelViewSet):
     queryset = Contribution.objects.all()
     serializer_class = ContributionSerializer
@@ -132,54 +131,6 @@ class ContributionViewSet(viewsets.ModelViewSet):
     def list(self, request, *args, **kwargs):
         response = {'message': 'You can\'t use GET method like this'}
         return Response(response, status=status.HTTP_403_FORBIDDEN)
-
-
-class TrendingViewSet(viewsets.ModelViewSet):
-    queryset = Trending.objects.all().filter(is_active=True).order_by('rank')
-    serializer_class = TrendingSerializer
-    permission_classes = (IsAuthenticated,)
-    authentication_classes = (TokenAuthentication, )
-
-    def create(self, request, *args, **kwargs):
-        response = {'message': 'You can\'t use POST method like this'}
-        return Response(response, status=status.HTTP_403_FORBIDDEN)
-
-    def retrieve(self, request, *args, **kwargs):
-        response = {'message': 'You can\'t use GET method like this'}
-        return Response(response, status=status.HTTP_403_FORBIDDEN)
-
-    def update(self, request, *args, **kwargs):
-        response = {'message': 'You can\'t use PUT method like this'}
-        return Response(response, status=status.HTTP_403_FORBIDDEN)
-
-    def destroy(self, request, *args, **kwargs):
-        response = {'message': 'You can\'t use DELETE method like this'}
-        return Response(response, status=status.HTTP_403_FORBIDDEN)
-
-
-class NewGamesViewSet(viewsets.ModelViewSet):
-    queryset = NewGames.objects.all().filter(is_active=True).order_by('rank')
-    serializer_class = NewGamesSerializer
-    permission_classes = (IsAuthenticated,)
-    authentication_classes = (TokenAuthentication, )
-
-    def create(self, request, *args, **kwargs):
-        response = {'message': 'You can\'t use POST method like this'}
-        return Response(response, status=status.HTTP_403_FORBIDDEN)
-
-    def retrieve(self, request, *args, **kwargs):
-        response = {'message': 'You can\'t use GET method like this'}
-        return Response(response, status=status.HTTP_403_FORBIDDEN)
-
-    def update(self, request, *args, **kwargs):
-        response = {'message': 'You can\'t use PUT method like this'}
-        return Response(response, status=status.HTTP_403_FORBIDDEN)
-
-    def destroy(self, request, *args, **kwargs):
-        response = {'message': 'You can\'t use DELETE method like this'}
-        return Response(response, status=status.HTTP_403_FORBIDDEN)
-
-from django.utils import timezone
 
 class GamesDataViewSet(viewsets.ModelViewSet):
     queryset = GamesData.objects.all()
@@ -203,3 +154,39 @@ class GamesDataViewSet(viewsets.ModelViewSet):
         print(timezone.now)
         response = {'message': 'You can\'t use GET method like this'}
         return Response(response, status=status.HTTP_403_FORBIDDEN)
+
+class TrendingViewSet(viewsets.ModelViewSet):
+    queryset = Trending.objects.all().filter(is_active=True).order_by('rank')
+    serializer_class = TrendingSerializer
+
+    def list(self, request, *args, **kwargs):
+        queryset = self.filter_queryset(self.get_queryset())
+        page = self.paginate_queryset(queryset)
+        if page is not None:
+            serializer = self.get_serializer(page, many=True)
+            return self.get_paginated_response(serializer.data)
+
+        serializer = self.get_serializer(queryset, many=True)
+
+        datas = NewGames.objects.all().filter(is_active=True).order_by('rank')
+        newserializer = NewGamesSerializer(datas, many=True)
+        response = {'message': 'ok', 'trending': serializer.data,'newgames': newserializer.data}
+        return Response(response, status=status.HTTP_200_OK)
+
+    def create(self, request, *args, **kwargs):
+        response = {'message': 'You can\'t use POST method like this'}
+        return Response(response, status=status.HTTP_403_FORBIDDEN)
+
+    def retrieve(self, request, *args, **kwargs):
+        response = {'message': 'You can\'t use GET method like this'}
+        return Response(response, status=status.HTTP_403_FORBIDDEN)
+
+    def update(self, request, *args, **kwargs):
+        response = {'message': 'You can\'t use PUT method like this'}
+        return Response(response, status=status.HTTP_403_FORBIDDEN)
+
+    def destroy(self, request, *args, **kwargs):
+        response = {'message': 'You can\'t use DELETE method like this'}
+        return Response(response, status=status.HTTP_403_FORBIDDEN)
+
+
