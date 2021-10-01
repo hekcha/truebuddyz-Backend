@@ -85,7 +85,9 @@ class QuizViewSet(viewsets.ModelViewSet):
         return Response(response, status=status.HTTP_403_FORBIDDEN)
 
     def update(self, request, *args, **kwargs):
-        response = {'message': 'You can\'t use PUT method like this'}
+        print(request.data['id'])
+        Quiz.objects.filter(pk=request.data['id']).update(is_active=False)
+        response = {'message': 'ok'}
         return Response(response, status=status.HTTP_403_FORBIDDEN)
 
     def destroy(self, request, *args, **kwargs):

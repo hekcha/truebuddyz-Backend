@@ -10,16 +10,16 @@ admin.site.register(QuizQuestionBank,QuizQuestionBankAdmin)
 
 
 class QuizAdmin(admin.ModelAdmin):
-    list_display = ('category', 'name', 'user')
-    list_filter = ['category']
-    search_fields = ['category','name', 'user']
+    list_display = ('category', 'is_active', 'name', 'user', 'code')
+    list_filter = ['category', 'is_active']
+    search_fields = ['category', 'is_active', 'name', 'user']
     actions_on_bottom=True
 admin.site.register(Quiz,QuizAdmin)
 
 
 class QuizResponseAdmin(admin.ModelAdmin):
     list_display = ('category', 'name', 'quizcode', 'respcode')
-    list_filter = ['respcode']
+    list_filter = ['quizcode']
     search_fields = ['name', 'quizcode', 'respcode']
     actions_on_bottom=True
     def category(self, obj):

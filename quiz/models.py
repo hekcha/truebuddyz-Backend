@@ -13,6 +13,7 @@ class QuizQuestionBank(models.Model):
 
 class Quiz(models.Model):
     category=models.CharField(max_length=30)
+    is_active=models.BooleanField(default=True)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     code = models.CharField(max_length=14, unique=True)
     name = models.CharField(max_length=18)
