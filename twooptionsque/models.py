@@ -7,5 +7,6 @@ class ThisOrThat(models.Model):
 
 class WouldYouRather(models.Model):
     category=models.CharField(max_length=30)
+    que=models.CharField(max_length=200)
     optionA=models.CharField(max_length=80)
     optionB=models.CharField(max_length=80)

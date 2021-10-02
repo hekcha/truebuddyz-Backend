@@ -45,8 +45,8 @@ admin.site.register(NewGames,NewGamesAdmin)
 
 class GamesDataAdmin(admin.ModelAdmin):
     ordering = ['-date']
-    list_display = ('game', 'subGame', 'user', 'date')
-    list_filter = ['game', 'subGame']
+    list_display = ('game', 'subGame', 'user', 'text', 'date')
+    list_filter = ['game', 'subGame', 'text']
     search_fields = ['game', 'subGame', 'user', 'date', 'text']
     actions_on_bottom=True
 admin.site.register(GamesData,GamesDataAdmin)

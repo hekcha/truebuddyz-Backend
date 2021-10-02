@@ -97,101 +97,121 @@ ThisOrThat_que=[
 WouldYouRather_que=[
   {
     "category": "students",
+    "que":'Test question for would you rather 1',
     "optionA": 'this 1',
     "optionB": 'that 1',
   },
   {
     "category": "students",
+    "que":'Test question for would you rather 2',
     "optionA": 'this 2',
     "optionB": 'that 2',
   },
   {
     "category": "students",
+    "que":'Test question for would you rather 3',
     "optionA": 'this 3',
     "optionB": 'that 3',
   },
   {
     "category": "students",
+    "que":'Test question for would you rather 4',
     "optionA": 'this 4',
     "optionB": 'that 4',
   },
   {
     "category": "students",
+    "que":'Test question for would you rather 5',
     "optionA": 'this 5',
     "optionB": 'that 5',
   },
   {
     "category": "students",
+    "que":'Test question for would you rather 6',
     "optionA": 'this 6',
     "optionB": 'that 6',
   },
   {
     "category": "students",
+    "que":'Test question for would you rather 7',
     "optionA": 'this 7',
     "optionB": 'that 7',
   },
   {
     "category": "students",
+    "que":'Test question for would you rather 8',
     "optionA": 'this 8',
     "optionB": 'that 8',
   },
   {
     "category": "students",
+    "que":'Test question for would you rather 9',
     "optionA": 'this 9',
     "optionB": 'that 9',
   },
   {
     "category": "students",
+    "que":'Test question for would you rather 10',
     "optionA": 'this 10',
     "optionB": 'that 10',
   },
   {
     "category": "friends",
+    "que":'Test question for would you rather 1',
     "optionA": 'this 1',
     "optionB": 'that 1',
   },
   {
     "category": "friends",
+    "que":'Test question for would you rather 2',
     "optionA": 'this 2',
     "optionB": 'that 2',
   },
   {
     "category": "friends",
+    "que":'Test question for would you rather 3',
     "optionA": 'this 3',
     "optionB": 'that 3',
   },
   {
     "category": "friends",
+    "que":'Test question for would you rather 4',
     "optionA": 'this 4',
     "optionB": 'that 4',
   },
   {
     "category": "friends",
+    "que":'Test question for would you rather 5',
     "optionA": 'this 5',
     "optionB": 'that 5',
   },
   {
     "category": "friends",
+    "que":'Test question for would you rather 6',
     "optionA": 'this 6',
     "optionB": 'that 6',
   },
   {
     "category": "friends",
+    "que":'Test question for would you rather 7',
     "optionA": 'this 7',
     "optionB": 'that 7',
   },
   {
     "category": "friends",
+    "que":'Test question for would you rather 8',
     "optionA": 'this 8',
     "optionB": 'that 8',
   },
   {
     "category": "friends",
+    "que":'Test question for would you rather 9',
     "optionA": 'this 9',
     "optionB": 'that 9',
   },
   {
     "category": "friends",
+    "que":'Test question for would you rather 10',
     "optionA": 'this 10',
     "optionB": 'that 10',
   },
@@ -229,6 +249,7 @@ def add_WouldYouRather():
             print("WouldYouRather que added")
             WouldYouRather.objects.create(
                 category = data["category"],
+                que = data["que"],
                 optionA = data["optionA"],
                 optionB = data["optionB"],
             )
