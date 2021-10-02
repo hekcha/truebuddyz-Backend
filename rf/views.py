@@ -10,7 +10,7 @@ from .add_data import add_data
 add_data()
 
 class RfQuestionBankViewSet(viewsets.ModelViewSet):
-    queryset = RfQuestionBank.objects.all().order_by('?')
+    queryset = RfQuestionBank.objects.all()
     serializer_class = RfQuestionBankSerializer
     permission_classes = (IsAuthenticated,)
     authentication_classes = (TokenAuthentication, )

@@ -48,4 +48,4 @@ class YouLookLikeScore(models.Model):
     code=models.CharField(max_length=4)
     name=models.CharField(max_length=40)
     image=models.CharField(max_length=600)
-    text=models.CharField(max_length=200)
+    text=models.CharField(max_length=400)
