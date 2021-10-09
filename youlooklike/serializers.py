@@ -6,14 +6,8 @@ class YouLookLikeSerializer(serializers.ModelSerializer):
     class Meta:
         model = YouLookLike
         fields = '__all__'
-        
-class YouLookLikeScoreSerializer(serializers.ModelSerializer):
+    
+class YouLookLikeResultSerializer(serializers.ModelSerializer):
     class Meta:
-        model = YouLookLikeScore
+        model = YouLookLikeResult
         fields = '__all__'
-        
-class YouLookLikeRandomSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = YouLookLikeRandom
-        fields = '__all__'
-        

@@ -7,63 +7,6 @@ from .models import *
 # change all img field with image location (location must be in media folder)
 
 
-YouLookLike_data=[
-  {
-    "category": "naruto",
-    "que1": "An assassination attempt was just made on the chief of your village. What do you do?",
-    "image1": "https://firebasestorage.googleapis.com/v0/b/truebuddyz-b0d8a.appspot.com/o/You%20look%20like%2FWhich%20naruto%20character%20you%20look%20like%3F%2FYLL_NARUTO_q1.gif?alt=media&token=08b32b34-a674-4698-beb8-af76790c6cce",
-    "option1A": "Fight Bravely and take control of the situation",
-    "option1B": "Will just let the higher authority do their parts",
-    "option1C": "Run away from the battlefield",
-    "option1D": "Backup with your team and save civilians",
-    "que2": "Which justsu you love the most?",
-    "image2": "https://firebasestorage.googleapis.com/v0/b/truebuddyz-b0d8a.appspot.com/o/You%20look%20like%2FWhich%20naruto%20character%20you%20look%20like%3F%2FYLL_NARUTO_q2.gif?alt=media&token=479455aa-93a0-48c7-a345-3babd3c1be75",
-    "option2A": "Ninjutsu",
-    "option2B": "Taijutsu",
-    "option2C": "Kekkei Genkai",
-    "option2D": "Dōjutsu",
-    "que3": "What is the most important thing?",
-    "image3": "https://firebasestorage.googleapis.com/v0/b/truebuddyz-b0d8a.appspot.com/o/You%20look%20like%2FWhich%20naruto%20character%20you%20look%20like%3F%2FYLL_NARUTO_q10.gif?alt=media&token=ff6d3339-866c-4537-9eed-d56de42ca377",
-    "option3A": "Friends",
-    "option3B": "Power",
-    "option3C": "Winning War",
-    "option3D": "Intelligence",
-    "que4": "Who did you want to train under?",
-    "image4": "https://firebasestorage.googleapis.com/v0/b/truebuddyz-b0d8a.appspot.com/o/You%20look%20like%2FWhich%20naruto%20character%20you%20look%20like%3F%2FYLL_NARUTO_q13-min.jpg?alt=media&token=b0b04457-2ebf-4a9d-9229-ab826fe0b05c",
-    "option4A": "Jiraiya",
-    "option4B": "Orochimaru",
-    "option4C": "Kakashi",
-    "option4D": "Minato"
-  },
-  {
-    "category": "transformer",
-    "que1": "How others describe you?",
-    "image1": "https://firebasestorage.googleapis.com/v0/b/truebuddyz-b0d8a.appspot.com/o/You%20look%20like%2FWhich%20transformer%20are%20you%3F%2FYLL_TRANS_q2-min.png?alt=media&token=7b58d0bc-cb7f-4624-8191-c460ba2d7b13",
-    "option1A": "Stubborn",
-    "option1B": "Caring",
-    "option1C": "Sarcastic",
-    "option1D": "Brave",
-    "que2": "What is one of your weaknesses?",
-    "image2": "https://firebasestorage.googleapis.com/v0/b/truebuddyz-b0d8a.appspot.com/o/You%20look%20like%2FWhich%20transformer%20are%20you%3F%2FYLL_TRANS_q4.gif?alt=media&token=31be1ee1-ccba-4e04-a1ea-4e3eb79a4122",
-    "option2A": "Acting without consulting others",
-    "option2B": "Trusting people",
-    "option2C": "Being too forgiving",
-    "option2D": "Coward",
-    "que3": "What is a great strength of yours?",
-    "image3": "https://firebasestorage.googleapis.com/v0/b/truebuddyz-b0d8a.appspot.com/o/You%20look%20like%2FWhich%20transformer%20are%20you%3F%2FYLL_TRANS_q7-min.jpg?alt=media&token=5fc7ac14-3fb8-4d56-9fe5-70e5d793c466",
-    "option3A": "Determination",
-    "option3B": "Handiness",
-    "option3C": "Sense of humor",
-    "option3D": "Strength",
-    "que4": "Which do you like much?",
-    "image4": "https://firebasestorage.googleapis.com/v0/b/truebuddyz-b0d8a.appspot.com/o/You%20look%20like%2FWhich%20transformer%20are%20you%3F%2FYLL_TRANS_q10.gif?alt=media&token=55e53379-c508-43fd-856c-281668742567",
-    "option4A": "Megan fox",
-    "option4B": "Autobot",
-    "option4C": "Decepticons",
-    "option4D": "Bumblebee"
-  }
-]
-
 YouLookLike_result=[
   {
     "category": "naruto",
@@ -347,7 +290,7 @@ YouLookLike_result=[
   }
 ]
 
-YouLookLikeRandom_data=[
+YouLookLike_data=[
   {
     "que": "Choose one visual prowess",
     "image": "https://firebasestorage.googleapis.com/v0/b/truebuddyz-b0d8a.appspot.com/o/You%20look%20like%2FWhich%20naruto%20character%20you%20look%20like%3F%2FYLL_NARUTO_q3.gif?alt=media&token=a1ef632f-9304-49be-9f7f-7718a924d120",
@@ -502,14 +445,68 @@ YouLookLikeRandom_data=[
     "optionD": "India"
   },
   {
-    "que": "How big is your circle of friends?",
+    "que": "que2 How big is your circle of friends?",
     "image": "https://firebasestorage.googleapis.com/v0/b/truebuddyz-b0d8a.appspot.com/o/You%20look%20like%2FWhich%20transformer%20are%20you%3F%2FYLL_TRANS_q9-min.jpg?alt=media&token=47df8136-7f1b-46ae-acd7-8d2de6a0bdc9",
     "category": "transformer",
-    "optionA": "I have no friends",
-    "optionB": "I have ton of friends",
-    "optionC": "I have few friends but the best ones.",
-    "optionD": "I have a couple of very close friends"
-  }
+    "optionA": "que2 I have no friends",
+    "optionB": "que2 I have ton of friends",
+    "optionC": "que2 I have few friends but the best ones.",
+    "optionD": "que2 I have a couple of very close friends"
+  },
+  {
+    "que": "que3 How big is your circle of friends?",
+    "image": "https://firebasestorage.googleapis.com/v0/b/truebuddyz-b0d8a.appspot.com/o/You%20look%20like%2FWhich%20transformer%20are%20you%3F%2FYLL_TRANS_q9-min.jpg?alt=media&token=47df8136-7f1b-46ae-acd7-8d2de6a0bdc9",
+    "category": "transformer",
+    "optionA": "que3 I have no friends",
+    "optionB": "que3 I have ton of friends",
+    "optionC": "que3 I have few friends but the best ones.",
+    "optionD": "que3 I have a couple of very close friends"
+  },
+  {
+    "que": "que4 How big is your circle of friends?",
+    "image": "https://firebasestorage.googleapis.com/v0/b/truebuddyz-b0d8a.appspot.com/o/You%20look%20like%2FWhich%20transformer%20are%20you%3F%2FYLL_TRANS_q9-min.jpg?alt=media&token=47df8136-7f1b-46ae-acd7-8d2de6a0bdc9",
+    "category": "transformer",
+    "optionA": "que4 I have no friends",
+    "optionB": "que4 I have ton of friends",
+    "optionC": "que4 I have few friends but the best ones.",
+    "optionD": "que4 I have a couple of very close friends"
+  },
+  {
+    "que": "que5 How big is your circle of friends?",
+    "image": "https://firebasestorage.googleapis.com/v0/b/truebuddyz-b0d8a.appspot.com/o/You%20look%20like%2FWhich%20transformer%20are%20you%3F%2FYLL_TRANS_q9-min.jpg?alt=media&token=47df8136-7f1b-46ae-acd7-8d2de6a0bdc9",
+    "category": "transformer",
+    "optionA": "que5 I have no friends",
+    "optionB": "que5 I have ton of friends",
+    "optionC": "que5 I have few friends but the best ones.",
+    "optionD": "que5 I have a couple of very close friends"
+  },
+  {
+    "que": "que6 How big is your circle of friends?",
+    "image": "https://firebasestorage.googleapis.com/v0/b/truebuddyz-b0d8a.appspot.com/o/You%20look%20like%2FWhich%20transformer%20are%20you%3F%2FYLL_TRANS_q9-min.jpg?alt=media&token=47df8136-7f1b-46ae-acd7-8d2de6a0bdc9",
+    "category": "transformer",
+    "optionA": "que6 I have no friends",
+    "optionB": "que6 I have ton of friends",
+    "optionC": "que6 I have few friends but the best ones.",
+    "optionD": "que6 I have a couple of very close friends"
+  },
+  {
+    "que": "que7 How big is your circle of friends?",
+    "image": "https://firebasestorage.googleapis.com/v0/b/truebuddyz-b0d8a.appspot.com/o/You%20look%20like%2FWhich%20transformer%20are%20you%3F%2FYLL_TRANS_q9-min.jpg?alt=media&token=47df8136-7f1b-46ae-acd7-8d2de6a0bdc9",
+    "category": "transformer",
+    "optionA": "que7 I have no friends",
+    "optionB": "que7 I have ton of friends",
+    "optionC": "que7 I have few friends but the best ones.",
+    "optionD": "que7 I have a couple of very close friends"
+  },
+  {
+    "que": "que8 How big is your circle of friends?",
+    "image": "https://firebasestorage.googleapis.com/v0/b/truebuddyz-b0d8a.appspot.com/o/You%20look%20like%2FWhich%20transformer%20are%20you%3F%2FYLL_TRANS_q9-min.jpg?alt=media&token=47df8136-7f1b-46ae-acd7-8d2de6a0bdc9",
+    "category": "transformer",
+    "optionA": "que8 I have no friends",
+    "optionB": "que8 I have ton of friends",
+    "optionC": "que8 I have few friends but the best ones.",
+    "optionD": "que8 I have a couple of very close friends"
+  },
 ]
 
 
@@ -524,51 +521,6 @@ def add_YouLookLike():
             print("YouLookLike que added")
             YouLookLike.objects.create(
                 category = data["category"],
-                que1 = data["que1"],
-                option1A = data["option1A"],
-                option1B = data["option1B"],
-                option1C = data["option1C"],
-                option1D = data["option1D"],
-                image1 = data["image1"],
-
-                que2 = data["que2"],
-                option2A = data["option2A"],
-                option2B = data["option2B"],
-                option2C = data["option2C"],
-                option2D = data["option2D"],
-                image2 = data["image2"],
-
-                que3 = data["que3"],
-                option3A = data["option3A"],
-                option3B = data["option3B"],
-                option3C = data["option3C"],
-                option3D = data["option3D"],
-                image3 = data["image3"],
-
-                que4 = data["que4"],
-                option4A = data["option4A"],
-                option4B = data["option4B"],
-                option4C = data["option4C"],
-                option4D = data["option4D"],
-                image4 = data["image4"],
-            )
-        print("try YouLookLike que complete")
-    except:
-        print("except in YouLookLike que")
-        pass
-
-
-def add_YouLookLikeRandom():
-    try:
-        print("try YouLookLikeRandom que")
-        if len(YouLookLikeRandom.objects.all()):
-            print("YouLookLikeRandom already have que")
-            return 0
-
-        for data in YouLookLikeRandom_data:
-            print("YouLookLikeRandom que added")
-            YouLookLikeRandom.objects.create(
-                category = data["category"],
                 que = data["que"],
                 optionA = data["optionA"],
                 optionB = data["optionB"],
@@ -576,36 +528,34 @@ def add_YouLookLikeRandom():
                 optionD = data["optionD"],
                 image = data["image"],
             )
-        print("try YouLookLikeRandom que complete")
+        print("try YouLookLike que complete")
     except:
-        print("except in YouLookLikeRandom que")
+        print("except in YouLookLike que")
         pass
 
 
-def add_YouLookLikeScore():
+def add_YouLookLikeResult():
     try:
-        print("try YouLookLikeScore que")
-        if len(YouLookLikeScore.objects.all()):
-            print("YouLookLikeScore already have que")
+        print("try YouLookLikeResult que")
+        if len(YouLookLikeResult.objects.all()):
+            print("YouLookLikeResult already have que")
             return 0
 
         for data in YouLookLike_result:
-            print("YouLookLikeScore que added")
-            YouLookLikeScore.objects.create(
+            print("YouLookLikeResult que added")
+            YouLookLikeResult.objects.create(
                 image = data["image"],
                 name = data["name"],
                 category = data["category"],
-                code = data["code"],
                 text = data["text"],
                 )
-        print("try YouLookLikeScore que complete")
+        print("try YouLookLikeResult que complete")
     except:
-        print("except in YouLookLikeScore que")
+        print("except in YouLookLikeResult que")
         pass
 
 
 def add_data():
     print("YouLookLike")
     add_YouLookLike()
-    add_YouLookLikeScore()
-    add_YouLookLikeRandom()
+    add_YouLookLikeResult()
