@@ -8,1784 +8,998 @@ from .models import *
 
 QuizQue=[
   {
-    "Question": "⚽ What is xyz's favorite sport?",
-    "category": "friends",
-    "part1": "⚽ What is",
-    "part2": "s favorite sport?",
-    "optionA": "🏏 Cricket",
-    "optionB": "🎲 Ludo",
-    "optionC": "📱 PUBG",
-    "optionD": "📱 Subway Surfers"
+    "Question": "�� What game xyz like the most?",
+    "part1": "🎮 What game",
+    "part2": "like the most?",
+    "Friends": 1,
+    "Couple": "",
+    "siblings": 1,
+    "OptionA": "🏏 Cricket",
+    "OptionB": "🎲 Ludo",
+    "OptionC": "📱 PUBG",
+    "OptionD": "🕹️ Play station"
   },
   {
-    "Question": "If xyz could be a superhero for a day, who would it be?",
-    "category": "friends",
-    "part1": "If",
+    "Question": "🧜‍♂️ If xyz could be a superhero for a day, who would it be?",
+    "part1": "🧜‍♂️ If",
     "part2": "could be a superhero for a day, who would it be?",
-    "optionA": "Ironman",
-    "optionB": "Superman",
-    "optionC": "Thor",
-    "optionD": "Captain America"
+    "Friends": 1,
+    "Couple": 1,
+    "siblings": 1,
+    "OptionA": "🎭 Ironman",
+    "OptionB": "🎭 Wonder woman",
+    "OptionC": "🎭 Thor",
+    "OptionD": "🎭 Captain Marvel"
   },
   {
     "Question": "�� What is the best gift xyz has received?",
-    "category": "friends",
     "part1": "🎁 What is the best gift",
     "part2": "has received?",
-    "optionA": "📱 A phone",
-    "optionB": "🧳 A surprise trip",
-    "optionC": "😘 A kiss from his crush",
-    "optionD": "🐻 A pet"
+    "Friends": "",
+    "Couple": 1,
+    "siblings": 1,
+    "OptionA": "📱 A phone",
+    "OptionB": "🧳 A surprise trip",
+    "OptionC": "😘Kiss from  crush",
+    "OptionD": "🐻 A pet"
   },
   {
     "Question": "💰 If xyz has one hour to spend 1 million, where do you think he/she'd go first?",
-    "category": "friends",
     "part1": "💰 If",
     "part2": "has one hour to spend 1 million, where do you think he/she'd go first?",
-    "optionA": "🚗 A luxury car dealership",
-    "optionB": "🍲 A luxury restaurant",
-    "optionC": "👚 A designer store",
-    "optionD": "🗺️ World tour"
+    "Friends": 1,
+    "Couple": 1,
+    "siblings": 1,
+    "OptionA": "🚗 A luxury car dealership",
+    "OptionB": "🍲 A luxury restaurant",
+    "OptionC": "👚 A designer store",
+    "OptionD": "🗺️ World tour"
   },
   {
     "Question": "��️ What does xyz prefer?",
-    "category": "friends",
     "part1": "🗯️ What does",
     "part2": "prefer?",
-    "optionA": "💬 Text Message",
-    "optionB": "📞 Call",
-    "optionC": "💾 Voice mail",
-    "optionD": "🤳 Video Chat"
+    "Friends": 1,
+    "Couple": 1,
+    "siblings": 1,
+    "OptionA": "💬 Text Message",
+    "OptionB": "📞 Call",
+    "OptionC": "🗣️ Voice mail",
+    "OptionD": "🤳 Video Chat"
   },
   {
-    "Question": "�� Which pet does xyz have?",
-    "category": "friends",
+    "Question": "�� Which pet does xyz like?",
     "part1": "🐻 Which pet does",
-    "part2": "have?",
-    "optionA": "🐕 Dog",
-    "optionB": "🐈 Cat",
-    "optionC": "🐿️ Squirrel",
-    "optionD": "Nothing"
+    "part2": "like?",
+    "Friends": "",
+    "Couple": "",
+    "siblings": 1,
+    "OptionA": "🐕 Dog",
+    "OptionB": "🐈 Cat",
+    "OptionC": "🐿️ Squirrel",
+    "OptionD": "🚫 Nothing"
   },
   {
-    "Question": "Which device does xyz mostly use?",
-    "category": "friends",
-    "part1": "Which device does",
+    "Question": "�� Which pet does xyz like?",
+    "part1": "🐻 Which pet does",
+    "part2": "like?",
+    "Friends": "",
+    "Couple": 1,
+    "siblings": "",
+    "OptionA": "😎 You",
+    "OptionB": "🐕 Dog",
+    "OptionC": "🐈 Cat",
+    "OptionD": "🐿️ Squirrel"
+  },
+  {
+    "Question": "�� Which device does xyz mostly use?",
+    "part1": "🧏 Which device does",
     "part2": "mostly use?",
-    "optionA": "📱 Mobile",
-    "optionB": "💻 Laptop",
-    "optionC": "📱 Tablets",
-    "optionD": "Nothing"
+    "Friends": 1,
+    "Couple": 1,
+    "siblings": 1,
+    "OptionA": "📱 Mobile",
+    "OptionB": "💻 Laptop",
+    "OptionC": "📱 Tablets",
+    "OptionD": "🚫 Nothing"
   },
   {
     "Question": "�� What kind of Ice Cream does xyz prefer to eat?",
-    "category": "friends",
     "part1": "🍨 What kind of Ice Cream does",
     "part2": "prefer to eat?",
-    "optionA": "Vanilla",
-    "optionB": "🍫 Chocolate",
-    "optionC": "🍓 Strawberry",
-    "optionD": "Bubble Gum"
+    "Friends": 1,
+    "Couple": 1,
+    "siblings": "",
+    "OptionA": "🍧 Vanilla",
+    "OptionB": "🍫 Chocolate",
+    "OptionC": "🍓 Strawberry",
+    "OptionD": "🍧 ButterScotch"
   },
   {
     "Question": "�� What would xyz rather drink?",
-    "category": "friends",
     "part1": "🥛 What would",
     "part2": "rather drink?",
-    "optionA": "🍵 Tea",
-    "optionB": "☕ Hot Coffee",
-    "optionC": "🥤 Cold Coffee",
-    "optionD": "🥤 Cold Drink"
-  },
-  {
-    "Question": "Which season is xyz's favorite?",
-    "category": "friends",
-    "part1": "Which season is",
-    "part2": "s favorite?",
-    "optionA": "🌧️ Monsoon",
-    "optionB": "☀️ Summer",
-    "optionC": "🌥️ Spring",
-    "optionD": "☃️ Winter"
-  },
-  {
-    "Question": "✈️ If xyz could go anywhere, it would be...",
-    "category": "friends",
-    "part1": "✈️ If",
-    "part2": "could go anywhere, it would be...",
-    "optionA": "Paris",
-    "optionB": "New York",
-    "optionC": "London",
-    "optionD": "California"
-  },
-  {
-    "Question": "❌ xyz has never ever...",
-    "category": "friends",
-    "part1": "❌",
-    "part2": "has never ever...",
-    "optionA": "🦴 Broken a bone",
-    "optionB": "📱🚽 Dropped his/her cellphone in the toilet",
-    "optionC": "🥱 Stayed up for more than 24 hours",
-    "optionD": "🍕 Ate a whole pizza by himself/herself"
-  },
-  {
-    "Question": "�� What is xyz's favorite color?",
-    "category": "friends",
-    "part1": "🌈 What is",
-    "part2": "s favorite color?",
-    "optionA": "Pink",
-    "optionB": "🟦 Blue",
-    "optionC": "Red",
-    "optionD": "Purple"
-  },
-  {
-    "Question": "⛅ What does xyz do first thing in the morning?",
-    "category": "friends",
-    "part1": "⛅ What does",
-    "part2": "do first thing in the morning?",
-    "optionA": "🏐 Sport",
-    "optionB": "🛀 Showers",
-    "optionC": "📱 look at smartphone",
-    "optionD": "🤳 Take Selfie"
-  },
-  {
-    "Question": "Which would xyz choose?",
-    "category": "friends",
-    "part1": "Which would",
-    "part2": "choose?",
-    "optionA": "⛰️ Mountains",
-    "optionB": "🏖️ Beach",
-    "optionC": "🧊 Glacier",
-    "optionD": "🌲 Jungle"
-  },
-  {
-    "Question": "What is important for xyz?",
-    "category": "friends",
-    "part1": "What is important for",
-    "part2": "?",
-    "optionA": "💸 Money",
-    "optionB": "😎 Success",
-    "optionC": "🏥 Health",
-    "optionD": "👩‍❤️‍👨 Love"
-  },
-  {
-    "Question": "�� How does xyz sleep?",
-    "category": "friends",
-    "part1": "😴 How does",
-    "part2": "sleep?",
-    "optionA": "on the stomach",
-    "optionB": "on the back",
-    "optionC": "on the side",
-    "optionD": "in sitting position"
-  },
-  {
-    "Question": "�� What food does xyz hate?",
-    "category": "friends",
-    "part1": "🤢 What food does",
-    "part2": "hate?",
-    "optionA": "Broccoli",
-    "optionB": "Tomatoes",
-    "optionC": "🧀 Cheese",
-    "optionD": "Spinach"
-  },
-  {
-    "Question": "�� What is the most exciting animal to see at the zoo for xyz?",
-    "category": "friends",
-    "part1": "🐻 What is the most exciting animal to see at the zoo for",
-    "part2": "?",
-    "optionA": "🐒 Monkey",
-    "optionB": "🐅 Tiger",
-    "optionC": "🦒 Giraffe",
-    "optionD": "🦜 Parrot"
-  },
-  {
-    "Question": "😔 When sad or upset, what is the best way to comfort xyz?",
-    "category": "friends",
-    "part1": "😔 When sad or upset, what is the best way to comfort",
-    "part2": "?",
-    "optionA": "☕ Talking over a cup of coffee",
-    "optionB": "🛒 Going shopping",
-    "optionC": "🍷 Going for a drink",
-    "optionD": "🎥 Watching a movie"
-  },
-  {
-    "Question": "�� What would xyz dare to try?",
-    "category": "friends",
-    "part1": "😎 What would",
-    "part2": "dare to try?",
-    "optionA": "Bungee jump",
-    "optionB": "Balloon flight",
-    "optionC": "Parachute jump",
-    "optionD": "Wild roller coaster"
-  },
-  {
-    "Question": "What app does xyz use most often?",
-    "category": "friends",
-    "part1": "What app does",
-    "part2": "use most often?",
-    "optionA": "Instagram",
-    "optionB": "WhatsApp",
-    "optionC": "Facebook",
-    "optionD": "Snapchat"
-  },
-  {
-    "Question": "�� During which month is xyz's birthday?",
-    "category": "friends",
-    "part1": "🎂 During which month is",
-    "part2": "s birthday?",
-    "optionA": "January, February, or March",
-    "optionB": "April, May, or June",
-    "optionC": "July, August, or September",
-    "optionD": "October, November, or December"
-  },
-  {
-    "Question": "�� What can xyz cook?",
-    "category": "friends",
-    "part1": "🍲 What can",
-    "part2": "cook?",
-    "optionA": "Some sophisticated dish I don't even know the name of",
-    "optionB": "Pasta",
-    "optionC": "Anything you'll ask for!",
-    "optionD": "Tea maybe..."
-  },
-  {
-    "Question": "�� What is xyz's biggest fear?",
-    "category": "friends",
-    "part1": "😨 What is",
-    "part2": "s biggest fear?",
-    "optionA": "cockroach",
-    "optionB": "Snake",
-    "optionC": "Blood",
-    "optionD": "Flying"
-  },
-  {
-    "Question": "�� What would xyz spend money from the lottery most likely on?",
-    "category": "friends",
-    "part1": "💰 What would",
-    "part2": "spend money from the lottery most likely on?",
-    "optionA": "Traveling",
-    "optionB": "Food",
-    "optionC": "Designer clothes",
-    "optionD": "No spending, just investing"
-  },
-  {
-    "Question": "�� What's the perfect birthday celebration for xyz?",
-    "category": "friends",
-    "part1": "🥳 What's the perfect birthday celebration for",
-    "part2": "?",
-    "optionA": "Big house party",
-    "optionB": "A night out with friends",
-    "optionC": "Surprise party",
-    "optionD": "Candlelight dinner with a boyfriend/girlfriend"
-  },
-  {
-    "Question": "��‍♂️ What kind of addiction xyz might fall into one day?",
-    "category": "friends",
-    "part1": "🤦‍♂️ What kind of addiction",
-    "part2": "might fall into one day?",
-    "optionA": "Alcohol",
-    "optionB": "Gaming",
-    "optionC": "Shopping",
-    "optionD": "Gambling"
-  },
-  {
-    "Question": "�� What talent does xyz have?",
-    "category": "friends",
-    "part1": "😎 What talent does",
-    "part2": "have?",
-    "optionA": "Drawing",
-    "optionB": "Dancing",
-    "optionC": "Singing",
-    "optionD": "making people fool"
-  },
-  {
-    "Question": "⏲️ If xyz got a time machine, where he go first?",
-    "category": "friends",
-    "part1": "⏲️ If",
-    "part2": "got a time machine, where he go first?",
-    "optionA": "Future",
-    "optionB": "Past",
-    "optionC": "don't use it",
-    "optionD": "give it to you"
-  },
-  {
-    "Question": "�� What magical power would xyz like to possess?",
-    "category": "friends",
-    "part1": "💪 What magical power would",
-    "part2": "like to possess?",
-    "optionA": "Time Control",
-    "optionB": "Mind reading",
-    "optionC": "teleportation",
-    "optionD": "hypnotize"
-  },
-  {
-    "Question": "�� What type of movies does xyz like?",
-    "category": "friends",
-    "part1": "🎥 What type of movies does",
-    "part2": "like?",
-    "optionA": "Horror",
-    "optionB": "Romance",
-    "optionC": "Comedy",
-    "optionD": "Thriller"
-  },
-  {
-    "Question": "�� What matters most in your life?",
-    "category": "friends",
-    "part1": "🤨 What is",
-    "part2": "s favorite slang term in electronic communications?",
-    "optionA": "Money",
-    "optionB": "Family",
-    "optionC": "Friendship",
-    "optionD": "Health"
-  },
-  {
-    "Question": "�� What is xyz's favorite slang term in electronic communications?",
-    "category": "friends",
-    "part1": "🎥 Who is",
-    "part2": "s favorite Bollywood actor?",
-    "optionA": "OMG",
-    "optionB": "IDK",
-    "optionC": "WTF?",
-    "optionD": "LOL"
-  },
-  {
-    "Question": "�� Who is xyz's favorite Bollywood actor?",
-    "category": "friends",
-    "part1": "🎥 Who is",
-    "part2": "s favorite Bollywood actress?",
-    "optionA": "Shah Rukh Khan",
-    "optionB": "Hrithik Roshan",
-    "optionC": "Amir khan",
-    "optionD": "Kartik Aaryan"
-  },
-  {
-    "Question": "�� Who is xyz's favorite Bollywood actress?",
-    "category": "friends",
-    "part1": "🎥 If",
-    "part2": "s life was a movie, which movie would you choose?",
-    "optionA": "Disha Patani",
-    "optionB": "Kareena Kapoor",
-    "optionC": "Katrina Kaif",
-    "optionD": "Kriti Sanon"
-  },
-  {
-    "Question": "🎥 If xyz's life was a movie, which movie would you choose?",
-    "category": "friends",
-    "part1": "🏫 How many schools has",
-    "part2": "gone to?",
-    "optionA": "Dil Wale Dulhaniya Le Jayenge",
-    "optionB": "Gangs of Wasseypur",
-    "optionC": "Shershaah",
-    "optionD": "Kabir Singh"
-  },
-  {
-    "Question": "�� How many schools has xyz gone to?",
-    "category": "friends",
-    "part1": "💀 If",
-    "part2": "could be a cartoon character for a day, who would it be?",
-    "optionA": 1,
-    "optionB": 2,
-    "optionC": 3,
-    "optionD": 4
-  },
-  {
-    "Question": "💀 If xyz could be a cartoon character for a day, who would it be?",
-    "category": "friends",
-    "part1": "🍲 If",
-    "part2": "had to eat the same food for dinner every day, what would he pick?",
-    "optionA": "Tom Cat",
-    "optionB": "Jerry Mouse",
-    "optionC": "Daffy Duck",
-    "optionD": "Mickey Mouse"
-  },
-  {
-    "Question": "🍲 If xyz had to eat the same food for dinner every day, what would he pick?",
-    "category": "friends",
-    "part1": "🧑‍🤝‍🧑",
-    "part2": "is?",
-    "optionA": "Burger",
-    "optionB": "Sushi",
-    "optionC": "Pizza",
-    "optionD": "Burrito"
-  },
-  {
-    "Question": "��‍🤝‍🧑 xyz is?",
-    "category": "friends",
-    "part1": "🎃 Is",
-    "part2": "a ?",
-    "optionA": "Single",
-    "optionB": "Taken",
-    "optionC": "heartbroken",
-    "optionD": "playboy"
-  },
-  {
-    "Question": "�� Is xyz a ?",
-    "category": "friends",
-    "part1": "🧛‍♂️ If",
-    "part2": "meets a genie, what would be sadfasfd's wish?",
-    "optionA": "Morning Person",
-    "optionB": "NightOwl",
-    "optionC": "Both",
-    "optionD": "None"
-  },
-  {
-    "Question": "🧛‍♂️ If xyz meets a genie, what would be sadfasfd's wish?",
-    "category": "friends",
-    "part1": "🧑‍🤝‍🧑 Does",
-    "part2": "want his/her wife/husband to be the Hottest or the Smartest?",
-    "optionA": "💸 Rs100 crore",
-    "optionB": "💑 Beautiful wife/Handsome Husband",
-    "optionC": "👑 To be the king of the world",
-    "optionD": "Reduce his age upto 20 years"
-  },
-  {
-    "Question": "��‍🤝‍🧑 Does xyz want his/her wife/husband to be the Hottest or the Smartest?",
-    "category": "friends",
-    "part1": "✈️ Where would",
-    "part2": "like to go with his/her life partner?",
-    "optionA": "💖 The Hottest",
-    "optionB": "😏 The Smartest",
-    "optionC": "Beauty Queen",
-    "optionD": "Average"
-  },
-  {
-    "Question": "✈️ Where would xyz like to go with his/her life partner?",
-    "category": "friends",
-    "part1": "🧑‍🤝‍🧑 Where would",
-    "part2": "like to go with",
-    "optionA": "🏂 Manali",
-    "optionB": "🏖 Goa",
-    "optionC": "🏔 Leh and Ladakh",
-    "optionD": "⛄ Shimla"
-  },
-  {
-    "Question": "��‍🤝‍🧑 Where would xyz like to go with xyz's soulmate?",
-    "category": "friends",
-    "part1": "like to go with",
-    "part2": "s soulmate?",
-    "optionA": "🗼 Paris",
-    "optionB": "🏝 Bali",
-    "optionC": "🏞 Maldives",
-    "optionD": "🌉 Venice"
-  },
-  {
-    "Question": "�� What xyz likes about himself/herself?",
-    "category": "friends",
-    "part1": "🙃 What",
-    "part2": "likes about himself/herself?",
-    "optionA": "Looks",
-    "optionB": "Attitude",
-    "optionC": "Height",
-    "optionD": "Beard"
-  },
-  {
-    "Question": "��️ Which website xyz often visit?",
-    "category": "friends",
-    "part1": "🖥️ Which website",
-    "part2": "often visit?",
-    "optionA": "Socal media sites",
-    "optionB": "Google",
-    "optionC": "Dating sites",
-    "optionD": "Porn Sites"
-  },
-  {
-    "Question": "How often xyz watch porn",
-    "category": "friends",
-    "part1": "How often",
-    "part2": "watch porn",
-    "optionA": "daily",
-    "optionB": "weekly",
-    "optionC": "twice a day",
-    "optionD": "never"
-  },
-  {
-    "Question": "how many Ex xyz have",
-    "category": "friends",
-    "part1": "how many Ex",
-    "part2": "have",
-    "optionA": "Zero",
-    "optionB": "one",
-    "optionC": "two",
-    "optionD": "three"
-  },
-  {
-    "Question": "last time when xyz have deram about you",
-    "category": "friends",
-    "part1": "last time when",
-    "part2": "have deram about you",
-    "optionA": "last night",
-    "optionB": "today",
-    "optionC": "week ago",
-    "optionD": "month ago"
-  },
-  {
-    "Question": "when last time xyz say sorry to you",
-    "category": "friends",
-    "part1": "when last time",
-    "part2": "say sorry to you",
-    "optionA": "in this week",
-    "optionB": "in this month",
-    "optionC": "today",
-    "optionD": "never"
-  },
-  {
-    "Question": "At what age did xyz lose virginity?",
-    "category": "friends",
-    "part1": "At what age did",
-    "part2": "lose virginity?",
-    "optionA": "16 years",
-    "optionB": "20 years",
-    "optionC": "20+ years",
-    "optionD": "still a virgin"
-  },
-  {
-    "Question": "How many people have xyz slept with?",
-    "category": "friends",
-    "part1": "How many people have",
-    "part2": "slept with?",
-    "optionA": "only with you",
-    "optionB": "5+",
-    "optionC": 2,
-    "optionD": "no one"
-  },
-  {
-    "Question": "What must a perfect evening have?",
-    "category": "friends",
-    "part1": "What must a perfect evening have?",
-    "part2": "",
-    "optionA": "🕺 Visit a club",
-    "optionB": "🎥 Watch a movie with friends",
-    "optionC": "Watch Sports on TV",
-    "optionD": "🍽️ Candlelight dinner"
-  },
-  {
-    "Question": "Who is most important?",
-    "category": "friends",
-    "part1": "Who is most important?",
-    "part2": "",
-    "optionA": "👪 Family",
-    "optionB": "🧑‍🤝‍🧑 Friends",
-    "optionC": "👫 Partner",
-    "optionD": "Someone else"
-  },
-  {
-    "Question": "⚽ What is xyz's favorite sport?",
-    "category": "siblings",
-    "part1": "⚽ What is",
-    "part2": "s favorite sport?",
-    "optionA": "🏏 Cricket",
-    "optionB": "🎲 Ludo",
-    "optionC": "📱 PUBG",
-    "optionD": "📱 Subway Surfers"
-  },
-  {
-    "Question": "If xyz could be a superhero for a day, who would it be?",
-    "category": "siblings",
-    "part1": "If",
-    "part2": "could be a superhero for a day, who would it be?",
-    "optionA": "Ironman",
-    "optionB": "Superman",
-    "optionC": "Thor",
-    "optionD": "Captain America"
-  },
-  {
-    "Question": "�� What is the best gift xyz has received?",
-    "category": "siblings",
-    "part1": "🎁 What is the best gift",
-    "part2": "has received?",
-    "optionA": "📱 A phone",
-    "optionB": "🧳 A surprise trip",
-    "optionC": "😘 A kiss from his crush",
-    "optionD": "🐻 A pet"
-  },
-  {
-    "Question": "💰 If xyz has one hour to spend 1 million, where do you think he/she'd go first?",
-    "category": "siblings",
-    "part1": "💰 If",
-    "part2": "has one hour to spend 1 million, where do you think he/she'd go first?",
-    "optionA": "🚗 A luxury car dealership",
-    "optionB": "🍲 A luxury restaurant",
-    "optionC": "👚 A designer store",
-    "optionD": "🗺️ World tour"
-  },
-  {
-    "Question": "��️ What does xyz prefer?",
-    "category": "siblings",
-    "part1": "🗯️ What does",
-    "part2": "prefer?",
-    "optionA": "💬 Text Message",
-    "optionB": "📞 Call",
-    "optionC": "💾 Voice mail",
-    "optionD": "🤳 Video Chat"
-  },
-  {
-    "Question": "�� Which pet does xyz have?",
-    "category": "siblings",
-    "part1": "🐻 Which pet does",
-    "part2": "have?",
-    "optionA": "🐕 Dog",
-    "optionB": "🐈 Cat",
-    "optionC": "🐿️ Squirrel",
-    "optionD": "Nothing"
-  },
-  {
-    "Question": "Which device does xyz mostly use?",
-    "category": "siblings",
-    "part1": "Which device does",
-    "part2": "mostly use?",
-    "optionA": "📱 Mobile",
-    "optionB": "💻 Laptop",
-    "optionC": "📱 Tablets",
-    "optionD": "Nothing"
-  },
-  {
-    "Question": "�� What kind of Ice Cream does xyz prefer to eat?",
-    "category": "siblings",
-    "part1": "🍨 What kind of Ice Cream does",
-    "part2": "prefer to eat?",
-    "optionA": "Vanilla",
-    "optionB": "🍫 Chocolate",
-    "optionC": "🍓 Strawberry",
-    "optionD": "Bubble Gum"
+    "Friends": "",
+    "Couple": "",
+    "siblings": 1,
+    "OptionA": "🍵 Tea",
+    "OptionB": "☕ Coffee",
+    "OptionC": "🍺Beer",
+    "OptionD": "🥤 Cold Drink"
   },
   {
     "Question": "�� What would xyz rather drink?",
-    "category": "siblings",
     "part1": "🥛 What would",
     "part2": "rather drink?",
-    "optionA": "🍵 Tea",
-    "optionB": "☕ Hot Coffee",
-    "optionC": "🥤 Cold Coffee",
-    "optionD": "🥤 Cold Drink"
+    "Friends": "",
+    "Couple": 1,
+    "siblings": "",
+    "OptionA": "💞 Your Blood",
+    "OptionB": "🍵 Tea",
+    "OptionC": "☕ Coffee",
+    "OptionD": "🍺Beer"
   },
   {
-    "Question": "Which season is xyz's favorite?",
-    "category": "siblings",
-    "part1": "Which season is",
+    "Question": "�� Which season is xyz's favorite?",
+    "part1": "🌏 Which season is",
     "part2": "s favorite?",
-    "optionA": "🌧️ Monsoon",
-    "optionB": "☀️ Summer",
-    "optionC": "🌥️ Spring",
-    "optionD": "☃️ Winter"
+    "Friends": 1,
+    "Couple": 1,
+    "siblings": "",
+    "OptionA": "🌧️ Monsoon",
+    "OptionB": "☀️ Summer",
+    "OptionC": "🌥️ Spring",
+    "OptionD": "☃️ Winter"
   },
   {
     "Question": "✈️ If xyz could go anywhere, it would be...",
-    "category": "siblings",
     "part1": "✈️ If",
     "part2": "could go anywhere, it would be...",
-    "optionA": "Paris",
-    "optionB": "New York",
-    "optionC": "London",
-    "optionD": "California"
+    "Friends": 1,
+    "Couple": 1,
+    "siblings": 1,
+    "OptionA": "🗼 Paris",
+    "OptionB": "🏝 Bali",
+    "OptionC": "🏞 Maldives",
+    "OptionD": "🌉 Venice"
   },
   {
-    "Question": "❌ xyz has never ever...",
-    "category": "siblings",
-    "part1": "❌",
+    "Question": "�� xyz has never ever...",
+    "part1": "🚫",
     "part2": "has never ever...",
-    "optionA": "🦴 Broken a bone",
-    "optionB": "📱🚽 Dropped his/her cellphone in the toilet",
-    "optionC": "🥱 Stayed up for more than 24 hours",
-    "optionD": "🍕 Ate a whole pizza by himself/herself"
+    "Friends": 1,
+    "Couple": "",
+    "siblings": "",
+    "OptionA": "🦴 Broken a bone",
+    "OptionB": "📱🚽 Dropped his/her cellphone in the toilet",
+    "OptionC": "🥱 Stayed up for more than 24 hours",
+    "OptionD": "🍕 Ate a whole pizza by himself/herself"
+  },
+  {
+    "Question": "�� xyz has never ever...",
+    "part1": "🚫",
+    "part2": "has never ever...",
+    "Friends": "",
+    "Couple": 1,
+    "siblings": "",
+    "OptionA": "🦴 Broken a bone",
+    "OptionB": "💋 Kissed you on lips",
+    "OptionC": "🤳 Made a Insta reel",
+    "OptionD": "🍕 Ate a whole pizza by himself/herself"
   },
   {
     "Question": "�� What is xyz's favorite color?",
-    "category": "siblings",
     "part1": "🌈 What is",
     "part2": "s favorite color?",
-    "optionA": "Pink",
-    "optionB": "🟦 Blue",
-    "optionC": "Red",
-    "optionD": "Purple"
+    "Friends": "",
+    "Couple": "",
+    "siblings": "",
+    "OptionA": "🟨 Yellow",
+    "OptionB": "🟦 Blue",
+    "OptionC": "🟥 Red",
+    "OptionD": "🟦 Purple"
   },
   {
     "Question": "⛅ What does xyz do first thing in the morning?",
-    "category": "siblings",
     "part1": "⛅ What does",
     "part2": "do first thing in the morning?",
-    "optionA": "🏐 Sport",
-    "optionB": "🛀 Showers",
-    "optionC": "📱 look at smartphone",
-    "optionD": "🤳 Take Selfie"
-  },
-  {
-    "Question": "Which would xyz choose?",
-    "category": "siblings",
-    "part1": "Which would",
-    "part2": "choose?",
-    "optionA": "⛰️ Mountains",
-    "optionB": "🏖️ Beach",
-    "optionC": "🧊 Glacier",
-    "optionD": "🌲 Jungle"
-  },
-  {
-    "Question": "What is important for xyz?",
-    "category": "siblings",
-    "part1": "What is important for",
-    "part2": "?",
-    "optionA": "💸 Money",
-    "optionB": "😎 Success",
-    "optionC": "🏥 Health",
-    "optionD": "👩‍❤️‍👨 Love"
-  },
-  {
-    "Question": "�� How does xyz sleep?",
-    "category": "siblings",
-    "part1": "😴 How does",
-    "part2": "sleep?",
-    "optionA": "on the stomach",
-    "optionB": "on the back",
-    "optionC": "on the side",
-    "optionD": "in sitting position"
-  },
-  {
-    "Question": "�� What food does xyz hate?",
-    "category": "siblings",
-    "part1": "🤢 What food does",
-    "part2": "hate?",
-    "optionA": "Broccoli",
-    "optionB": "Tomatoes",
-    "optionC": "🧀 Cheese",
-    "optionD": "Spinach"
-  },
-  {
-    "Question": "�� What is the most exciting animal to see at the zoo for xyz?",
-    "category": "siblings",
-    "part1": "🐻 What is the most exciting animal to see at the zoo for",
-    "part2": "?",
-    "optionA": "🐒 Monkey",
-    "optionB": "🐅 Tiger",
-    "optionC": "🦒 Giraffe",
-    "optionD": "🦜 Parrot"
-  },
-  {
-    "Question": "😔 When sad or upset, what is the best way to comfort xyz?",
-    "category": "siblings",
-    "part1": "😔 When sad or upset, what is the best way to comfort",
-    "part2": "?",
-    "optionA": "☕ Talking over a cup of coffee",
-    "optionB": "🛒 Going shopping",
-    "optionC": "🍷 Going for a drink",
-    "optionD": "🎥 Watching a movie"
-  },
-  {
-    "Question": "�� What would xyz dare to try?",
-    "category": "siblings",
-    "part1": "😎 What would",
-    "part2": "dare to try?",
-    "optionA": "Bungee jump",
-    "optionB": "Balloon flight",
-    "optionC": "Parachute jump",
-    "optionD": "Wild roller coaster"
-  },
-  {
-    "Question": "What app does xyz use most often?",
-    "category": "siblings",
-    "part1": "What app does",
-    "part2": "use most often?",
-    "optionA": "Instagram",
-    "optionB": "WhatsApp",
-    "optionC": "Facebook",
-    "optionD": "Snapchat"
-  },
-  {
-    "Question": "�� During which month is xyz's birthday?",
-    "category": "siblings",
-    "part1": "🎂 During which month is",
-    "part2": "s birthday?",
-    "optionA": "January, February, or March",
-    "optionB": "April, May, or June",
-    "optionC": "July, August, or September",
-    "optionD": "October, November, or December"
-  },
-  {
-    "Question": "�� What can xyz cook?",
-    "category": "siblings",
-    "part1": "🍲 What can",
-    "part2": "cook?",
-    "optionA": "Some sophisticated dish I don't even know the name of",
-    "optionB": "Pasta",
-    "optionC": "Anything you'll ask for!",
-    "optionD": "Tea maybe..."
-  },
-  {
-    "Question": "�� What is xyz's biggest fear?",
-    "category": "siblings",
-    "part1": "😨 What is",
-    "part2": "s biggest fear?",
-    "optionA": "cockroach",
-    "optionB": "Snake",
-    "optionC": "Blood",
-    "optionD": "Flying"
-  },
-  {
-    "Question": "�� What would xyz spend money from the lottery most likely on?",
-    "category": "siblings",
-    "part1": "💰 What would",
-    "part2": "spend money from the lottery most likely on?",
-    "optionA": "Traveling",
-    "optionB": "Food",
-    "optionC": "Designer clothes",
-    "optionD": "No spending, just investing"
-  },
-  {
-    "Question": "�� What's the perfect birthday celebration for xyz?",
-    "category": "siblings",
-    "part1": "🥳 What's the perfect birthday celebration for",
-    "part2": "?",
-    "optionA": "Big house party",
-    "optionB": "A night out with friends",
-    "optionC": "Surprise party",
-    "optionD": "Candlelight dinner with a boyfriend/girlfriend"
-  },
-  {
-    "Question": "��‍♂️ What kind of addiction xyz might fall into one day?",
-    "category": "siblings",
-    "part1": "🤦‍♂️ What kind of addiction",
-    "part2": "might fall into one day?",
-    "optionA": "Alcohol",
-    "optionB": "Gaming",
-    "optionC": "Shopping",
-    "optionD": "Gambling"
-  },
-  {
-    "Question": "�� What talent does xyz have?",
-    "category": "siblings",
-    "part1": "😎 What talent does",
-    "part2": "have?",
-    "optionA": "Drawing",
-    "optionB": "Dancing",
-    "optionC": "Singing",
-    "optionD": "making people fool"
-  },
-  {
-    "Question": "⏲️ If xyz got a time machine, where he go first?",
-    "category": "siblings",
-    "part1": "⏲️ If",
-    "part2": "got a time machine, where he go first?",
-    "optionA": "Future",
-    "optionB": "Past",
-    "optionC": "don't use it",
-    "optionD": "give it to you"
-  },
-  {
-    "Question": "�� What magical power would xyz like to possess?",
-    "category": "siblings",
-    "part1": "💪 What magical power would",
-    "part2": "like to possess?",
-    "optionA": "Time Control",
-    "optionB": "Mind reading",
-    "optionC": "teleportation",
-    "optionD": "hypnotize"
-  },
-  {
-    "Question": "�� What type of movies does xyz like?",
-    "category": "siblings",
-    "part1": "🎥 What type of movies does",
-    "part2": "like?",
-    "optionA": "Horror",
-    "optionB": "Romance",
-    "optionC": "Comedy",
-    "optionD": "Thriller"
-  },
-  {
-    "Question": "�� What matters most in your life?",
-    "category": "siblings",
-    "part1": "🤨 What is",
-    "part2": "s favorite slang term in electronic communications?",
-    "optionA": "Money",
-    "optionB": "Family",
-    "optionC": "Friendship",
-    "optionD": "Health"
-  },
-  {
-    "Question": "�� What is xyz's favorite slang term in electronic communications?",
-    "category": "siblings",
-    "part1": "🎥 Who is",
-    "part2": "s favorite Bollywood actor?",
-    "optionA": "OMG",
-    "optionB": "IDK",
-    "optionC": "WTF?",
-    "optionD": "LOL"
-  },
-  {
-    "Question": "�� Who is xyz's favorite Bollywood actor?",
-    "category": "siblings",
-    "part1": "🎥 Who is",
-    "part2": "s favorite Bollywood actress?",
-    "optionA": "Shah Rukh Khan",
-    "optionB": "Hrithik Roshan",
-    "optionC": "Amir khan",
-    "optionD": "Kartik Aaryan"
-  },
-  {
-    "Question": "�� Who is xyz's favorite Bollywood actress?",
-    "category": "siblings",
-    "part1": "🎥 If",
-    "part2": "s life was a movie, which movie would you choose?",
-    "optionA": "Disha Patani",
-    "optionB": "Kareena Kapoor",
-    "optionC": "Katrina Kaif",
-    "optionD": "Kriti Sanon"
-  },
-  {
-    "Question": "🎥 If xyz's life was a movie, which movie would you choose?",
-    "category": "siblings",
-    "part1": "🏫 How many schools has",
-    "part2": "gone to?",
-    "optionA": "Dil Wale Dulhaniya Le Jayenge",
-    "optionB": "Gangs of Wasseypur",
-    "optionC": "Shershaah",
-    "optionD": "Kabir Singh"
-  },
-  {
-    "Question": "�� How many schools has xyz gone to?",
-    "category": "siblings",
-    "part1": "💀 If",
-    "part2": "could be a cartoon character for a day, who would it be?",
-    "optionA": 1,
-    "optionB": 2,
-    "optionC": 3,
-    "optionD": 4
-  },
-  {
-    "Question": "💀 If xyz could be a cartoon character for a day, who would it be?",
-    "category": "siblings",
-    "part1": "🍲 If",
-    "part2": "had to eat the same food for dinner every day, what would he pick?",
-    "optionA": "Tom Cat",
-    "optionB": "Jerry Mouse",
-    "optionC": "Daffy Duck",
-    "optionD": "Mickey Mouse"
-  },
-  {
-    "Question": "🍲 If xyz had to eat the same food for dinner every day, what would he pick?",
-    "category": "siblings",
-    "part1": "🧑‍🤝‍🧑",
-    "part2": "is?",
-    "optionA": "Burger",
-    "optionB": "Sushi",
-    "optionC": "Pizza",
-    "optionD": "Burrito"
-  },
-  {
-    "Question": "��‍🤝‍🧑 xyz is?",
-    "category": "siblings",
-    "part1": "🎃 Is",
-    "part2": "a ?",
-    "optionA": "Single",
-    "optionB": "Taken",
-    "optionC": "heartbroken",
-    "optionD": "playboy"
-  },
-  {
-    "Question": "�� Is xyz a ?",
-    "category": "siblings",
-    "part1": "🧛‍♂️ If",
-    "part2": "meets a genie, what would be sadfasfd's wish?",
-    "optionA": "Morning Person",
-    "optionB": "NightOwl",
-    "optionC": "Both",
-    "optionD": "None"
-  },
-  {
-    "Question": "🧛‍♂️ If xyz meets a genie, what would be sadfasfd's wish?",
-    "category": "siblings",
-    "part1": "🧑‍🤝‍🧑 Does",
-    "part2": "want his/her wife/husband to be the Hottest or the Smartest?",
-    "optionA": "💸 Rs100 crore",
-    "optionB": "💑 Beautiful wife/Handsome Husband",
-    "optionC": "👑 To be the king of the world",
-    "optionD": "Reduce his age upto 20 years"
-  },
-  {
-    "Question": "��‍🤝‍🧑 Does xyz want his/her wife/husband to be the Hottest or the Smartest?",
-    "category": "siblings",
-    "part1": "✈️ Where would",
-    "part2": "like to go with his/her life partner?",
-    "optionA": "💖 The Hottest",
-    "optionB": "😏 The Smartest",
-    "optionC": "Beauty Queen",
-    "optionD": "Average"
-  },
-  {
-    "Question": "✈️ Where would xyz like to go with his/her life partner?",
-    "category": "siblings",
-    "part1": "🧑‍🤝‍🧑 Where would",
-    "part2": "like to go with",
-    "optionA": "🏂 Manali",
-    "optionB": "🏖 Goa",
-    "optionC": "🏔 Leh and Ladakh",
-    "optionD": "⛄ Shimla"
-  },
-  {
-    "Question": "��‍🤝‍🧑 Where would xyz like to go with xyz's soulmate?",
-    "category": "siblings",
-    "part1": "like to go with",
-    "part2": "s soulmate?",
-    "optionA": "🗼 Paris",
-    "optionB": "🏝 Bali",
-    "optionC": "🏞 Maldives",
-    "optionD": "🌉 Venice"
-  },
-  {
-    "Question": "�� What xyz likes about himself/herself?",
-    "category": "siblings",
-    "part1": "🙃 What",
-    "part2": "likes about himself/herself?",
-    "optionA": "Looks",
-    "optionB": "Attitude",
-    "optionC": "Height",
-    "optionD": "Beard"
-  },
-  {
-    "Question": "��️ Which website xyz often visit?",
-    "category": "siblings",
-    "part1": "🖥️ Which website",
-    "part2": "often visit?",
-    "optionA": "Socal media sites",
-    "optionB": "Google",
-    "optionC": "Dating sites",
-    "optionD": "Porn Sites"
-  },
-  {
-    "Question": "How often xyz watch porn",
-    "category": "siblings",
-    "part1": "How often",
-    "part2": "watch porn",
-    "optionA": "daily",
-    "optionB": "weekly",
-    "optionC": "twice a day",
-    "optionD": "never"
-  },
-  {
-    "Question": "how many Ex xyz have",
-    "category": "siblings",
-    "part1": "how many Ex",
-    "part2": "have",
-    "optionA": "Zero",
-    "optionB": "one",
-    "optionC": "two",
-    "optionD": "three"
-  },
-  {
-    "Question": "last time when xyz have deram about you",
-    "category": "siblings",
-    "part1": "last time when",
-    "part2": "have deram about you",
-    "optionA": "last night",
-    "optionB": "today",
-    "optionC": "week ago",
-    "optionD": "month ago"
-  },
-  {
-    "Question": "when last time xyz say sorry to you",
-    "category": "siblings",
-    "part1": "when last time",
-    "part2": "say sorry to you",
-    "optionA": "in this week",
-    "optionB": "in this month",
-    "optionC": "today",
-    "optionD": "never"
-  },
-  {
-    "Question": "At what age did xyz lose virginity?",
-    "category": "siblings",
-    "part1": "At what age did",
-    "part2": "lose virginity?",
-    "optionA": "16 years",
-    "optionB": "20 years",
-    "optionC": "20+ years",
-    "optionD": "still a virgin"
-  },
-  {
-    "Question": "How many people have xyz slept with?",
-    "category": "siblings",
-    "part1": "How many people have",
-    "part2": "slept with?",
-    "optionA": "only with you",
-    "optionB": "5+",
-    "optionC": 2,
-    "optionD": "no one"
-  },
-  {
-    "Question": "What must a perfect evening have?",
-    "category": "siblings",
-    "part1": "What must a perfect evening have?",
-    "part2": "",
-    "optionA": "🕺 Visit a club",
-    "optionB": "🎥 Watch a movie with friends",
-    "optionC": "Watch Sports on TV",
-    "optionD": "🍽️ Candlelight dinner"
-  },
-  {
-    "Question": "Who is most important?",
-    "category": "siblings",
-    "part1": "Who is most important?",
-    "part2": "",
-    "optionA": "👪 Family",
-    "optionB": "🧑‍🤝‍🧑 Friends",
-    "optionC": "👫 Partner",
-    "optionD": "Someone else"
-  },
-  {
-    "Question": "⚽ What is xyz's favorite sport?",
-    "category": "couple",
-    "part1": "⚽ What is",
-    "part2": "s favorite sport?",
-    "optionA": "🏏 Cricket",
-    "optionB": "🎲 Ludo",
-    "optionC": "📱 PUBG",
-    "optionD": "📱 Subway Surfers"
-  },
-  {
-    "Question": "If xyz could be a superhero for a day, who would it be?",
-    "category": "couple",
-    "part1": "If",
-    "part2": "could be a superhero for a day, who would it be?",
-    "optionA": "Ironman",
-    "optionB": "Superman",
-    "optionC": "Thor",
-    "optionD": "Captain America"
-  },
-  {
-    "Question": "�� What is the best gift xyz has received?",
-    "category": "couple",
-    "part1": "🎁 What is the best gift",
-    "part2": "has received?",
-    "optionA": "📱 A phone",
-    "optionB": "🧳 A surprise trip",
-    "optionC": "😘 A kiss from his crush",
-    "optionD": "🐻 A pet"
-  },
-  {
-    "Question": "💰 If xyz has one hour to spend 1 million, where do you think he/she'd go first?",
-    "category": "couple",
-    "part1": "💰 If",
-    "part2": "has one hour to spend 1 million, where do you think he/she'd go first?",
-    "optionA": "🚗 A luxury car dealership",
-    "optionB": "🍲 A luxury restaurant",
-    "optionC": "👚 A designer store",
-    "optionD": "🗺️ World tour"
-  },
-  {
-    "Question": "��️ What does xyz prefer?",
-    "category": "couple",
-    "part1": "🗯️ What does",
-    "part2": "prefer?",
-    "optionA": "💬 Text Message",
-    "optionB": "📞 Call",
-    "optionC": "💾 Voice mail",
-    "optionD": "🤳 Video Chat"
-  },
-  {
-    "Question": "�� Which pet does xyz have?",
-    "category": "couple",
-    "part1": "🐻 Which pet does",
-    "part2": "have?",
-    "optionA": "🐕 Dog",
-    "optionB": "🐈 Cat",
-    "optionC": "🐿️ Squirrel",
-    "optionD": "Nothing"
-  },
-  {
-    "Question": "Which device does xyz mostly use?",
-    "category": "couple",
-    "part1": "Which device does",
-    "part2": "mostly use?",
-    "optionA": "📱 Mobile",
-    "optionB": "💻 Laptop",
-    "optionC": "📱 Tablets",
-    "optionD": "Nothing"
-  },
-  {
-    "Question": "�� What kind of Ice Cream does xyz prefer to eat?",
-    "category": "couple",
-    "part1": "🍨 What kind of Ice Cream does",
-    "part2": "prefer to eat?",
-    "optionA": "Vanilla",
-    "optionB": "🍫 Chocolate",
-    "optionC": "🍓 Strawberry",
-    "optionD": "Bubble Gum"
-  },
-  {
-    "Question": "�� What would xyz rather drink?",
-    "category": "couple",
-    "part1": "🥛 What would",
-    "part2": "rather drink?",
-    "optionA": "🍵 Tea",
-    "optionB": "☕ Hot Coffee",
-    "optionC": "🥤 Cold Coffee",
-    "optionD": "🥤 Cold Drink"
-  },
-  {
-    "Question": "Which season is xyz's favorite?",
-    "category": "couple",
-    "part1": "Which season is",
-    "part2": "s favorite?",
-    "optionA": "🌧️ Monsoon",
-    "optionB": "☀️ Summer",
-    "optionC": "🌥️ Spring",
-    "optionD": "☃️ Winter"
-  },
-  {
-    "Question": "✈️ If xyz could go anywhere, it would be...",
-    "category": "couple",
-    "part1": "✈️ If",
-    "part2": "could go anywhere, it would be...",
-    "optionA": "Paris",
-    "optionB": "New York",
-    "optionC": "London",
-    "optionD": "California"
-  },
-  {
-    "Question": "❌ xyz has never ever...",
-    "category": "couple",
-    "part1": "❌",
-    "part2": "has never ever...",
-    "optionA": "🦴 Broken a bone",
-    "optionB": "📱🚽 Dropped his/her cellphone in the toilet",
-    "optionC": "🥱 Stayed up for more than 24 hours",
-    "optionD": "🍕 Ate a whole pizza by himself/herself"
-  },
-  {
-    "Question": "�� What is xyz's favorite color?",
-    "category": "couple",
-    "part1": "🌈 What is",
-    "part2": "s favorite color?",
-    "optionA": "Pink",
-    "optionB": "🟦 Blue",
-    "optionC": "Red",
-    "optionD": "Purple"
+    "Friends": 1,
+    "Couple": "",
+    "siblings": "",
+    "OptionA": "🏋️‍♀️ Exercise",
+    "OptionB": "🛀 Showers",
+    "OptionC": "📱 Look at smartphone",
+    "OptionD": "🤳 Take Selfie"
   },
   {
     "Question": "⛅ What does xyz do first thing in the morning?",
-    "category": "couple",
     "part1": "⛅ What does",
     "part2": "do first thing in the morning?",
-    "optionA": "🏐 Sport",
-    "optionB": "🛀 Showers",
-    "optionC": "📱 look at smartphone",
-    "optionD": "🤳 Take Selfie"
+    "Friends": "",
+    "Couple": 1,
+    "siblings": "",
+    "OptionA": "💬 Text You",
+    "OptionB": "🛀 Showers",
+    "OptionC": "🏋️‍♀️ Exercise",
+    "OptionD": "🤳 Take Selfie"
   },
   {
-    "Question": "Which would xyz choose?",
-    "category": "couple",
-    "part1": "Which would",
+    "Question": "�� Which would xyz choose?",
+    "part1": "🌏 Which would",
     "part2": "choose?",
-    "optionA": "⛰️ Mountains",
-    "optionB": "🏖️ Beach",
-    "optionC": "🧊 Glacier",
-    "optionD": "🌲 Jungle"
-  },
-  {
-    "Question": "What is important for xyz?",
-    "category": "couple",
-    "part1": "What is important for",
-    "part2": "?",
-    "optionA": "💸 Money",
-    "optionB": "😎 Success",
-    "optionC": "🏥 Health",
-    "optionD": "👩‍❤️‍👨 Love"
+    "Friends": "",
+    "Couple": "",
+    "siblings": 1,
+    "OptionA": "⛰️ Mountains",
+    "OptionB": "🏖️ Beach",
+    "OptionC": "🧊 Glacier",
+    "OptionD": "🌲 Jungle"
   },
   {
     "Question": "�� How does xyz sleep?",
-    "category": "couple",
     "part1": "😴 How does",
     "part2": "sleep?",
-    "optionA": "on the stomach",
-    "optionB": "on the back",
-    "optionC": "on the side",
-    "optionD": "in sitting position"
+    "Friends": "",
+    "Couple": 1,
+    "siblings": "",
+    "OptionA": "🛌 On the stomach",
+    "OptionB": "🛌 On the back",
+    "OptionC": "🛌 On the side",
+    "OptionD": "🙇‍♀️ In sitting position"
   },
   {
     "Question": "�� What food does xyz hate?",
-    "category": "couple",
     "part1": "🤢 What food does",
     "part2": "hate?",
-    "optionA": "Broccoli",
-    "optionB": "Tomatoes",
-    "optionC": "🧀 Cheese",
-    "optionD": "Spinach"
+    "Friends": 1,
+    "Couple": 1,
+    "siblings": "",
+    "OptionA": "🍛 Broccoli",
+    "OptionB": "🥔 Tomatoes",
+    "OptionC": "🧀 Cheese",
+    "OptionD": "🍲 Spinach"
   },
   {
     "Question": "�� What is the most exciting animal to see at the zoo for xyz?",
-    "category": "couple",
     "part1": "🐻 What is the most exciting animal to see at the zoo for",
     "part2": "?",
-    "optionA": "🐒 Monkey",
-    "optionB": "🐅 Tiger",
-    "optionC": "🦒 Giraffe",
-    "optionD": "🦜 Parrot"
+    "Friends": 1,
+    "Couple": "",
+    "siblings": 1,
+    "OptionA": "🐒 Monkey",
+    "OptionB": "🐅 Tiger",
+    "OptionC": "🦒 Giraffe",
+    "OptionD": "🐍 Snake"
   },
   {
-    "Question": "😔 When sad or upset, what is the best way to comfort xyz?",
-    "category": "couple",
-    "part1": "😔 When sad or upset, what is the best way to comfort",
-    "part2": "?",
-    "optionA": "☕ Talking over a cup of coffee",
-    "optionB": "🛒 Going shopping",
-    "optionC": "🍷 Going for a drink",
-    "optionD": "🎥 Watching a movie"
+    "Question": "😔 When sad or upset, what xyz wants most?",
+    "part1": "😔 When sad or upset, what",
+    "part2": "wants most?",
+    "Friends": 1,
+    "Couple": "",
+    "siblings": 1,
+    "OptionA": "☕ Talking over a cup of coffee",
+    "OptionB": "😴 Sleep",
+    "OptionC": "🗣️ Talk to someone",
+    "OptionD": "🎥 Watching a movie"
+  },
+  {
+    "Question": "😔 When sad or upset, what xyz wants most?",
+    "part1": "😔 When sad or upset, what",
+    "part2": "wants most?",
+    "Friends": "",
+    "Couple": 1,
+    "siblings": "",
+    "OptionA": "☕ Talking over a cup of coffee",
+    "OptionB": "🛒 Going shopping",
+    "OptionC": "🗣️ Talk to you",
+    "OptionD": "🎥 Watching a movie"
   },
   {
     "Question": "�� What would xyz dare to try?",
-    "category": "couple",
     "part1": "😎 What would",
     "part2": "dare to try?",
-    "optionA": "Bungee jump",
-    "optionB": "Balloon flight",
-    "optionC": "Parachute jump",
-    "optionD": "Wild roller coaster"
+    "Friends": 1,
+    "Couple": 1,
+    "siblings": 1,
+    "OptionA": "😨 Bungee jump",
+    "OptionB": "😱 Balloon flight",
+    "OptionC": "😨 Parachute jump",
+    "OptionD": "🎢 Wild roller coaster"
   },
   {
-    "Question": "What app does xyz use most often?",
-    "category": "couple",
-    "part1": "What app does",
+    "Question": "�� What app does xyz use most often?",
+    "part1": "📱 What app does",
     "part2": "use most often?",
-    "optionA": "Instagram",
-    "optionB": "WhatsApp",
-    "optionC": "Facebook",
-    "optionD": "Snapchat"
-  },
-  {
-    "Question": "�� During which month is xyz's birthday?",
-    "category": "couple",
-    "part1": "🎂 During which month is",
-    "part2": "s birthday?",
-    "optionA": "January, February, or March",
-    "optionB": "April, May, or June",
-    "optionC": "July, August, or September",
-    "optionD": "October, November, or December"
+    "Friends": 1,
+    "Couple": 1,
+    "siblings": 1,
+    "OptionA": "📱 Instagram",
+    "OptionB": "📱 WhatsApp",
+    "OptionC": "📱 Facebook",
+    "OptionD": "📱 Snapchat"
   },
   {
     "Question": "�� What can xyz cook?",
-    "category": "couple",
     "part1": "🍲 What can",
     "part2": "cook?",
-    "optionA": "Some sophisticated dish I don't even know the name of",
-    "optionB": "Pasta",
-    "optionC": "Anything you'll ask for!",
-    "optionD": "Tea maybe..."
+    "Friends": 1,
+    "Couple": "",
+    "siblings": 1,
+    "OptionA": "🍘 Some sophisticated dish I don't even know the name of",
+    "OptionB": "🍲 Pasta",
+    "OptionC": "🍱 Anything you'll ask for!",
+    "OptionD": "☕ Tea maybe..."
+  },
+  {
+    "Question": "�� What can xyz cook for you?",
+    "part1": "🍲 What can",
+    "part2": "cook for you?",
+    "Friends": "",
+    "Couple": 1,
+    "siblings": "",
+    "OptionA": "🍘 Some sophisticated dish I don't even know the name of",
+    "OptionB": "🍱 Anything you'll ask for!",
+    "OptionC": "☕ Tea maybe...",
+    "OptionD": "🚫 Nothing"
   },
   {
     "Question": "�� What is xyz's biggest fear?",
-    "category": "couple",
     "part1": "😨 What is",
     "part2": "s biggest fear?",
-    "optionA": "cockroach",
-    "optionB": "Snake",
-    "optionC": "Blood",
-    "optionD": "Flying"
+    "Friends": 1,
+    "Couple": "",
+    "siblings": 1,
+    "OptionA": "🦗 Cockroach",
+    "OptionB": "🐍 Snake",
+    "OptionC": "🩸 Blood",
+    "OptionD": "🐕 Dog"
   },
   {
-    "Question": "�� What would xyz spend money from the lottery most likely on?",
-    "category": "couple",
-    "part1": "💰 What would",
+    "Question": "�� What is xyz's biggest fear?",
+    "part1": "😨 What is",
+    "part2": "s biggest fear?",
+    "Friends": "",
+    "Couple": 1,
+    "siblings": "",
+    "OptionA": "💞 You",
+    "OptionB": "🦗 Cockroach",
+    "OptionC": "🐍 Snake",
+    "OptionD": "🐕 Dog"
+  },
+  {
+    "Question": "�� Where would xyz spend money from the lottery most likely on?",
+    "part1": "🎰 Where would",
     "part2": "spend money from the lottery most likely on?",
-    "optionA": "Traveling",
-    "optionB": "Food",
-    "optionC": "Designer clothes",
-    "optionD": "No spending, just investing"
+    "Friends": 1,
+    "Couple": 1,
+    "siblings": 1,
+    "OptionA": "✈️ Traveling",
+    "OptionB": "🍲 Food",
+    "OptionC": "👗 Designer clothes",
+    "OptionD": "🏦 No spending, just investing"
   },
   {
     "Question": "�� What's the perfect birthday celebration for xyz?",
-    "category": "couple",
     "part1": "🥳 What's the perfect birthday celebration for",
     "part2": "?",
-    "optionA": "Big house party",
-    "optionB": "A night out with friends",
-    "optionC": "Surprise party",
-    "optionD": "Candlelight dinner with a boyfriend/girlfriend"
+    "Friends": 1,
+    "Couple": "",
+    "siblings": 1,
+    "OptionA": "🏤 Big house party",
+    "OptionB": "🌚 A night out with friends",
+    "OptionC": "🎷 Surprise party",
+    "OptionD": "🥳 A small party with close friends"
+  },
+  {
+    "Question": "�� What's the perfect birthday celebration for xyz?",
+    "part1": "🥳 What's the perfect birthday celebration for",
+    "part2": "?",
+    "Friends": "",
+    "Couple": 1,
+    "siblings": "",
+    "OptionA": "🏤 Big house party",
+    "OptionB": "🌚 A night out with you",
+    "OptionC": "🤤 Spending quality night with you",
+    "OptionD": "🕯️ 🍽️ Candlelight dinner with you"
   },
   {
     "Question": "��‍♂️ What kind of addiction xyz might fall into one day?",
-    "category": "couple",
     "part1": "🤦‍♂️ What kind of addiction",
     "part2": "might fall into one day?",
-    "optionA": "Alcohol",
-    "optionB": "Gaming",
-    "optionC": "Shopping",
-    "optionD": "Gambling"
+    "Friends": 1,
+    "Couple": 1,
+    "siblings": 1,
+    "OptionA": "🥃 Alcohol",
+    "OptionB": "🎮 Gaming",
+    "OptionC": "🛒 Shopping",
+    "OptionD": "♣️ Gambling"
   },
   {
     "Question": "�� What talent does xyz have?",
-    "category": "couple",
     "part1": "😎 What talent does",
     "part2": "have?",
-    "optionA": "Drawing",
-    "optionB": "Dancing",
-    "optionC": "Singing",
-    "optionD": "making people fool"
+    "Friends": 1,
+    "Couple": "",
+    "siblings": 1,
+    "OptionA": "🎴 Drawing",
+    "OptionB": "💃 Dancing",
+    "OptionC": "🎻 Singing",
+    "OptionD": "🤹🏻‍♂️ Making people fool"
   },
   {
-    "Question": "⏲️ If xyz got a time machine, where he go first?",
-    "category": "couple",
+    "Question": "⏲️ If xyz got a time machine, what will he/she do first?",
     "part1": "⏲️ If",
-    "part2": "got a time machine, where he go first?",
-    "optionA": "Future",
-    "optionB": "Past",
-    "optionC": "don't use it",
-    "optionD": "give it to you"
+    "part2": "got a time machine, what will he/she do first?",
+    "Friends": 1,
+    "Couple": "",
+    "siblings": 1,
+    "OptionA": "⏭️ Future",
+    "OptionB": "⏮️ Past",
+    "OptionC": "©️ Patent it",
+    "OptionD": "🚫 Don't use it"
   },
   {
     "Question": "�� What magical power would xyz like to possess?",
-    "category": "couple",
     "part1": "💪 What magical power would",
     "part2": "like to possess?",
-    "optionA": "Time Control",
-    "optionB": "Mind reading",
-    "optionC": "teleportation",
-    "optionD": "hypnotize"
+    "Friends": 1,
+    "Couple": "",
+    "siblings": 1,
+    "OptionA": "🕐 Time Control",
+    "OptionB": "🧠 Mind reading",
+    "OptionC": "💺 Teleportation",
+    "OptionD": "🙅‍♀️ Object Control"
   },
   {
-    "Question": "�� What type of movies does xyz like?",
-    "category": "couple",
-    "part1": "🎥 What type of movies does",
-    "part2": "like?",
-    "optionA": "Horror",
-    "optionB": "Romance",
-    "optionC": "Comedy",
-    "optionD": "Thriller"
+    "Question": "�� What matters most in xyz life?",
+    "part1": "😎 What matters most in",
+    "part2": "life?",
+    "Friends": 1,
+    "Couple": "",
+    "siblings": 1,
+    "OptionA": "💸 Money",
+    "OptionB": "👨‍👩‍👧‍👦 Family",
+    "OptionC": "🤝 Friendship",
+    "OptionD": "🩺 Health"
   },
   {
-    "Question": "�� What matters most in your life?",
-    "category": "couple",
+    "Question": "�� What matters most in xyz life?",
+    "part1": "😎 What matters most in",
+    "part2": "life?",
+    "Friends": "",
+    "Couple": 1,
+    "siblings": "",
+    "OptionA": "💸 Money",
+    "OptionB": "👨‍👩‍👧‍👦 Family",
+    "OptionC": "🤝 Friendship",
+    "OptionD": "💗 You"
+  },
+  {
+    "Question": "�� What is more important for xyz than you?",
+    "part1": "😎 What is more important for",
+    "part2": "than you?",
+    "Friends": "",
+    "Couple": 1,
+    "siblings": "",
+    "OptionA": "💸 Money",
+    "OptionB": "👨‍👩‍👧‍👦 Family",
+    "OptionC": "🤝 Friendship",
+    "OptionD": "🩺 Health"
+  },
+  {
+    "Question": "�� What is more important for xyz than you?",
+    "part1": "😎 What is more important for",
+    "part2": "than you?",
+    "Friends": 1,
+    "Couple": "",
+    "siblings": "",
+    "OptionA": "💸 Money",
+    "OptionB": "👨‍👩‍👧‍👦 Family",
+    "OptionC": "🤝 Love",
+    "OptionD": "🩺 Health"
+  },
+  {
+    "Question": "�� What is xyz favorite slang term in electronic communications?",
     "part1": "🤨 What is",
-    "part2": "s favorite slang term in electronic communications?",
-    "optionA": "Money",
-    "optionB": "Family",
-    "optionC": "Friendship",
-    "optionD": "Health"
-  },
-  {
-    "Question": "�� What is xyz's favorite slang term in electronic communications?",
-    "category": "couple",
-    "part1": "🎥 Who is",
-    "part2": "s favorite Bollywood actor?",
-    "optionA": "OMG",
-    "optionB": "IDK",
-    "optionC": "WTF?",
-    "optionD": "LOL"
+    "part2": "favorite slang term in electronic communications?",
+    "Friends": 1,
+    "Couple": 1,
+    "siblings": 1,
+    "OptionA": "🙆‍♀️ OMG",
+    "OptionB": "🤷‍♀️ IDK",
+    "OptionC": "🤬 WTF?",
+    "OptionD": "🤦‍♀️ LOL"
   },
   {
     "Question": "�� Who is xyz's favorite Bollywood actor?",
-    "category": "couple",
     "part1": "🎥 Who is",
-    "part2": "s favorite Bollywood actress?",
-    "optionA": "Shah Rukh Khan",
-    "optionB": "Hrithik Roshan",
-    "optionC": "Amir khan",
-    "optionD": "Kartik Aaryan"
+    "part2": "s favorite Bollywood actor?",
+    "Friends": 1,
+    "Couple": "",
+    "siblings": 1,
+    "OptionA": "👱‍♂️ Shah Rukh Khan",
+    "OptionB": "👱‍♂️ Hrithik Roshan",
+    "OptionC": "👱‍♂️ Amir khan",
+    "OptionD": "👱‍♂️ Kartik Aaryan"
   },
   {
     "Question": "�� Who is xyz's favorite Bollywood actress?",
-    "category": "couple",
-    "part1": "🎥 If",
-    "part2": "s life was a movie, which movie would you choose?",
-    "optionA": "Disha Patani",
-    "optionB": "Kareena Kapoor",
-    "optionC": "Katrina Kaif",
-    "optionD": "Kriti Sanon"
+    "part1": "🎥 Who is",
+    "part2": "s favorite Bollywood actress?",
+    "Friends": 1,
+    "Couple": "",
+    "siblings": 1,
+    "OptionA": "👱‍♀️ Disha Patani",
+    "OptionB": "👱‍♀️ Kareena Kapoor",
+    "OptionC": "👱‍♀️ Katrina Kaif",
+    "OptionD": "👱‍♀️ Kriti Sanon"
   },
   {
-    "Question": "🎥 If xyz's life was a movie, which movie would you choose?",
-    "category": "couple",
-    "part1": "🏫 How many schools has",
-    "part2": "gone to?",
-    "optionA": "Dil Wale Dulhaniya Le Jayenge",
-    "optionB": "Gangs of Wasseypur",
-    "optionC": "Shershaah",
-    "optionD": "Kabir Singh"
+    "Question": "🎥 If xyz's life was a movie, which movie would You choose?",
+    "part1": "🎥 If",
+    "part2": "s life was a movie, which movie would You choose?",
+    "Friends": 1,
+    "Couple": "",
+    "siblings": 1,
+    "OptionA": "👰‍♀ Dil Wale Dulhaniya Le Jayenge",
+    "OptionB": "🧔 Gangs of Wasseypur",
+    "OptionC": "👮‍♂️ Shershaah",
+    "OptionD": "🧑‍⚕️ Kabir Singh"
   },
   {
     "Question": "�� How many schools has xyz gone to?",
-    "category": "couple",
-    "part1": "💀 If",
-    "part2": "could be a cartoon character for a day, who would it be?",
-    "optionA": 1,
-    "optionB": 2,
-    "optionC": 3,
-    "optionD": 4
+    "part1": "🏫 How many schools has",
+    "part2": "gone to?",
+    "Friends": 1,
+    "Couple": "",
+    "siblings": 1,
+    "OptionA": "1️⃣ One",
+    "OptionB": "2️⃣ Two",
+    "OptionC": "3️⃣ Three",
+    "OptionD": "4️⃣ Four"
   },
   {
     "Question": "💀 If xyz could be a cartoon character for a day, who would it be?",
-    "category": "couple",
-    "part1": "🍲 If",
-    "part2": "had to eat the same food for dinner every day, what would he pick?",
-    "optionA": "Tom Cat",
-    "optionB": "Jerry Mouse",
-    "optionC": "Daffy Duck",
-    "optionD": "Mickey Mouse"
+    "part1": "💀 If",
+    "part2": "could be a cartoon character for a day, who would it be?",
+    "Friends": 1,
+    "Couple": "",
+    "siblings": 1,
+    "OptionA": "😎 Johny Bravo",
+    "OptionB": "🤓 Minion",
+    "OptionC": "🦝 Smurf",
+    "OptionD": "❄️ Elsa (Frozen)"
   },
   {
     "Question": "🍲 If xyz had to eat the same food for dinner every day, what would he pick?",
-    "category": "couple",
-    "part1": "🧑‍🤝‍🧑",
-    "part2": "is?",
-    "optionA": "Burger",
-    "optionB": "Sushi",
-    "optionC": "Pizza",
-    "optionD": "Burrito"
+    "part1": "🍲 If",
+    "part2": "had to eat the same food for dinner every day, what would he pick?",
+    "Friends": 1,
+    "Couple": 1,
+    "siblings": 1,
+    "OptionA": "🍔 Burger",
+    "OptionB": "🍲 Sushi",
+    "OptionC": "🍕 Pizza",
+    "OptionD": "🍗 Chicken"
   },
   {
     "Question": "��‍🤝‍🧑 xyz is?",
-    "category": "couple",
+    "part1": "🧑‍🤝‍🧑",
+    "part2": "is?",
+    "Friends": 1,
+    "Couple": "",
+    "siblings": 1,
+    "OptionA": "🧍‍♀️ Single",
+    "OptionB": "👫 Taken",
+    "OptionC": "💔 Heartbroken",
+    "OptionD": "🧍‍♂️🤤 Playboy/ 🧍‍♀️🤤 Playgirl"
+  },
+  {
+    "Question": "�� Is xyz a?",
     "part1": "🎃 Is",
-    "part2": "a ?",
-    "optionA": "Single",
-    "optionB": "Taken",
-    "optionC": "heartbroken",
-    "optionD": "playboy"
+    "part2": "a?",
+    "Friends": 1,
+    "Couple": "",
+    "siblings": 1,
+    "OptionA": "🌝 Morning Person",
+    "OptionB": "🌚 NightOwl",
+    "OptionC": "🌗 Both",
+    "OptionD": "🌗 None"
   },
   {
-    "Question": "�� Is xyz a ?",
-    "category": "couple",
+    "Question": "🧛‍♂️ If xyz meets a genie, what would he/she wish?",
     "part1": "🧛‍♂️ If",
-    "part2": "meets a genie, what would be sadfasfd's wish?",
-    "optionA": "Morning Person",
-    "optionB": "NightOwl",
-    "optionC": "Both",
-    "optionD": "None"
-  },
-  {
-    "Question": "🧛‍♂️ If xyz meets a genie, what would be sadfasfd's wish?",
-    "category": "couple",
-    "part1": "🧑‍🤝‍🧑 Does",
-    "part2": "want his/her wife/husband to be the Hottest or the Smartest?",
-    "optionA": "💸 Rs100 crore",
-    "optionB": "💑 Beautiful wife/Handsome Husband",
-    "optionC": "👑 To be the king of the world",
-    "optionD": "Reduce his age upto 20 years"
+    "part2": "meets a genie, what would he/she wish?",
+    "Friends": 1,
+    "Couple": "",
+    "siblings": 1,
+    "OptionA": "💸 Rs100 crore",
+    "OptionB": "💑 Beautiful wife/Handsome Husband",
+    "OptionC": "👑 To be the king of the world",
+    "OptionD": "👶 Reduce his age upto 20 years"
   },
   {
     "Question": "��‍🤝‍🧑 Does xyz want his/her wife/husband to be the Hottest or the Smartest?",
-    "category": "couple",
-    "part1": "✈️ Where would",
-    "part2": "like to go with his/her life partner?",
-    "optionA": "💖 The Hottest",
-    "optionB": "😏 The Smartest",
-    "optionC": "Beauty Queen",
-    "optionD": "Average"
+    "part1": "🧑‍🤝‍🧑 Does",
+    "part2": "want his/her wife/husband to be the Hottest or the Smartest?",
+    "Friends": 1,
+    "Couple": "",
+    "siblings": 1,
+    "OptionA": "😎 The Hottest",
+    "OptionB": "👩‍💼 The Smartest",
+    "OptionC": "👸 Beauty Queen/ 🤴 King",
+    "OptionD": "👩‍⚕️ Doctor"
   },
   {
     "Question": "✈️ Where would xyz like to go with his/her life partner?",
-    "category": "couple",
-    "part1": "🧑‍🤝‍🧑 Where would",
-    "part2": "like to go with",
-    "optionA": "🏂 Manali",
-    "optionB": "🏖 Goa",
-    "optionC": "🏔 Leh and Ladakh",
-    "optionD": "⛄ Shimla"
+    "part1": "✈️ Where would",
+    "part2": "like to go with his/her life partner?",
+    "Friends": 1,
+    "Couple": "",
+    "siblings": "",
+    "OptionA": "🏂 Manali",
+    "OptionB": "🏖 Goa",
+    "OptionC": "🏝 Bali",
+    "OptionD": "🗼 Paris"
   },
   {
-    "Question": "��‍🤝‍🧑 Where would xyz like to go with xyz's soulmate?",
-    "category": "couple",
-    "part1": "like to go with",
-    "part2": "s soulmate?",
-    "optionA": "🗼 Paris",
-    "optionB": "🏝 Bali",
-    "optionC": "🏞 Maldives",
-    "optionD": "🌉 Venice"
-  },
-  {
-    "Question": "�� What xyz likes about himself/herself?",
-    "category": "couple",
-    "part1": "🙃 What",
-    "part2": "likes about himself/herself?",
-    "optionA": "Looks",
-    "optionB": "Attitude",
-    "optionC": "Height",
-    "optionD": "Beard"
+    "Question": "✈️ Where would xyz like to go with you?",
+    "part1": "✈️ Where would",
+    "part2": "like to go with you?",
+    "Friends": "",
+    "Couple": 1,
+    "siblings": "",
+    "OptionA": "🏂 Manali",
+    "OptionB": "🏖 Goa",
+    "OptionC": "🏝 Bali",
+    "OptionD": "🗼 Paris"
   },
   {
     "Question": "��️ Which website xyz often visit?",
-    "category": "couple",
     "part1": "🖥️ Which website",
     "part2": "often visit?",
-    "optionA": "Socal media sites",
-    "optionB": "Google",
-    "optionC": "Dating sites",
-    "optionD": "Porn Sites"
+    "Friends": 1,
+    "Couple": 1,
+    "siblings": "",
+    "OptionA": "💬 Social media sites",
+    "OptionB": "🔍 Google",
+    "OptionC": "💗 Dating sites",
+    "OptionD": "🔞 Porn Sites"
   },
   {
-    "Question": "How often xyz watch porn",
-    "category": "couple",
-    "part1": "How often",
-    "part2": "watch porn",
-    "optionA": "daily",
-    "optionB": "weekly",
-    "optionC": "twice a day",
-    "optionD": "never"
+    "Question": "✊ How often xyz watch porn?",
+    "part1": "✊ How often",
+    "part2": "watch porn?",
+    "Friends": "",
+    "Couple": 1,
+    "siblings": "",
+    "OptionA": "🤤 Daily",
+    "OptionB": "🤤 Weekly",
+    "OptionC": "🤤 Twice a day",
+    "OptionD": "🚫 Never"
   },
   {
-    "Question": "which part of your body xyz likes more",
-    "category": "couple",
-    "part1": "which part of your body",
-    "part2": "likes more",
-    "optionA": "face",
-    "optionB": "chest",
-    "optionC": "back",
-    "optionD": "legs"
+    "Question": "��‍♀️ Which part of your body xyz likes more?",
+    "part1": "🧍‍♀️ Which part of your body",
+    "part2": "likes more?",
+    "Friends": "",
+    "Couple": 1,
+    "siblings": "",
+    "OptionA": "👤 Face",
+    "OptionB": "👙 Chest",
+    "OptionC": "🍑 Ass",
+    "OptionD": "👀 Eye"
   },
   {
-    "Question": "how many Ex xyz have",
-    "category": "couple",
-    "part1": "how many Ex",
-    "part2": "have",
-    "optionA": "Zero",
-    "optionB": "one",
-    "optionC": "two",
-    "optionD": "three"
+    "Question": "�� How many Ex xyz had?",
+    "part1": "💔 How many Ex",
+    "part2": "had?",
+    "Friends": 1,
+    "Couple": 1,
+    "siblings": 1,
+    "OptionA": "0️⃣ Zero",
+    "OptionB": "1️⃣ One",
+    "OptionC": "2️⃣ Two",
+    "OptionD": "3️⃣ Three"
   },
   {
-    "Question": "acording to xyz what is the best place for sex",
-    "category": "couple",
-    "part1": "acording to",
-    "part2": "what is the best place for sex",
-    "optionA": "Bedroom",
-    "optionB": "bathroom",
-    "optionC": "kitchen",
-    "optionD": "public place"
+    "Question": "�� According to xyz what is the best place for sex?",
+    "part1": "👫 According to",
+    "part2": "what is the best place for sex?",
+    "Friends": "",
+    "Couple": 1,
+    "siblings": "",
+    "OptionA": "🛋️ Couch",
+    "OptionB": "🚿 Bathroom",
+    "OptionC": "🥘 Kitchen",
+    "OptionD": "🅿️ Parking"
   },
   {
-    "Question": "last time when xyz have deram about you",
-    "category": "couple",
-    "part1": "last time when",
-    "part2": "have deram about you",
-    "optionA": "last night",
-    "optionB": "today",
-    "optionC": "week ago",
-    "optionD": "month ago"
+    "Question": "�� The last time when xyz have dreamed about you?",
+    "part1": "💭 The last time when",
+    "part2": "have dreamed about you?",
+    "Friends": "",
+    "Couple": 1,
+    "siblings": "",
+    "OptionA": "🕚 Last night",
+    "OptionB": "📅 Today",
+    "OptionC": "🗓️ Week ago",
+    "OptionD": "🗓️ Month ago"
   },
   {
-    "Question": "what xyz most want form you",
-    "category": "couple",
-    "part1": "what",
-    "part2": "most want form you",
-    "optionA": "romance",
-    "optionB": "sex",
-    "optionC": "friendship",
-    "optionD": "money"
+    "Question": "�� What xyz most want from you?",
+    "part1": "😝 What",
+    "part2": "most want from you?",
+    "Friends": "",
+    "Couple": 1,
+    "siblings": "",
+    "OptionA": "👩‍❤️‍💋‍👨 Romance",
+    "OptionB": "🤤 Sex",
+    "OptionC": "🕐 Time",
+    "OptionD": "💸 Life-time commitment"
   },
   {
-    "Question": "when last time xyz say sorry to you",
-    "category": "couple",
-    "part1": "when last time",
-    "part2": "say sorry to you",
-    "optionA": "in this week",
-    "optionB": "in this month",
-    "optionC": "today",
-    "optionD": "never"
+    "Question": "��‍♀️ When last time xyz say sorry to you?",
+    "part1": "🙇‍♀️ When last time",
+    "part2": "say sorry to you?",
+    "Friends": "",
+    "Couple": 1,
+    "siblings": "",
+    "OptionA": "🗓️ In this week",
+    "OptionB": "🗓️ In this month",
+    "OptionC": "📅 Today",
+    "OptionD": "🚫 Never"
   },
   {
-    "Question": "Where is xyz favorite spot to be kissed?",
-    "category": "couple",
-    "part1": "Where is",
+    "Question": "�� Where is xyz favorite spot to be kissed?",
+    "part1": "💋 Where is",
     "part2": "favorite spot to be kissed?",
-    "optionA": "forehead",
-    "optionB": "lips",
-    "optionC": "hand",
-    "optionD": "boobs"
+    "Friends": "",
+    "Couple": 1,
+    "siblings": "",
+    "OptionA": "👱‍♀️ Forehead",
+    "OptionB": "👄 lips",
+    "OptionC": "💪 Hand",
+    "OptionD": "(.)(.) Boobs"
   },
   {
-    "Question": "Where is xyz favorite spot to kiss?",
-    "category": "couple",
-    "part1": "Where is",
+    "Question": "�� Where is xyz favorite spot to kiss?",
+    "part1": "💋 Where is",
     "part2": "favorite spot to kiss?",
-    "optionA": "forehead",
-    "optionB": "lips",
-    "optionC": "hand",
-    "optionD": "boobs"
+    "Friends": "",
+    "Couple": 1,
+    "siblings": "",
+    "OptionA": "👱‍♀️ Forehead",
+    "OptionB": "👄 lips",
+    "OptionC": "💪 Hand",
+    "OptionD": "(.)(.) Boobs"
   },
   {
-    "Question": "when did xyz realie he/she likes you",
-    "category": "couple",
-    "part1": "when did",
-    "part2": "realie he/she likes you",
-    "optionA": "six month ago",
-    "optionB": "a year ago",
-    "optionC": "first time he/she saw you",
-    "optionD": "not remember"
+    "Question": "��‍❤️‍💋‍👨 When did xyz realize he/she likes you?",
+    "part1": "👩‍❤️‍💋‍👨 When did",
+    "part2": "realize he/she likes you?",
+    "Friends": "",
+    "Couple": 1,
+    "siblings": "",
+    "OptionA": "6️⃣ Six months ago",
+    "OptionB": "1️⃣2️⃣ A year ago",
+    "OptionC": "▶️ Love at first site",
+    "OptionD": "🤔 Not remember"
   },
   {
-    "Question": "At what age did xyz lose virginity?",
-    "category": "couple",
-    "part1": "At what age did",
+    "Question": "�� At what age did xyz lose virginity?",
+    "part1": "🤤 At what age did",
     "part2": "lose virginity?",
-    "optionA": "16 years",
-    "optionB": "20 years",
-    "optionC": "20+ years",
-    "optionD": "still a virgin"
+    "Friends": "",
+    "Couple": 1,
+    "siblings": "",
+    "OptionA": "1️⃣6️⃣ 16 years",
+    "OptionB": "2️⃣0️⃣ 20 years",
+    "OptionC": "2️⃣0️⃣➕ 20+ years",
+    "OptionD": "❌ Still a virgin"
   },
   {
-    "Question": "How many people have xyz slept with?",
-    "category": "couple",
-    "part1": "How many people have",
+    "Question": "�� How many people have xyz slept with?",
+    "part1": "🛌 How many people have",
     "part2": "slept with?",
-    "optionA": "only with you",
-    "optionB": "5+",
-    "optionC": 2,
-    "optionD": "no one"
+    "Friends": "",
+    "Couple": 1,
+    "siblings": "",
+    "OptionA": "❌ No one",
+    "OptionB": "⏹️ Only with you",
+    "OptionC": "2️⃣ Two",
+    "OptionD": "5️⃣➕ 5+"
   },
   {
-    "Question": "What must a perfect evening have?",
-    "category": "couple",
-    "part1": "What must a perfect evening have?",
-    "part2": "",
-    "optionA": "🕺 Visit a club",
-    "optionB": "🎥 Watch a movie with friends",
-    "optionC": "Watch Sports on TV",
-    "optionD": "🍽️ Candlelight dinner"
+    "Question": "�� How many people have xyz slept with?",
+    "part1": "🛌 How many people have",
+    "part2": "slept with?",
+    "Friends": 1,
+    "Couple": "",
+    "siblings": "",
+    "OptionA": "0️⃣ Zero",
+    "OptionB": "1️⃣ One",
+    "OptionC": "2️⃣ Two",
+    "OptionD": "3️⃣ Three"
   },
   {
-    "Question": "Who is most important?",
-    "category": "couple",
-    "part1": "Who is most important?",
+    "Question": "🌏 If we could be together anywhere right now, where would it be?",
+    "part1": "🌏 If we could be together anywhere right now, where would it be?",
     "part2": "",
-    "optionA": "👪 Family",
-    "optionB": "🧑‍🤝‍🧑 Friends",
-    "optionC": "👫 Partner",
-    "optionD": "Someone else"
+    "Friends": "",
+    "Couple": 1,
+    "siblings": "",
+    "OptionA": "🗼 Top of Eiffel tower",
+    "OptionB": "🏕️ Hillside",
+    "OptionC": "🏪 OYO",
+    "OptionD": "🏖️ Beach"
   },
   {
-    "Question": "If we could be together anywhere right now, where would it be?",
-    "category": "couple",
-    "part1": "If we could be together anywhere right now, where would it be?",
+    "Question": "�� What must a perfect Evening have?",
+    "part1": "🌚 What must a perfect Evening have?",
     "part2": "",
-    "optionA": "Your place",
-    "optionB": "mountain",
-    "optionC": "OYO",
-    "optionD": "beach"
+    "Friends": "",
+    "Couple": 1,
+    "siblings": "",
+    "OptionA": "👩‍❤️‍💋‍👨 A good date",
+    "OptionB": "🌅 Romantic evening at beach",
+    "OptionC": "🚘 Long drive with you",
+    "OptionD": "🕯️🍽️ Candlelight dinner"
+  },
+  {
+    "Question": "�� What must a perfect Evening have?",
+    "part1": "🌚 What must a perfect Evening have?",
+    "part2": "",
+    "Friends": 1,
+    "Couple": "",
+    "siblings": 1,
+    "OptionA": "🕺 Visit a club",
+    "OptionB": "🎥 Watch a movie with friends",
+    "OptionC": "👩‍❤️‍💋‍👨 A good date",
+    "OptionD": "🕯️🍽️ Candlelight dinner"
+  },
+  {
+    "Question": "�� What must a perfect Night have?",
+    "part1": "🌚 What must a perfect Night have?",
+    "part2": "",
+    "Friends": "",
+    "Couple": 1,
+    "siblings": "",
+    "OptionA": "🏩 Awesome sex",
+    "OptionB": "🎥 Watch a movie with you",
+    "OptionC": "👩‍❤️‍💋‍👨 Spending quality time with you",
+    "OptionD": "🕯️🍽️ Candlelight dinner"
+  },
+  {
+    "Question": "�� What must a perfect Night have?",
+    "part1": "🌚 What must a perfect Night have?",
+    "part2": "",
+    "Friends": 1,
+    "Couple": "",
+    "siblings": 1,
+    "OptionA": "🕺 Visit a nightclub",
+    "OptionB": "🎥 Watch a movie",
+    "OptionC": "🎉 Party at restaurant",
+    "OptionD": "🌚 Night out"
+  },
+  {
+    "Question": "👥 If your body swap with opposite gender, what will be first thing you do?",
+    "part1": "👥 If your body swap with opposite gender, what will be first thing you do?",
+    "part2": "",
+    "Friends": 1,
+    "Couple": 1,
+    "siblings": "",
+    "OptionA": "💦 Self love",
+    "OptionB": "🧏‍♀️ Flirt with other",
+    "OptionC": "👊 Involve in fights",
+    "OptionD": "Check their phone📱 and social media account🔒"
+  },
+  {
+    "Question": "🕥 If you can send a message or a thing to yourself, 2 yr in past .What is it?",
+    "part1": "🕥 If you can send a message or a thing to yourself, 2 yr in past .What is it?",
+    "part2": "",
+    "Friends": 1,
+    "Couple": 1,
+    "siblings": 1,
+    "OptionA": "📈 Stock Market Data",
+    "OptionB": "📝 List of your mistakes",
+    "OptionC": "📊 Betting results",
+    "OptionD": "📑 Question Paper"
+  },
+  {
+    "Question": "👫 If you could only touch me in one place, where would it be",
+    "part1": "👫 If you could only touch me in one place, where would it be",
+    "part2": "",
+    "Friends": "",
+    "Couple": 1,
+    "siblings": "",
+    "OptionA": "👩 Face",
+    "OptionB": "(.)(.) Chest",
+    "OptionC": "🦵 Thighs",
+    "OptionD": "🍑 Ass"
   }
 ]
 
 
 
-def add_quizque():
-    try:
-        print("try quiz que")
-        if len(QuizQuestionBank.objects.all()):
-            print("quiz que already have que")
-            return 0
+def add_friend_quizque():
+	print("add_friend_quizque")
+	try:
+		if len(QuizQuestionBank.objects.all().filter(category='friends')):
+			print("add_friend_quizque already have que")
+			return 0
 
-        for data in QuizQue:
-            print("quiz que added")
-            QuizQuestionBank.objects.create(
-                category = data["category"],
-                part1 = data["part1"],
-                part2 = data["part2"],
-                optionA = data["optionA"],
-                optionB = data["optionB"],
-                optionC = data["optionC"],
-                optionD = data["optionD"],
-            )
-        print("try quiz que complete")
-    except:
-        print("except in quiz que")
-        pass
+		for data in QuizQue:
+			if data['Friends']==1:
+				print("add_friend_quizque added")
+				QuizQuestionBank.objects.create(
+					category = 'friends',
+					part1 = data["part1"],
+					part2 = data["part2"],
+					optionA = data["OptionA"],
+					optionB = data["OptionB"],
+					optionC = data["OptionC"],
+					optionD = data["OptionD"],
+				)
+		print("try add_friend_quizque complete")
+	except:
+		print("except in add_friend_quizque")
+		pass
 
+
+def add_couple_quizque():
+	print("add_couple_quizque")
+	try:
+		if len(QuizQuestionBank.objects.all().filter(category='couple')):
+			print("add_couple_quizque already have que")
+			return 0
+
+		for data in QuizQue:
+			if data['Couple']==1:
+				print("add_couple_quizque added")
+				QuizQuestionBank.objects.create(
+					category = 'couple',
+					part1 = data["part1"],
+					part2 = data["part2"],
+					optionA = data["OptionA"],
+					optionB = data["OptionB"],
+					optionC = data["OptionC"],
+					optionD = data["OptionD"],
+				)
+		print("try add_couple_quizque complete")
+	except:
+		print("except in add_couple_quizque")
+		pass
+
+
+def add_siblings_quizque():
+	print("add_siblings_quizque")
+	try:
+		if len(QuizQuestionBank.objects.all().filter(category='siblings')):
+			print("add_siblings_quizque already have que")
+			return 0
+
+		for data in QuizQue:
+			if data['siblings']==1:
+				print("add_siblings_quizque added")
+				QuizQuestionBank.objects.create(
+					category = 'siblings',
+					part1 = data["part1"],
+					part2 = data["part2"],
+					optionA = data["OptionA"],
+					optionB = data["OptionB"],
+					optionC = data["OptionC"],
+					optionD = data["OptionD"],
+				)
+		print("try add_siblings_quizque complete")
+	except:
+		print("except in add_siblings_quizque")
+		pass
 
 
 def add_data():
-    print("Quiz")
-    add_quizque()
+    print("\nQuiz")
+    add_friend_quizque()
+    add_couple_quizque()
+    add_siblings_quizque()

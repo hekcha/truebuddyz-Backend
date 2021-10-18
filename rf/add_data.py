@@ -8,2004 +8,1220 @@ from .models import *
 
 RfQue=[
   {
-    "que": "according to you who have more money with him right now",
-    "category": "friends"
+    "que": "Who’s most likely to spend hours⏲️ in the bathroom🛀?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "if you can steal any one thing, who's that thing",
-    "category": "friends"
+    "que": "Whom do you tell your secret🤫 first?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "If you could slap one person and get away with it, who would it be?",
-    "category": "friends"
+    "que": "Who’s most likely to eat without brushing🪥 their teeth😬?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "if you have super power to read any one's mind, whose mind you read",
-    "category": "friends"
+    "que": "Who hesitates while paying 🧾 bills?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "The most naughty boy/girl in your circle",
-    "category": "friends"
+    "que": "Who always starts sexting?💬🤭",
+    "Friends": "",
+    "Couples": 1,
+    "Siblings": ""
   },
   {
-    "que": "who always say sorry first",
-    "category": "friends"
+    "que": "Who’s most likely to sell your kidney🤑💰?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": ""
   },
   {
-    "que": "Who among you is the most funny one?",
-    "category": "friends"
+    "que": "Who’s more likely to become a vegan🥦🌿?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who annoys you the most?",
-    "category": "friends"
+    "que": "Who is very talkative🗣️?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "who argu more",
-    "category": "friends"
+    "que": "Who says sorry🙇🏻first?",
+    "Friends": "",
+    "Couples": 1,
+    "Siblings": ""
   },
   {
-    "que": "who ask more questions",
-    "category": "friends"
+    "que": "Who is always hungry😋?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "who attract with opposit gender least",
-    "category": "friends"
+    "que": "Who proposed👩‍❤️‍💋‍👨 first?",
+    "Friends": "",
+    "Couples": 1,
+    "Siblings": ""
   },
   {
-    "que": "who attract with opposit gender most",
-    "category": "friends"
+    "que": "Who talks with the opposite gender👫 the most?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "who call often",
-    "category": "friends"
+    "que": "Who put the whole gang in trouble🥴?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "who can do any think for you",
-    "category": "friends"
+    "que": "Who is better at planning surprises🎉?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "who drink alcohol first in your group",
-    "category": "friends"
+    "que": "Who’s most likely to have an affair👩‍❤️‍👨?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "who drive fast",
-    "category": "friends"
+    "que": "Who cares🤗 more?",
+    "Friends": "",
+    "Couples": 1,
+    "Siblings": ""
   },
   {
-    "que": "who eat more",
-    "category": "friends"
+    "que": "Who’s most likely to copy birthday🎁 quotes from the internet🖧?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "who fight more",
-    "category": "friends"
+    "que": "Who tags you the most on social media🤳?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "who got engaged first",
-    "category": "friends"
+    "que": "Who’s most likely to set up a romantic date❤️✨?",
+    "Friends": "",
+    "Couples": 1,
+    "Siblings": ""
   },
   {
-    "que": "who have baby first",
-    "category": "friends"
+    "que": "Who’s most likely to obsess😍😍 over a celebrity?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "who have job first",
-    "category": "friends"
+    "que": "Who is more romantic❤️?",
+    "Friends": "",
+    "Couples": 1,
+    "Siblings": ""
   },
   {
-    "que": "who have maximum contacts with opposit gender",
-    "category": "friends"
+    "que": "Who throws maximum tantrums😳?",
+    "Friends": "",
+    "Couples": 1,
+    "Siblings": ""
   },
   {
-    "que": "who have more complain about life",
-    "category": "friends"
+    "que": "Who is always late⌚🏃?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "who have more complain about you",
-    "category": "friends"
+    "que": "Whose family most likely to accept you💖",
+    "Friends": "",
+    "Couples": 1,
+    "Siblings": ""
   },
   {
-    "que": "who have most expencive phone",
-    "category": "friends"
+    "que": "Who’s most likely to have the most unread Emails/Messages✉️?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "who have to give you money",
-    "category": "friends"
+    "que": "Who’s most likely to leave the unwashed plates🍽️ for days?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": ""
   },
   {
-    "que": "Who is a good gamer?",
-    "category": "friends"
+    "que": "Who’s most likely to be caught on CCTV📹 doing something stupid?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "who is bad at barganing",
-    "category": "friends"
+    "que": "Who’s most likely to order the cheapest item on the menu📃?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "who is good at barganing",
-    "category": "friends"
+    "que": "Who was the first to fall in love💕?",
+    "Friends": "",
+    "Couples": 1,
+    "Siblings": ""
   },
   {
-    "que": "who is good at calculations",
-    "category": "friends"
+    "que": "Who’s most likely to flirts with one of the groomsmen/bridesmaids😜?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": ""
   },
   {
-    "que": "Who is good at keeping secrets?",
-    "category": "friends"
+    "que": "Who’s most likely to remain single forever😜?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": ""
   },
   {
-    "que": "who is least disciplined",
-    "category": "friends"
+    "que": "Who is very moody😳?",
+    "Friends": "",
+    "Couples": 1,
+    "Siblings": ""
   },
   {
-    "que": "who is least mature",
-    "category": "friends"
+    "que": "Who’s most likely to crash their ex’s wedding👰?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "who is least politically active",
-    "category": "friends"
+    "que": "Who’s most likely to spend all their money💸 on clothes👚?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "who is least responsible",
-    "category": "friends"
+    "que": "Who’s most likely to start a YouTube channel📽️📺?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "who is more close to his family",
-    "category": "friends"
+    "que": "Who’s most likely to be afraid😨 of watching horror🧛‍♂️ movies?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "who is more creative",
-    "category": "friends"
+    "que": "Who plays🎮 Mobile/PC📱 games more?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "who is more daring",
-    "category": "friends"
+    "que": "Who dances🕺 better?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "who is more down to earth",
-    "category": "friends"
+    "que": "Who’s most likely to ruin😤 a plan🧳?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "who is more esay to convence",
-    "category": "friends"
+    "que": "Who’s most likely to take hours and hours⏳ to text💬 back?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "who is more predictable",
-    "category": "friends"
+    "que": "Who’s most likely to spend all their money💸 on jewellery💍?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": ""
   },
   {
-    "que": "who is most disciplined",
-    "category": "friends"
+    "que": "Who’s most likely to move to another country✈️?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "who is most kindhearted",
-    "category": "friends"
+    "que": "Who’s mostly say that I will break up with you😜?",
+    "Friends": "",
+    "Couples": 1,
+    "Siblings": ""
   },
   {
-    "que": "who is most mature",
-    "category": "friends"
+    "que": "Who’s most likely to cry😭 over a sad movie🎥?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "who is most politically active",
-    "category": "friends"
+    "que": "Who always talks🗣️ about their ex?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "who is most popular",
-    "category": "friends"
+    "que": "Who’s most likely to give the best advice😌?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "who is most responsible",
-    "category": "friends"
+    "que": "👩‍❤️‍👨 Who was the first to approach?",
+    "Friends": "",
+    "Couples": 1,
+    "Siblings": ""
   },
   {
-    "que": "who is most unpredictable",
-    "category": "friends"
+    "que": "Who uses hairbands and rubber for their hair😝?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "Who is the last person in this group you slap/beat?",
-    "category": "friends"
+    "que": "Who calls📞 often?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who is the last person in this group you texted?",
-    "category": "friends"
+    "que": "Who’s most likely to send a dirty🤤 text to the wrong person?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": ""
   },
   {
-    "que": "Who is very talkative?",
-    "category": "friends"
+    "que": "Who’s most likely to take your stuff without permission😜?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who knows you better than anyone else?",
-    "category": "friends"
+    "que": "Who loves kids more👶😘?",
+    "Friends": "",
+    "Couples": 1,
+    "Siblings": ""
   },
   {
-    "que": "Who knows your biggest secret?",
-    "category": "friends"
+    "que": "Who’s most likely to go a week without showering🧼🚿?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "who look more innocent",
-    "category": "friends"
+    "que": "Who is the last person in this group you texted📱?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "who mostly pay bills",
-    "category": "friends"
+    "que": "Who among the group do you want to be your pet🤣?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": ""
   },
   {
-    "que": "who never pay bills",
-    "category": "friends"
+    "que": "Who’s most likely to do a dare during Truth or Dare😝?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "who often block",
-    "category": "friends"
+    "que": "Who is the fitness🏋️ guy in the group?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "who own you money",
-    "category": "friends"
+    "que": "Who’s most likely to take the most selfies🤳?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who play Mobile/PC games more?",
-    "category": "friends"
+    "que": "Who’s most likely to initiate seducing💋?",
+    "Friends": "",
+    "Couples": 1,
+    "Siblings": ""
   },
   {
-    "que": "Who study the most?",
-    "category": "friends"
+    "que": "Who’s the shyest😳 person in the group?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "Who talks with opposit gender very much?",
-    "category": "friends"
+    "que": "Who’s most likely to stay sober🥴 throughout the wedding?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "who text often",
-    "category": "friends"
+    "que": "Who’s most likely to struggle😮‍💨 with math🔢?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "who use more abusing words",
-    "category": "friends"
+    "que": "Who is so engrossed in the sleep😴 that he/she can't hear alarm/call⏰?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who would you say is your personal hero?",
-    "category": "friends"
+    "que": "Who’s most likely to forget their partner’s👩‍❤️‍💋‍👨 birthday🎂?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": ""
   },
   {
-    "que": "Who’s most likely to act like they’re drunk when they’re still sober?",
-    "category": "friends"
+    "que": "Who’s most likely to kill it on the dance floor🕺💃?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to approach a celebrity they see on the street?",
-    "category": "friends"
+    "que": "Who texts💬 you often?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to be caught watching porn?",
-    "category": "friends"
+    "que": "Who spent most of the time⌚ watching reels🎞️ on Insta?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to be thrown out of a nightclub?",
-    "category": "friends"
+    "que": "If you could slap one person and get away with it, Who would it be?😂",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to become a vegan?",
-    "category": "friends"
+    "que": "Who can’t keep a secret🤫?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to become friends with a stranger over the Internet?",
-    "category": "friends"
+    "que": "Who’s most likely to gift the bride a kinky🔞 gift🎁?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to beg their parents for cash?",
-    "category": "friends"
+    "que": "Who’s most likely to play a prank😛 on the other person👤?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to blow all their money on an impulse buy?",
-    "category": "friends"
+    "que": "Who fights😠🤬 more?",
+    "Friends": "",
+    "Couples": 1,
+    "Siblings": ""
   },
   {
-    "que": "Who’s most likely to bring home a stray puppy?",
-    "category": "friends"
+    "que": "Who snores louder😴💤?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to burn the dinner they’re cooking?",
-    "category": "friends"
+    "que": "Who’s most likely to steal🏃 shampoo from a hotel room🏨?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to cancel plans at the last second?",
-    "category": "friends"
+    "que": "Who’s most likely to take the best selfies🤳?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to cheat on a test?",
-    "category": "friends"
+    "que": "Who flirts the most😏?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": ""
   },
   {
-    "que": "Who’s most likely to complain about how tired they are?",
-    "category": "friends"
+    "que": "Who shops more🛍️?",
+    "Friends": "",
+    "Couples": 1,
+    "Siblings": ""
   },
   {
-    "que": "Who’s most likely to complain about their ex?",
-    "category": "friends"
+    "que": "Who’s most likely to break their nose by walking into something😵‍💫?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to complain about their favorite film getting remade?",
-    "category": "friends"
+    "que": "Who’s most likely to walk out🚶 on a date?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": ""
   },
   {
-    "que": "Who’s most likely to complain when their friend owes them five bucks?",
-    "category": "friends"
+    "que": "Who’s most likely to open up and fix their broken toy🤨?",
+    "Friends": "",
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to cry over a sad movie?",
-    "category": "friends"
+    "que": "Who is a bigger party animal🥳🍻🎉?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": ""
   },
   {
-    "que": "Who’s most likely to date a coworker?",
-    "category": "friends"
+    "que": "Who’s most likely to leave the toilet seat up🚽?",
+    "Friends": "",
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to dish out a genuine compliment?",
-    "category": "friends"
+    "que": "Who studies📖 the most?🤓",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to do volunteer work?",
-    "category": "friends"
+    "que": "Who’s most likely to have a secret🤫 lover💕?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to double date?",
-    "category": "friends"
+    "que": "Who is a cry😭 baby🚼?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to drop their phone in the toilet?",
-    "category": "friends"
+    "que": "Who’s most likely to be a vampire🧛‍♀️?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to eat a bag of chips in one sitting?",
-    "category": "friends"
+    "que": "Who falls in love with every second girl/boy they saw😝?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to eat fast food for a week straight?",
-    "category": "friends"
+    "que": "Who’s most likely to cancel❌ plans at the last second⏱️?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to eat the other person’s leftovers without asking for permission?",
-    "category": "friends"
+    "que": "Whom do you think is your best partner🧑‍🤝‍🧑 in crime?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to embarrass the other person while drunk?",
-    "category": "friends"
+    "que": "Who’s most likely to stay in touch with exes👿?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to fall asleep during a meeting?",
-    "category": "friends"
+    "que": "Who has better taste in music🎶?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to fall asleep during a movie?",
-    "category": "friends"
+    "que": "Who’s most likely to come back🚶 home🏠 with an item that isn’t on the grocery list📃?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to fall asleep in public?",
-    "category": "friends"
+    "que": "Who’s most likely to go viral on the internet📡📺?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to flirt with the server at a restaurant?",
-    "category": "friends"
+    "que": "Who is more adjusting🤩?",
+    "Friends": "",
+    "Couples": 1,
+    "Siblings": ""
   },
   {
-    "que": "Who’s most likely to forget to pay a bill?",
-    "category": "friends"
+    "que": "Who’s most likely to forget🙄 something that was literally said five minutes ago?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to forget to wear underwear?",
-    "category": "friends"
+    "que": "Who texts💬 first in the morning🌅?",
+    "Friends": "",
+    "Couples": 1,
+    "Siblings": ""
   },
   {
-    "que": "Who’s most likely to forget why they walked into a room?",
-    "category": "friends"
+    "que": "Who’s most likely to have a messy room🚮?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to freak out over a text they misinterpreted?",
-    "category": "friends"
+    "que": "Who do you think had a GF/BF👩‍❤️‍👨 but is not revealing?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to get a hideous tattoo?",
-    "category": "friends"
+    "que": "Who’s most likely to use their kid👶 as an excuse to get out of a commitment?",
+    "Friends": "",
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to get a speeding ticket?",
-    "category": "friends"
+    "que": "🤨 Who betrays their friends for a new date?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to get a tattoo while drunk?",
-    "category": "friends"
+    "que": "Who is most likely to want kids🍼 first?",
+    "Friends": "",
+    "Couples": 1,
+    "Siblings": ""
   },
   {
-    "que": "Who’s most likely to get arrested?",
-    "category": "friends"
+    "que": "Who’s most likely to act like they’re drunk🍾 when they’re still sober🍸?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to get jealous over something silly?",
-    "category": "friends"
+    "que": "If you have the superpower to read anyone's mind🧠, Whose mind you read",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to get sunburn after forgetting to use sunscreen?",
-    "category": "friends"
+    "que": "Who’s most likely to forget an anniversary?📅",
+    "Friends": "",
+    "Couples": 1,
+    "Siblings": ""
   },
   {
-    "que": "Who’s most likely to get up on stage and sing Karaoke?",
-    "category": "friends"
+    "que": "Who’s most likely to keep their mouth shut🤫 when they’re upset😥?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to give terrible advice?",
-    "category": "friends"
+    "que": "Whose every second sentence starts with abuse🤬?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to give the best advice?",
-    "category": "friends"
+    "que": "Who will be a cool parent👪?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to go a week without showering?",
-    "category": "friends"
+    "que": "Who’s most likely to fall for a catfish account🤩 on the internet🌎?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to go skydiving?",
-    "category": "friends"
+    "que": "Who’s most likely to spill a secret🤫?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to have a kid before marriage?",
-    "category": "friends"
+    "que": "Who put many alarms⏰ at rapid intervals for waking up😪?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to have a secret lover?",
-    "category": "friends"
+    "que": "Who’s most likely to take pictures🤳 of the other while they’re sleeping🛌?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to have pretended to be sick, to avoid school or work?",
-    "category": "friends"
+    "que": "Who is most interested in physical relationships?👩‍❤️‍💋‍👨",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": ""
   },
   {
-    "que": "Who’s most likely to have stage fright?",
-    "category": "friends"
+    "que": "Who’s most likely to steal their parent’s car🚗?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to have their license suspended?",
-    "category": "friends"
+    "que": "Who’s most likely to talk in their sleep😪💤?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to ignore a social media request from a coworker?",
-    "category": "friends"
+    "que": "Who never forgets to take along their mobile📱 to the washroom🚽?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to ignore their phone when their mom calls?",
-    "category": "friends"
+    "que": "Who falls in love😍 with every second girl/boy they saw👀?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to keep their mouth shut when they’re upset?",
-    "category": "friends"
+    "que": "Who loves to sleep🛌?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to laugh during a funeral?",
-    "category": "friends"
+    "que": "Who’s most likely to win a drinking game🍻?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to leave the dishes in the sink for days?",
-    "category": "friends"
+    "que": "Who’s most likely to bring a book to a vacation🧳?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to lie at a job interview?",
-    "category": "friends"
+    "que": "Who wants to escape the illusion of life and become a saint📿?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": ""
   },
   {
-    "que": "Who’s most likely to lose their keys?",
-    "category": "friends"
+    "que": "Who’s most likely to not get married💍?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to make a prank call?",
-    "category": "friends"
+    "que": "Who cooks better Maggi🍜?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to order the cheapest item on the menu?",
-    "category": "friends"
+    "que": "Who takes more time to get ready for outings👗👔?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to pass out at the gym?",
-    "category": "friends"
+    "que": "Who’s most likely to sleep😴 through the day?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to pick a crappy movie to watch?",
-    "category": "friends"
+    "que": "Who's a night owl?🌃🦉",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to play a prank on the other person?",
-    "category": "friends"
+    "que": "Who’s most likely to initiate a kiss💏?",
+    "Friends": "",
+    "Couples": 1,
+    "Siblings": ""
   },
   {
-    "que": "Who’s most likely to pull a push door?",
-    "category": "friends"
+    "que": "Who’s most likely to fall asleep😴 during a movie🎥?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to quit their job on impulse?",
-    "category": "friends"
+    "que": "Who’s most likely to lose keys🔑?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to re-gift something that was gifted to them?",
-    "category": "friends"
+    "que": "Who’s most likely to cry😭 over a boy/girl👦👧?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to read a book or watch a show, just because everyone else has been talking about it?",
-    "category": "friends"
+    "que": "Who often blocks🚫 others?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to report a coworker to HR?",
-    "category": "friends"
+    "que": "Who’s more likely to block🚫 their partner after a little🤏 misunderstanding?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": ""
   },
   {
-    "que": "Who’s most likely to save a stranger’s life?",
-    "category": "friends"
+    "que": "Who’s most likely to spend all their money💸 on shoes👟?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": ""
   },
   {
-    "que": "Who’s most likely to say something insensitive?",
-    "category": "friends"
+    "que": "Who’s most likely to spend all their money💸 on makeup💄?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": ""
   },
   {
-    "que": "Who’s most likely to say something spiteful?",
-    "category": "friends"
+    "que": "Who’s most likely to complain🗫 when their friend owes them five bucks🪙?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to send a abusing text to the wrong person?",
-    "category": "friends"
+    "que": "Who cracks the lamest jokes😝?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to shop at Target?",
-    "category": "friends"
+    "que": "Who’s most likely to break up over the phone📱?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to shop for holiday gifts at the last minute?",
-    "category": "friends"
+    "que": "🤩 Who can do anything for you?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to show up at work drunk?",
-    "category": "friends"
+    "que": "Who is least active🟢 on WhatsApp in the group🧑‍🤝‍🧑?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to sing along to a pop song on the radio?",
-    "category": "friends"
+    "que": "Who’s most likely to have pretended to be sick🤒, to avoid school🏫 or work👩‍💻?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to sleep until noon?",
-    "category": "friends"
+    "que": "Who’s most likely to get in trouble🤦 in school🏫?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to smoke pot at a music festival?",
-    "category": "friends"
+    "que": "Who argues🗣️ more?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to snoop through someone else’s phone?",
-    "category": "friends"
+    "que": "Who made the first move😗💏?",
+    "Friends": "",
+    "Couples": 1,
+    "Siblings": ""
   },
   {
-    "que": "Who’s most likely to snore in their sleep?",
-    "category": "friends"
+    "que": "If masturbation is an Olympic game, who will win🥇😆?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": ""
   },
   {
-    "que": "Who’s most likely to spend an hour in the bathroom?",
-    "category": "friends"
+    "que": "Who’s most likely to forget your birthday🎁?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to steal shampoo from a hotel room?",
-    "category": "friends"
+    "que": "Who’s most likely to date someone because they are funny😹?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": ""
   },
   {
-    "que": "Who’s most likely to swim with dolphins?",
-    "category": "friends"
+    "que": "Who’s most likely to initiate something new😋 in the bedroom💋?",
+    "Friends": "",
+    "Couples": 1,
+    "Siblings": ""
   },
   {
-    "que": "Who’s most likely to take a nap in the middle of the day?",
-    "category": "friends"
+    "que": "Who’s most likely to have commitment issues🤨?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": ""
   },
   {
-    "que": "Who’s most likely to take hours and hours to text back?",
-    "category": "friends"
+    "que": "Who’s most likely to call her ex after the wedding😝?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to take pictures of the other while they’re sleeping?",
-    "category": "friends"
+    "que": "Who is needier and acts like a baby🍼 when they’re sick🤒?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to take the best selfies?",
-    "category": "friends"
+    "que": "Who’s most likely to require an arranged marriage💍?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to throw a fit when they lose a board game?",
-    "category": "friends"
+    "que": "Who is the crazier one🤪?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to throw out the other person’s items?",
-    "category": "friends"
+    "que": "Who annoys🤪 you the most?",
+    "Friends": "",
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to try to return an expensive item after they’ve already worn it?",
-    "category": "friends"
+    "que": "Who needs more pampering🤗?",
+    "Friends": "",
+    "Couples": 1,
+    "Siblings": ""
   },
   {
-    "que": "Who’s most likely to twerk on the dance floor?",
-    "category": "friends"
+    "que": "Who is a better bathroom🛀 singe🎶r?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to undergo a sex change?",
-    "category": "friends"
+    "que": "Who smokes weed🌿?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": ""
   },
   {
-    "que": "Who’s most likely to use a hall pass to sleep with the celebrity of their choosing?",
-    "category": "friends"
+    "que": "Who’s most likely to never fall in love💞?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": ""
   },
   {
-    "que": "Who’s most likely to visit a strip club?",
-    "category": "friends"
+    "que": "Who’s most likely to become bald-headed👴?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to waste money on pointless items at a gift shop?",
-    "category": "friends"
+    "que": "Who’s most likely to hack🔒 their ex’s social media account?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to win a board game?",
-    "category": "friends"
+    "que": "Who’s most likely to pass out😵 at the gym🏋️?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to win a dance contest?",
-    "category": "friends"
+    "que": "Who’s most likely to be caught watching porn? 🤭",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to win a drinking game?",
-    "category": "friends"
+    "que": "Who’s most likely to buy the other person a gift🎁 they hate?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": ""
   },
   {
-    "que": "Who’s most likely to win a reality TV show competition?",
-    "category": "friends"
+    "que": "Who’s most likely to have a sketchy🤯 browser history⏳?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to win a teddy bear out of a claw machine?",
-    "category": "friends"
+    "que": "Who has a cuter smile😊?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s most likely to write a love poem?",
-    "category": "friends"
+    "que": "Who’s most likely to cheat👿 in relationship?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": ""
   },
   {
-    "que": "Who’s the most attractive person in the group?",
-    "category": "friends"
+    "que": "Who has a better style sense😎?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who’s the most shy person in the group?",
-    "category": "friends"
+    "que": "Who’s most likely to get drunk🍺 at the wedding?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "Whom every second sentence start with an abuse?",
-    "category": "friends"
+    "que": "Who’s most likely to eat the other person’s leftovers🍛 without asking for permission😂?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "whom is more perfect according to you",
-    "category": "friends"
+    "que": "Who’s most likely to embarrass themselves at a meet and greet🤝?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "whom you tell your secrate first",
-    "category": "friends"
+    "que": "Who’s most likely to make a beautiful drawing✏️✒️🖍️?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Whom you think as your best partner in crime?",
-    "category": "friends"
+    "que": "Who knows your biggest secret🤐?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "Whom you think had a GF/BF but is not revealing?",
-    "category": "friends"
+    "que": "The most naughty😈 boy/girl in your circle",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": ""
   },
   {
-    "que": "whom you want to slap",
-    "category": "friends"
+    "que": "Who shares a lot of memes🤣 and videos🎞️ with you?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "whose age is least",
-    "category": "friends"
+    "que": "Who’s most likely to be the first to get drunk🥴 on a night out🚶🌃?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "whose age is more",
-    "category": "friends"
+    "que": "Who’s most likely to sell their kidney🤑💰?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "whose cloth you like most",
-    "category": "friends"
+    "que": "Who’s you think should be cast🎬 in porn🎞️?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": ""
   },
   {
-    "que": "whose face you like most",
-    "category": "friends"
+    "que": "Who’s most likely to own an adult toy🔞?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": ""
   },
   {
-    "que": "whose family is more open minded",
-    "category": "friends"
+    "que": "Who’s most likely to buy someone an inappropriate gift🎁?",
+    "Friends": "",
+    "Couples": 1,
+    "Siblings": ""
   },
   {
-    "que": "whose name you like most",
-    "category": "friends"
+    "que": "Who looks more innocent🥺 but is not?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "whose personality you like most",
-    "category": "friends"
+    "que": "Who’s most likely to have had the most girlfriends/boyfriends😜?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": ""
   },
   {
-    "que": "whose weight is least",
-    "category": "friends"
+    "que": "Who often says I Love You💞?",
+    "Friends": "",
+    "Couples": 1,
+    "Siblings": ""
   },
   {
-    "que": "whose weight is most",
-    "category": "friends"
+    "que": "Who’s most likely to fall asleep😴 in class?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": ""
   },
   {
-    "que": "according to you who have more money with him right now",
-    "category": "siblings"
+    "que": "Who falls sick🤒 more often💊💉?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": ""
   },
   {
-    "que": "if you can steal any one thing, who's that thing",
-    "category": "siblings"
+    "que": "Who’s most likely to use an item🛍️ until it literally falls apart?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "If you could slap one person and get away with it, who would it be?",
-    "category": "siblings"
+    "que": "Who’s most likely to laugh🤭 during a funeral😭?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "if you have super power to read any one's mind, whose mind you read",
-    "category": "siblings"
+    "que": "Who’s most likely to make it onto a Forbes list🤑😎?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "Who among you is the most funny one?",
-    "category": "siblings"
+    "que": "Who uses the phone📱 the most?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "Who annoys you the most?",
-    "category": "siblings"
+    "que": "Who’s most likely to do the exact opposite of what they say?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "who ask more questions",
-    "category": "siblings"
+    "que": "Who’s most likely to yell at their T.V.📺 while watching a movie🎞️. “Don’t go in there!”🙀",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "who attract with opposit gender least",
-    "category": "siblings"
+    "que": "Whose personality😎 do you like most?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "who attract with opposit gender most",
-    "category": "siblings"
+    "que": "Who’s most likely to make disgusting sounds🔊 while eating🍝?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   },
   {
-    "que": "who call often",
-    "category": "siblings"
+    "que": "Who’s most likely to bite their fingernails😜?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "who can do any think for you",
-    "category": "siblings"
+    "que": "Who’s most likely to get married💍 first?",
+    "Friends": 1,
+    "Couples": "",
+    "Siblings": 1
   },
   {
-    "que": "who drink alcohol first in your group",
-    "category": "siblings"
-  },
-  {
-    "que": "who drive fast",
-    "category": "siblings"
-  },
-  {
-    "que": "who eat more",
-    "category": "siblings"
-  },
-  {
-    "que": "who fight more",
-    "category": "siblings"
-  },
-  {
-    "que": "who got engaged first",
-    "category": "siblings"
-  },
-  {
-    "que": "who have baby first",
-    "category": "siblings"
-  },
-  {
-    "que": "who have job first",
-    "category": "siblings"
-  },
-  {
-    "que": "who have maximum contacts with opposit gender",
-    "category": "siblings"
-  },
-  {
-    "que": "who have more complain about life",
-    "category": "siblings"
-  },
-  {
-    "que": "who have more complain about you",
-    "category": "siblings"
-  },
-  {
-    "que": "who have most expencive phone",
-    "category": "siblings"
-  },
-  {
-    "que": "Who is a good gamer?",
-    "category": "siblings"
-  },
-  {
-    "que": "who is bad at barganing",
-    "category": "siblings"
-  },
-  {
-    "que": "who is good at barganing",
-    "category": "siblings"
-  },
-  {
-    "que": "who is good at calculations",
-    "category": "siblings"
-  },
-  {
-    "que": "Who is good at keeping secrets?",
-    "category": "siblings"
-  },
-  {
-    "que": "who is least disciplined",
-    "category": "siblings"
-  },
-  {
-    "que": "who is least mature",
-    "category": "siblings"
-  },
-  {
-    "que": "who is least politically active",
-    "category": "siblings"
-  },
-  {
-    "que": "who is least responsible",
-    "category": "siblings"
-  },
-  {
-    "que": "who is more close to his family",
-    "category": "siblings"
-  },
-  {
-    "que": "who is more creative",
-    "category": "siblings"
-  },
-  {
-    "que": "who is more daring",
-    "category": "siblings"
-  },
-  {
-    "que": "who is more down to earth",
-    "category": "siblings"
-  },
-  {
-    "que": "who is more esay to convence",
-    "category": "siblings"
-  },
-  {
-    "que": "who is more predictable",
-    "category": "siblings"
-  },
-  {
-    "que": "who is most disciplined",
-    "category": "siblings"
-  },
-  {
-    "que": "who is most kindhearted",
-    "category": "siblings"
-  },
-  {
-    "que": "who is most mature",
-    "category": "siblings"
-  },
-  {
-    "que": "who is most politically active",
-    "category": "siblings"
-  },
-  {
-    "que": "who is most popular",
-    "category": "siblings"
-  },
-  {
-    "que": "who is most responsible",
-    "category": "siblings"
-  },
-  {
-    "que": "who is most unpredictable",
-    "category": "siblings"
-  },
-  {
-    "que": "Who is the last person in this group you slap/beat?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who is the last person in this group you texted?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who is very talkative?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who knows you better than anyone else?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who knows your biggest secret?",
-    "category": "siblings"
-  },
-  {
-    "que": "who look more innocent",
-    "category": "siblings"
-  },
-  {
-    "que": "Who play Mobile/PC games more?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who study the most?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who talks with opposit gender very much?",
-    "category": "siblings"
-  },
-  {
-    "que": "who text often",
-    "category": "siblings"
-  },
-  {
-    "que": "who use more abusing words",
-    "category": "siblings"
-  },
-  {
-    "que": "Who would you say is your personal hero?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to act like they’re drunk when they’re still sober?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to approach a celebrity they see on the street?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to be thrown out of a nightclub?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to become a vegan?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to become friends with a stranger over the Internet?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to beg their parents for cash?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to blow all their money on an impulse buy?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to bring home a stray puppy?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to burn the dinner they’re cooking?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to cancel plans at the last second?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to cheat on a test?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to complain about how tired they are?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to complain about their ex?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to complain about their favorite film getting remade?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to complain when their friend owes them five bucks?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to cry over a sad movie?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to dish out a genuine compliment?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to do volunteer work?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to drop their phone in the toilet?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to eat a bag of chips in one sitting?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to eat fast food for a week straight?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to eat the other person’s leftovers without asking for permission?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to eavesdrop on a conversation?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to fall asleep during a meeting?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to fall asleep during a movie?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to fall asleep in public?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to flirt with the server at a restaurant?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to forget to pay a bill?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to forget why they walked into a room?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to freak out over a text they misinterpreted?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to get a hideous tattoo?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to get a tattoo while drunk?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to get arrested?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to get sunburn after forgetting to use sunscreen?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to get up on stage and sing Karaoke?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to give terrible advice?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to give the best advice?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to go a week without showering?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to go skydiving?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to have a kid before marriage?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to have a secret lover?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to have pretended to be sick, to avoid school or work?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to have stage fright?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to have their license suspended?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to ignore a social media request from a coworker?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to ignore their phone when their mom calls?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to keep their mouth shut when they’re upset?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to laugh during a funeral?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to leave the dishes in the sink for days?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to lie at a job interview?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to lose their keys?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to make a prank call?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to order the cheapest item on the menu?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to pass out at the gym?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to pick a crappy movie to watch?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to play a prank on the other person?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to pull a push door?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to quit their job on impulse?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to re-gift something that was gifted to them?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to read a book or watch a show, just because everyone else has been talking about it?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to report a coworker to HR?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to save a stranger’s life?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to say something insensitive?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to say something spiteful?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to shop at Target?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to shop for holiday gifts at the last minute?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to show uncommon kindness to a stranger?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to show up at work drunk?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to sing along to a pop song on the radio?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to sleep until noon?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to smoke pot at a music festival?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to snoop through someone else’s phone?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to snore in their sleep?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to spend an hour in the bathroom?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to steal all of the blankets?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to steal shampoo from a hotel room?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to swim with dolphins?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to take a nap in the middle of the day?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to take hours and hours to text back?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to take pictures of the other while they’re sleeping?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to take the best selfies?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to throw a fit when they lose a board game?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to throw out the other person’s items?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to twerk on the dance floor?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to waste money on pointless items at a gift shop?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to win a board game?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to win a dance contest?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to win a drinking game?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to win a reality TV show competition?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to win a teddy bear out of a claw machine?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s most likely to write a love poem?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s the most attractive person in the group?",
-    "category": "siblings"
-  },
-  {
-    "que": "Who’s the most shy person in the group?",
-    "category": "siblings"
-  },
-  {
-    "que": "Whom every second sentence start with an abuse?",
-    "category": "siblings"
-  },
-  {
-    "que": "whom is more perfect according to you",
-    "category": "siblings"
-  },
-  {
-    "que": "whom you tell your secrate first",
-    "category": "siblings"
-  },
-  {
-    "que": "Whom you think as your best partner in crime?",
-    "category": "siblings"
-  },
-  {
-    "que": "Whom you think had a GF/BF but is not revealing?",
-    "category": "siblings"
-  },
-  {
-    "que": "whom you want to slap",
-    "category": "siblings"
-  },
-  {
-    "que": "whose age is least",
-    "category": "siblings"
-  },
-  {
-    "que": "whose age is more",
-    "category": "siblings"
-  },
-  {
-    "que": "whose cloth you like most",
-    "category": "siblings"
-  },
-  {
-    "que": "whose face you like most",
-    "category": "siblings"
-  },
-  {
-    "que": "whose name you like most",
-    "category": "siblings"
-  },
-  {
-    "que": "whose personality you like most",
-    "category": "siblings"
-  },
-  {
-    "que": "whose weight is least",
-    "category": "siblings"
-  },
-  {
-    "que": "whose weight is most",
-    "category": "siblings"
-  },
-  {
-    "que": "who always say sorry first",
-    "category": "couple"
-  },
-  {
-    "que": "who always start sexting",
-    "category": "couple"
-  },
-  {
-    "que": "Who among you is the most funny one?",
-    "category": "couple"
-  },
-  {
-    "que": "Who annoys you the most?",
-    "category": "couple"
-  },
-  {
-    "que": "Who should make the first move in a relationship?",
-    "category": "couple"
-  },
-  {
-    "que": "who argu more",
-    "category": "couple"
-  },
-  {
-    "que": "who ask for first movie",
-    "category": "couple"
-  },
-  {
-    "que": "who ask more questions",
-    "category": "couple"
-  },
-  {
-    "que": "who attract with opposit gender least",
-    "category": "couple"
-  },
-  {
-    "que": "who attract with opposit gender most",
-    "category": "couple"
-  },
-  {
-    "que": "who call often",
-    "category": "couple"
-  },
-  {
-    "que": "who cares more",
-    "category": "couple"
-  },
-  {
-    "que": "who drink alcohol first",
-    "category": "couple"
-  },
-  {
-    "que": "who eat more",
-    "category": "couple"
-  },
-  {
-    "que": "who fight more",
-    "category": "couple"
-  },
-  {
-    "que": "who have job first",
-    "category": "couple"
-  },
-  {
-    "que": "who have maximum contacts with opposit gender",
-    "category": "couple"
-  },
-  {
-    "que": "who have more complain about life",
-    "category": "couple"
-  },
-  {
-    "que": "who is good at barganing",
-    "category": "couple"
-  },
-  {
-    "que": "who is more close to his family",
-    "category": "couple"
-  },
-  {
-    "que": "who is more creative",
-    "category": "couple"
-  },
-  {
-    "que": "who is more daring",
-    "category": "couple"
-  },
-  {
-    "que": "who is more down to earth",
-    "category": "couple"
-  },
-  {
-    "que": "who is more esay to convence",
-    "category": "couple"
-  },
-  {
-    "que": "who is more interested in physical relationship",
-    "category": "couple"
-  },
-  {
-    "que": "who is most disciplined",
-    "category": "couple"
-  },
-  {
-    "que": "who is most kindhearted",
-    "category": "couple"
-  },
-  {
-    "que": "who is most mature",
-    "category": "couple"
-  },
-  {
-    "que": "Who is most naughty",
-    "category": "couple"
-  },
-  {
-    "que": "who is most popular",
-    "category": "couple"
-  },
-  {
-    "que": "who is most responsible",
-    "category": "couple"
-  },
-  {
-    "que": "who is most unpredictable",
-    "category": "couple"
-  },
-  {
-    "que": "Who is the most attractive",
-    "category": "couple"
-  },
-  {
-    "que": "Who is very talkative?",
-    "category": "couple"
-  },
-  {
-    "que": "who look more innocent",
-    "category": "couple"
-  },
-  {
-    "que": "who often block",
-    "category": "couple"
-  },
-  {
-    "que": "who often say i love u",
-    "category": "couple"
-  },
-  {
-    "que": "who propose first",
-    "category": "couple"
-  },
-  {
-    "que": "Who talks with opposit gender very much?",
-    "category": "couple"
-  },
-  {
-    "que": "who text first in morning",
-    "category": "couple"
-  },
-  {
-    "que": "who text often",
-    "category": "couple"
-  },
-  {
-    "que": "who use more abusing words",
-    "category": "couple"
-  },
-  {
-    "que": "who was more insecure",
-    "category": "couple"
-  },
-  {
-    "que": "who's family most likely to accept you",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s more likely to post a kissing picture on their Instagram?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to act like they’re drunk when they’re still sober?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to approach a celebrity they see on the street?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to be caught watching porn?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to be thrown out of a nightclub?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to become a vegan?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to become friends with a stranger over the Internet?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to beg their parents for cash?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to blow all their money on an impulse buy?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to bring a sex toy into the bedroom?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to bring home a stray puppy?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to burn the dinner they’re cooking?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to cancel plans at the last second?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to cheat?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to complain about how tired they are?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to complain about their ex?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to complain about their favorite film getting remade?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to complain when their friend owes them five bucks?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to cry during sex?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to cry over a sad movie?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to date a coworker?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to dish out a genuine compliment?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to do a porno?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to do volunteer work?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to double date?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to drop their phone in the toilet?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to eat a bag of chips in one sitting?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to eat fast food for a week straight?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to fall asleep during a meeting?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to fall asleep during a movie?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to fall asleep in public?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to flirt with the server at a restaurant?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to forget an anniversary?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to forget to wear underwear?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to forget why they walked into a room?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to freak out over a pregnancy?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to freak out over a text they misinterpreted?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to get a speeding ticket?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to get a tattoo while drunk?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to get cold feet on our wedding day?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to get jealous over something silly?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to get on top during sex?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to get up on stage and sing Karaoke?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to give the best advice?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to go a week without showering?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to go skinny dipping with their friends?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to go skydiving?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to have a secret lover?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to have skinny-dipped?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to have stage fright?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to have their license suspended?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to ignore a social media request from a coworker?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to ignore their phone when their mom calls?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to initiate sex?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to keep their mouth shut when they’re upset?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to leave the dishes in the sink for days?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to lose their keys?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to make a prank call?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to order the cheapest item on the menu?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to orgasm first?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to pick a crappy movie to watch?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to play a prank on the other person?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to pregame before a party?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to pull a push door?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to re-gift something that was gifted to them?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to read a book or watch a show, just because everyone else has been talking about it?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to report a coworker to HR?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to say something insensitive?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to say something spiteful?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to self-sabotage their relationship?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to send a dirty text to the wrong person?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to send a double text?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to set their friend up on a blind date?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to set up a romantic date?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to shop at Target?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to shop for holiday gifts at the last minute?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to show up at work drunk?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to sing along to a pop song on the radio?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to sleep until noon?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to snoop through someone else’s phone?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to snore in their sleep?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to spend an hour in the bathroom?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to steal all of the blankets?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to steal shampoo from a hotel room?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to take hours and hours to text back?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to take pictures of the other while they’re sleeping?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to take the best selfies?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to throw a fit during a game of Monopoly?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to throw a fit when they lose a board game?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to throw out the other person’s items?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to twerk on the dance floor?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to use a hall pass to sleep with the celebrity of their choosing?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to visit a strip club?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to wake up in the middle of the night to pee?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to walk around the house naked?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to waste money on pointless items at a gift shop?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to wax their genitals?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to win a dance contest?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to win a drinking game?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to win a teddy bear out of a claw machine?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s most likely to write a love poem?",
-    "category": "couple"
-  },
-  {
-    "que": "Who’s the most shy person?",
-    "category": "couple"
-  },
-  {
-    "que": "whom is more perfect according to you",
-    "category": "couple"
-  },
-  {
-    "que": "whom you want to slap",
-    "category": "couple"
-  },
-  {
-    "que": "whose age is more",
-    "category": "couple"
-  },
-  {
-    "que": "whose family is more open minded",
-    "category": "couple"
-  },
-  {
-    "que": "whose weight is most",
-    "category": "couple"
+    "que": "Who’s most likely to sleep😴 until noon?",
+    "Friends": 1,
+    "Couples": 1,
+    "Siblings": 1
   }
 ]
 
 
-def add_rfque():
-    try:
-        print("try rf que")
-        if len(RfQuestionBank.objects.all()):
-            print("rf que already have que")
-            return 0
+def add_siblings_rfque():
+	print("add_siblings_rfque")
+	try:
+		if len(RfQuestionBank.objects.all().filter(category='siblings')):
+			print("add_siblings_rfque already have que")
+			return 0
 
-        for data in RfQue:
-            print("rf que added")
-            RfQuestionBank.objects.create(que = data["que"],category = data["category"])
-        print("try rf que complete")
-    except:
-        print("except in rf que")
-        pass
+		for data in RfQue:
+			if data['Siblings']==1:
+				print("add_siblings_rfque que added")
+				RfQuestionBank.objects.create(que = data["que"],category = 'siblings')
+		print("try add_siblings_rfque que complete")
+	except:
+		print("except in add_siblings_rfque que")
+		pass
+
+
+def add_couple_rfque():
+	print("add_couple_rfque")
+	try:
+		if len(RfQuestionBank.objects.all().filter(category='couples')):
+			print("add_couple_rfque already have que")
+			return 0
+
+		for data in RfQue:
+			if data['Couples']==1:
+				print("add_couple_rfque que added")
+				RfQuestionBank.objects.create(que = data["que"],category = 'couples')
+		print("try add_couple_rfque que complete")
+	except:
+		print("except in add_couple_rfque que")
+		pass
+
+
+def add_friends_rfque():
+	print("add_friends_rfque")
+	try:
+		if len(RfQuestionBank.objects.all().filter(category='friends')):
+			print("add_friends_rfque already have que")
+			return 0
+
+		for data in RfQue:
+			if data['Friends']==1:
+				print("add_friends_rfque que added")
+				RfQuestionBank.objects.create(que = data["que"],category = 'friends')
+		print("try add_friends_rfque que complete")
+	except:
+		print("except in add_friends_rfque que")
+		pass
+
 
 def add_data():
-    print("rf")
-    add_rfque()
+    print("\nrf")
+    add_friends_rfque()
+    add_couple_rfque()
+    add_siblings_rfque()
 
