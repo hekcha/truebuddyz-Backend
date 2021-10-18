@@ -6,8 +6,8 @@ from .models import *
 from .serializers import *
 from .filters import *
 
-from .add_data import add_data
-add_data()
+# from .add_data import add_data
+# add_data()
 
 class RfQuestionBankViewSet(viewsets.ModelViewSet):
     queryset = RfQuestionBank.objects.all()
