@@ -16,7 +16,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['truebuddyz.com','20.204.99.220','api.truebuddyz.com','truebuddyz-b0d8a.web.app', '127.0.0.1']
+ALLOWED_HOSTS = ['truebuddyz.com','20.193.228.26','api.truebuddyz.com','truebuddyz-b0d8a.web.app', '127.0.0.1']
 
 
 # Application definition
@@ -151,7 +151,7 @@ CORS_ALLOWED_ORIGINS = [
     "https://www.truebuddyz.com",
     "https://truebuddyz.com",
     "https://api.truebuddyz.com",
-    "http://20.204.99.220",
+    "http://20.193.228.26",
     "https://truebuddyz-b0d8a.web.app",
 ]
 
