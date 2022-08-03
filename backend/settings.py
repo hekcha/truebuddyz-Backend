@@ -144,15 +144,14 @@ STATIC_URL = '/static/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 MEDIA_URL = "/media/"
 
-CORS_ALLOW_ALL_ORIGINS = True
+# CORS_ALLOW_ALL_ORIGINS = True
 
-# CORS_ALLOWED_ORIGINS = [
-#     "https://www.truebuddyz.com",
-#     "https://truebuddyz.com",
-#     "https://api.truebuddyz.com",
-#     "http://20.204.36.169",
-#     "https://truebuddyz-b0d8a.web.app",
-# ]
+CORS_ALLOWED_ORIGINS = [
+    "https://www.truebuddyz.com",
+    "https://truebuddyz.com",
+    "https://api.truebuddyz.com",
+    "http://20.219.147.0",
+]
 
 # CORS_ALLOW_HEADERS = [
 #     'accept',
