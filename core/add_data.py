@@ -10,7 +10,7 @@ Trnding=[
     {
         'rank':'2',
         'is_active':'True',
-        'link':'/rapidfire/friends',
+        'link':'/rapid-fire/friends',
         'text':"Friend's RapidFire",
         'image':"https://i.ibb.co/pQRgQ16/rf-friends.jpg" ,
     },
@@ -24,7 +24,7 @@ Trnding=[
     {
         'rank':'3',
         'is_active':'True',
-        'link':'/quiz/couples',
+        'link':'/quiz/couple',
         'text':"Couple's Quiz",
         'image':"https://i.ibb.co/3zKmfNK/quiz-couples.jpg",
     },
